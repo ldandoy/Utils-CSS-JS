@@ -64,8 +64,12 @@
 	display: block;
 }
 
-.hidde {
+.none {
 	display: none;
+}
+
+.hiden {
+	visibility: hidden;	
 }
 
 /**
