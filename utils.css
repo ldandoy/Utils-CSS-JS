@@ -1,0 +1,385 @@
+/**
+ * 	tColor
+ */
+.tWhite {
+	color: #FFF;
+}
+
+.tRed {
+	color: #9D261D;
+}
+
+/**
+ * 	Partie texte
+ */
+.tBold {
+	font-weight: bold;
+}
+
+.tRight {
+	text-align: right;
+}
+
+.tLeft {
+	text-align: left;
+}
+
+.tCenter {
+	text-align: center;
+}
+
+.tJustifier {
+	text-align: justify;
+}
+
+.nounderline {
+	text-decoration: none;
+}
+
+/**
+ * 	partie block
+ */
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.sep {
+	clear: both;
+	visibility: hidden;
+	margin: 0px;
+	padding: 0px;
+	line-height: 0px;
+}
+
+.blockinline {
+	display: inline-block
+}
+
+.block {
+	display: block;
+}
+
+.hidde {
+	display: none;
+}
+
+/**
+ * 	Partie border
+ */
+.borderGreyLight {
+	border: 1px solid #C0C0C0;
+}
+
+.borderRightGrey {
+	border-right: 1px solid #C0C0C0;
+}
+
+.borderLeftGrey {
+	border-left: 1px solid #C0C0C0;
+}
+
+.borderBottomGreyLight {
+	border-bottom: 1px solid #C0C0C0;
+}
+
+/**
+ * 	Partie background
+ */
+.bgWhite {
+	background-color: #FFF;
+}
+
+.bgBlack {
+	background-color: #000;
+}
+
+/*
+ * Partie margin (marge extérieur)
+ */
+.marginTop0px {
+	margin-top: 0px;
+}
+
+.marginTop1px {
+	margin-top: 1px;
+}
+
+.marginTop2px {
+	margin-top: 2px;
+}
+
+.marginTop3px {
+	margin-top: 3px;
+}
+
+.marginTop4px {
+	margin-top: 4px;
+}
+
+.marginTop5px {
+	margin-top: 5px;
+}
+
+.marginTop10px {
+	margin-top: 10px;
+}
+
+.marginTop20px {
+	margin-top: 20px;
+}
+
+.marginTop30px {
+	margin-top: 30px;
+}
+
+.marginTop40px {
+	margin-top: 40px;
+}
+
+.marginTop50px {
+	margin-top: 50px;
+}
+
+.marginTop60px {
+	margin-top: 60px;
+}
+
+.marginTop70px {
+	margin-top: 70px;
+}
+
+.marginTop80px {
+	margin-top: 80px;
+}
+
+.marginTop90px {
+	margin-top: 90px;
+}
+
+.marginTop100px {
+	margin-top: 100px;
+}
+
+.marginTop110px {
+	margin-top: 110px;
+}
+
+.marginTop120px {
+	margin-top: 120px;
+}
+
+.marginTop130px {
+	margin-top: 130px;
+}
+
+.marginTop140px {
+	margin-top: 140px;
+}
+
+.marginBottom10px {
+	margin-bottom: 10px;
+}
+
+.marginBottom20px {
+	margin-bottom: 20px;
+}
+
+.marginBottom30px {
+	margin-bottom: 30px;
+}
+
+.marginBottom40px {
+	margin-bottom: 40px;
+}
+
+.marginBottom50px {
+	margin-bottom: 50px;
+}
+
+.marginBottom60px {
+	margin-bottom: 60px;
+}
+
+.margin0px {
+	margin: 0px;
+}
+
+.margin10px {
+	margin: 10px;
+}
+
+.margin20px {
+	margin: 20px;
+}
+
+.margin30px {
+	margin: 30px;
+}
+
+.margin40px {
+	margin: 40px;
+}
+
+.margin50px {
+	margin: 50px;
+}
+
+.margin60px {
+	margin: 60px;
+}
+
+.marginLeft5px {
+	margin-left: 5px;
+}
+
+.marginLeft10px {
+	margin-left: 10px;
+}
+
+.marginLeft20px {
+	margin-left: 20px;
+}
+
+.marginLeft30px {
+	margin-left: 30px;
+}
+
+.marginLeft40px {
+	margin-left: 40px;
+}
+
+.marginLeft50px {
+	margin-left: 50px;
+}
+
+.marginLeft60px {
+	margin-left: 60px;
+}
+
+.marginRight5px {
+	margin-right: 5px;
+}
+
+.marginRight10px {
+	margin-right: 10px;
+}
+
+.marginRight20px {
+	margin-right: 20px;
+}
+
+/**
+ * 	Partie padding (marge interne)
+ */
+.padding0px {
+	padding: 0px;
+}
+
+.padding1px {
+	padding: 1px;
+}
+
+.padding2px {
+	padding: 2px;
+}
+
+.padding3px {
+	padding: 3px;
+}
+
+.padding4px {
+	padding: 4px;
+}
+
+.padding5px {
+	padding: 5px;
+}
+
+.padding10px {
+	padding: 10px;
+}
+
+.padding20px {
+	padding: 20px;
+}
+
+.paddingTop10px {
+	padding-top: 10px;
+}
+
+.paddingTop20px {
+	padding-top: 20px;
+}
+
+.paddingTop30px {
+	padding-top: 30px;
+}
+
+.paddingTop40px {
+	padding-top: 40px;
+}
+
+.paddingTop50px {
+	padding-top: 50px;
+}
+
+.paddingTop60px {
+	padding-top: 60px;
+}
+
+.paddingRight5px {
+	padding-right: 5px;
+}
+
+.paddingRight10px {
+	padding-right: 10px;
+}
+
+.paddingRight20px {
+	padding-right: 20px;
+}
+
+.paddingRight30px {
+	padding-right: 30px;
+}
+
+.paddingRight40px {
+	padding-right: 40px;
+}
+
+.paddingLeft5px {
+	padding-left: 5px;
+}
+
+.paddingLeft10px {
+	padding-left: 10px;
+}
+
+.paddingLeft20px {
+	padding-left: 20px;
+}
+
+.paddingLeft30px {
+	padding-left: 30px;
+}
+
+.paddingLeft40px {
+	padding-left: 40px;
+}
+
+.paddingLeft50px {
+	padding-left: 50px;
+}
+
+.paddingLeft60px {
+	padding-left: 60px;
+}
+
+.paddingBottom260px {
+	padding-bottom: 260px;
+}
