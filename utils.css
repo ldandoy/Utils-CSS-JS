@@ -9,6 +9,10 @@
 	color: #9D261D;
 }
 
+.tOrange {
+	color: #EF6800;	
+}
+
 /**
  * 	Partie texte
  */
@@ -32,19 +36,23 @@
 	text-align: justify;
 }
 
-.nounderline {
+.tNnoUnderline {
 	text-decoration: none;
+}
+
+.tNowrap {
+	white-space:nowrap;
 }
 
 /**
  * 	partie block
  */
 
-.left {
+.fLeft {
 	float: left;
 }
 
-.right {
+.fRight {
 	float: right;
 }
 
@@ -56,7 +64,7 @@
 	line-height: 0px;
 }
 
-.blockinline {
+.blockInline {
 	display: inline-block
 }
 
@@ -68,26 +76,30 @@
 	display: none;
 }
 
-.hiden {
+.hidden {
 	visibility: hidden;	
 }
 
 /**
  * 	Partie border
  */
-.borderGreyLight {
+.borderSilver {
 	border: 1px solid #C0C0C0;
 }
 
-.borderRightGrey {
+.borderRightSilver {
 	border-right: 1px solid #C0C0C0;
 }
 
-.borderLeftGrey {
+.borderLeftSilver {
 	border-left: 1px solid #C0C0C0;
 }
 
-.borderBottomGreyLight {
+.borderBottomSilver {
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.borderTopSilver {
 	border-bottom: 1px solid #C0C0C0;
 }
 
