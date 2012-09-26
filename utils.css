@@ -243,5 +243,23 @@
 .paddingLeft55px {padding-left:55px;}
 .paddingLeft60px {padding-left:60px;}
 
+.paddingBottom0px {padding-bottom:0px;}
+.paddingBottom1px {padding-bottom:1px;}
+.paddingBottom2px {padding-bottom:2px;}
+.paddingBottom3px {padding-bottom:3px;}
+.paddingBottom4px {padding-bottom:4px;}
+.paddingBottom5px {padding-bottom:5px;}
+.paddingBottom10px {padding-bottom:10px;}
+.paddingBottom15px {padding-bottom:15px;}
+.paddingBottom20px {padding-bottom:20px;}
+.paddingBottom25px {padding-bottom:25px;}
+.paddingBottom30px {padding-bottom:30px;}
+.paddingBottom35px {padding-bottom:35px;}
+.paddingBottom40px {padding-bottom:40px;}
+.paddingBottom45px {padding-bottom:45px;}
+.paddingBottom50px {padding-bottom:50px;}
+.paddingBottom55px {padding-bottom:55px;}
+.paddingBottom60px {padding-bottom:60px;}
+
 /* Partie Combo */
 .sep {clear:both; visibility:hidden; margin:0px; padding:0px; line-height:0px;}
