@@ -41,7 +41,7 @@
 .tFontSize60px {font-size: 60px;}
 
 /* Partie block */
-.fLeft {tloat: left;}
+.fLeft {float: left;}
 .fRight {float: right;}
 .fClear {clear: both;}
 .bInline {display: inline-block}
