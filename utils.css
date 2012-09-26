@@ -189,11 +189,11 @@
 .padding55px {padding:55px;}
 .padding60px {padding:60px;}
 
-.paddingTop0px {padding:0px;}
-.paddingTop1px {padding:1px;}
-.paddingTop2px {padding:2px;}
-.paddingTop3px {padding:3px;}
-.paddingTop4px {padding:4px;}
+.paddingTop0px {padding-top:0px;}
+.paddingTop1px {padding-top:1px;}
+.paddingTop2px {padding-top:2px;}
+.paddingTop3px {padding-top:3px;}
+.paddingTop4px {padding-top:4px;}
 .paddingTop5px {padding-top:5px;}
 .paddingTop10px {padding-top:10px;}
 .paddingTop15px {padding-top:15px;}
