@@ -44,9 +44,9 @@
 .fLeft {float: left;}
 .fRight {float: right;}
 .fClear {clear: both;}
-.bInline {display: inline-block}
-.bBlock {display: block;}
-.bNone {display: none;}
+.dInline {display: inline-block}
+.dBlock {display: block;}
+.dNone {display: none;}
 .hidden {visibility: hidden;}
 .visible {visibility: visible;}
 .noOverflow {overflow:hidden;}
