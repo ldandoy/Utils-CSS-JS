@@ -1,0 +1,37 @@
+.container {
+    margin: 10px auto 0;
+    width: 70%;
+}
+
+.container-fluid {
+    margin: 10px auto 0;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+}
+.grid.grid-cols-0 {grid-template-columns: none;}
+.grid.grid-cols-1 {grid-template-columns: repeat(1, minmax(0, 1fr));}
+.grid.grid-cols-2 {grid-template-columns: repeat(2, minmax(0, 1fr));}
+.grid.grid-cols-3 {grid-template-columns: repeat(3, minmax(0, 1fr));}
+.grid.grid-cols-4 {grid-template-columns: repeat(4, minmax(0, 1fr));}
+.grid.grid-cols-5 {grid-template-columns: repeat(5, minmax(0, 1fr));}
+.grid.grid-cols-6 {grid-template-columns: repeat(6, minmax(0, 1fr));}
+.grid.grid-cols-7 {grid-template-columns: repeat(7, minmax(0, 1fr));}
+.grid.grid-cols-8 {grid-template-columns: repeat(8, minmax(0, 1fr));}
+.grid.grid-cols-9 {grid-template-columns: repeat(9, minmax(0, 1fr));}
+
+.grid .col {
+    border: 1px solid green;
+}
+
+.grid.gap-0 {gap: 0px;}
+.grid.gap-1 {gap: 0.25rem;}
+.grid.gap-2 {gap: 0.5rem;}
+.grid.gap-3 {gap: 0.75rem;}
+.grid.gap-4 {gap: 1rem;}
+.grid.gap-5 {gap: 1.25rem;}
+.grid.gap-6 {gap: 1.5rem;}
+.grid.gap-7 {gap: 1.75rem;}
+.grid.gap-8 {gap: 2rem;}

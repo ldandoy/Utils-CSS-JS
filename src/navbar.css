@@ -1,0 +1,41 @@
+/* NavBar */
+.navbar {
+    display: flex;
+    padding: 0.5em;
+}
+
+.navbar.navbar-bordered {border: #c0C0C0 1px solid;}
+.navbar.navbar-bordered-t {border-top: #c0C0C0 1px solid;}
+.navbar.navbar-bordered-l {border-left: #c0C0C0 1px solid;}
+.navbar.navbar-bordered-b {border-bottom: #c0C0C0 1px solid;}
+.navbar.navbar-bordered-r {border-right: #c0C0C0 1px solid;}
+
+.navbar .navbar-h {
+    flex-direction: row;
+}
+
+.navbar .navbar-title {
+    padding: 0.5em;
+}
+
+.navbar .navbar-title .navbar-link {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.navbar .navbar-menu {
+    display: flex;
+}
+
+.navbar .navbar-h .navbar-menu {
+    flex-direction: row;
+}
+
+.navbar .navbar-item {
+    padding: 0.5em;
+}
+
+.navbar .navbar-title .navbar-link, .navbar .navbar-item .navbar-link {
+    text-decoration: none;
+    color: var(--black-color);
+}

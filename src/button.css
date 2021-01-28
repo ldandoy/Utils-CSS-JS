@@ -1,0 +1,13 @@
+.btn, .btn:link, .btn:active, .btn:hover, .btn:visited, .btn:focus {
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn.btn-success {
+    background: var(--sucess-bg-color);
+    color: var(--white-color)
+}
