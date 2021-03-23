@@ -20,5 +20,7 @@ The "example" folder contains the index.html file. Open it in your favorite brow
 
 ## Developpement
 
+```bash
 $ npm install uglifycss -g # The tool I use to generate the min.js file
 $ uglifycss ./src/*.css > ./dist/utils-css.min.css
+```
