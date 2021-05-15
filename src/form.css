@@ -1,0 +1,53 @@
+.form-group {
+    margin: 20px auto;
+    display: block;
+    width: 100%;
+}
+
+.form-label {
+    margin-bottom: .5rem;
+    display: block;
+    width: 100%;
+}
+
+.form-input, .form-textarea {
+    display: block;
+    padding: .5rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.form-input:active, .form-input:focus {
+    border: 1px solid #ced4da;
+}
+
+.form-select {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.form-error {
+    color: var(--error-color);
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.form-light {
+    color: var(--white-900);
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 5px;
+}
