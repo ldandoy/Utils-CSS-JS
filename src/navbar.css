@@ -4,6 +4,13 @@
     padding: 0.5em;
 }
 
+.navbar.sticky-top {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
 .navbar.navbar-bordered {border: #c0C0C0 1px solid;}
 .navbar.navbar-bordered-t {border-top: #c0C0C0 1px solid;}
 .navbar.navbar-bordered-l {border-left: #c0C0C0 1px solid;}
@@ -16,6 +23,7 @@
 
 .navbar .navbar-title {
     padding: 0.5em;
+    border: none;
 }
 
 .navbar .navbar-title .navbar-link {

@@ -6,26 +6,35 @@
         <title>utlis CSS example</title>
         <link href="../dist/utils-css.min.css" rel="stylesheet" />
     </head>
-    <body>
+    <body class="mt-80">
         <header>
-            <nav class="navbar navbar-v navbar-bordered-b bg-purple-600">
+            <nav class="navbar navbar-v navbar-bordered-b bg-bleu-800 txt-white-200 sticky-top">
                 <div class="navbar-title">
-                    <a href="#" class="navbar-link">Titre à changer</a>
+                    <a id="home" href="#home" class="navbar-link">Examples</a>
                 </div>
                 <ul class="navbar-menu">
-                    <li class="navbar-item"><a href="#" class="navbar-link">Accueil</a></li>
-                    <li class="navbar-item"><a href="#" class="navbar-link">Link 1</a></li>
-                    <li class="navbar-item"><a href="#" class="navbar-link">Link 2</a></li>
+                    <li class="navbar-item"><a href="#home" class="navbar-link">Home</a></li>
+                    <li class="navbar-item"><a href="#cards" class="navbar-link">Cards</a></li>
+                    <li class="navbar-item"><a href="#texts" class="navbar-link">Texts</a></li>
+                    <li class="navbar-item"><a href="#forms" class="navbar-link">Forms</a></li>
+                    <li class="navbar-item"><a href="#colors" class="navbar-link">Colors</a></li>
                 </ul>
             </nav>
         </header>
 
         <main class="container">
             <section>
-                <h1 class="title-page">Test</h1>
+                <h1 class="title-page">Paged'exemple d'Utils-CSS</h1>
             </section>
-            <section class="mt-30">
-                <h2 class="title-section">Test de titre de section</h2>
+            <section>
+                <div class="">
+                    <p class="mtb-10">Cette page présente les différents possibilité d'Utils-CSS. Il est libre d'utilisation. N'hésitez pas à le faire grandir et à faire vos retours sur cette 
+                    librairie full-css. vous pouvez m'envoyer vos commentaire sur ldandoy@overconsulting.net.</p>
+                    <p class="mtb-10">Vous pouvez trouver le code source sur: <a href="https://github.com/ldandoy/Utils-CSS.git" target="_blank">Github</a>.</p>
+                </div>
+            </section>
+            <section class="mt-30 mb-60">
+                <h2 id="cards" class="title-section">Exemple du composants card</h2>
                 <div class="grid grid-cols-3 gap-4">
                     <div class="card">
                         <div class="card-image">
@@ -45,7 +54,7 @@
                         <div class="card-image">
                             <img src="https://www.w3schools.com/w3images/team2.jpg" />
                         </div>
-                        <div class="card-title">Titre Card 1</div>
+                        <div class="card-title">Titre Card 2</div>
                         <div class="card-body">Lorem ipsum dolor sit amet consectetur 
                             adipisicing elit. Ab provident aliquam eos hic dolor aut 
                             doloremque inventore sint. Quis, dignissimos recusandae! 
@@ -59,7 +68,7 @@
                         <div class="card-image">
                             <img src="https://www.w3schools.com/w3images/team2.jpg" />
                         </div>
-                        <div class="card-title">Titre Card 1</div>
+                        <div class="card-title">Titre Card 3</div>
                         <div class="card-body">Lorem ipsum dolor sit amet consectetur 
                             adipisicing elit. Ab provident aliquam eos hic dolor aut 
                             doloremque inventore sint. Quis, dignissimos recusandae! 
@@ -72,125 +81,35 @@
                 </div>
             </section>
 
-            <section class="grid grid-cols-1 gap-0 mt-30 mb-30">
-                <div class=""></div>
-                <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?</div>
-            </section>
-
-            <section class="grid grid-cols-8 gap-0">
-                <div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-100">100</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-200">200</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-300">300</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-400">400</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-500">500</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-600">600</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-700">700</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-800">800</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-900">900</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-1000">1000</div>
-                </div>
-                <div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-100">100</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-200">200</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-300">300</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-400">400</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-500">500</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-600">600</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-700">700</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-800">800</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-900">900</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-1000">1000</div>
-                </div>
-                <div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-100">100</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-200">200</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-300">300</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-400">400</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-500">500</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-600">600</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-700">700</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-800">800</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-900">900</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-1000">1000</div>
-                </div>
-                <div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-100">100</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-200">200</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-300">300</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-400">400</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-500">500</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-600">600</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-700">700</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-800">800</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-900">900</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-1000">1000</div>
-                </div>
-                <div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-100">100</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-200">200</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-300">300</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-400">400</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-500">500</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-600">600</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-700">700</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-800">800</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-900">900</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-1000">1000</div>
-                </div>
-                <div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-100">100</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-200">200</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-300">300</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-400">400</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-500">500</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-600">600</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-700">700</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-800">800</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-900">900</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-1000">1000</div>
-                </div>
-                <div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-100">100</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-200">200</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-300">300</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-400">400</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-500">500</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-600">600</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-700">700</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-800">800</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-900">900</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-1000">1000</div>
-                </div>
-                <div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-100">100</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-200">200</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-300">300</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-400">400</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-500">500</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-600">600</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-700">700</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-800">800</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-900">900</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-1000">1000</div>
-                </div>
-            </section>
-
-            <section class="mtb-30">
-                <button class="btn bg-purple-600 txt-white-100 hover:bg-purple-900">Link</button>
-            </section>
-
-            <section class="mtb-30">
-                <div class="bg-bleu-100 rounded-top-l p-30">
+            <section class="mtb-60">
+                <h2 class="title-section">Exemple de card construite</h2>
+                <div class="bg-bleu-100 rounded-top-l p-30 shadow-lg">
                     Test
                 </div>
-                <div class="bg-gray-900 rounded-bottom-l p-30">
+                <div class="bg-gray-800 txt-white-300 rounded-bottom-l p-30 shadow-lg">
                     Test
                 </div>
             </section>
 
-            <section class="mtb-30">
-                <form class="">
+            <section class="mtb-60">
+                <h2 id="texts" class="title-section">Exmple d'effet que l'on peut appliquer sur les textes</h2>
+                <div class="txt-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab <span class="txt-green-1000">provident aliquam</span> eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
+                    Lorem ipsum dolor sit amet <span class="txt-yellow-1000">consectetur adipisicing elit</span>. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
+                </div>
+                <div class="txt-justify mt-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab <span class="txt-overline">provident aliquam</span> eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
+                    Lorem ipsum dolor sit amet <span class="txt-line-through">consectetur adipisicing elit</span>. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
+                </div>
+                <div class="txt-justify mt-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab <span class="txt-orange-600 txt-wavy">provident aliquam</span> eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
+                    Lorem ipsum dolor sit amet <span class="txt-red-400 txt-dotted">consectetur adipisicing elit</span>. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
+                </div>
+            </section>
+
+            <section class="mtb-60">
+                <h2 id="forms" class="title-section">Exemple de formulaire avec bordure</h2>
+                <form class="form-bordered">
                     <div class="form-group">
                         <label for="" class="form-label">Label</label>
                         <input type="text" value="" class="form-input" />
@@ -215,9 +134,256 @@
                         <textarea class="form-textarea txt-purple-900">Test</textarea>
                     </div>
                     <div class="form-group">
+                        <button class="btn bg-purple-600 txt-white-100 hover:bg-purple-900 btn-rounded">Link</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="mtb-60">
+                <h2 class="title-section">Exemple de formulaire sans bordure</h2>
+                <form class="form-no-bordered">
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <input type="text" value="" class="form-input" placeholder="Test sans bordure" />
+                        <div class="form-light">Explication du champs</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <input type="text" value="" class="form-input" />
+                        <div class="form-error">Champs en erreur</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <textarea class="form-textarea">Test</textarea>
+                    </div>
+                    <div class="form-group">
                         <button class="btn bg-purple-600 txt-white-100 hover:bg-purple-900">Link</button>
                     </div>
                 </form>
+            </section>
+
+            <section class="mtb-60">
+                <h2 id="buttons" class="title-section">Exemple de boutons</h2>
+                <div>
+                    <button class="btn btn-light">btn-light</button>
+                    <button class="btn btn-dark">btn-dark</button>
+                    <button class="btn btn-success btn-rounded">btn-success</button>
+                    <button class="btn btn-error">btn-error</button>
+                    <button class="btn btn-warning">btn-warning</button>
+                    <button class="btn btn-notice">btn-notice</button>
+                    <button class="btn btn-debug">btn-debug</button>
+                </div>
+            </section>
+
+            <section class="mtb-60 ">
+                <h2 id="colors" class="title-section">Exemple des palattes de couleur</h2>
+                <div class="grid grid-cols-10 gap-0">
+                    <div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-bleu-</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-100">100</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-200">200</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-300">300</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-400">400</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-500">500</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-600">600</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-700">700</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-800">800</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-900">900</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-1000">1000</div>
+                    </div>
+                    <div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-red-</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-100">100</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-200">200</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-300">300</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-400">400</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-500">500</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-600">600</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-700">700</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-800">800</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-900">900</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-1000">1000</div>
+                    </div>
+                    <div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-green-</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-100">100</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-200">200</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-300">300</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-400">400</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-500">500</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-600">600</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-700">700</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-800">800</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-900">900</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-1000">1000</div>
+                    </div>
+                    <div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-orange-</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-100">100</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-200">200</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-300">300</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-400">400</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-500">500</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-600">600</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-700">700</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-800">800</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-900">900</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-1000">1000</div>
+                    </div>
+                    <div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-pink-</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-100">100</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-200">200</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-300">300</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-400">400</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-500">500</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-600">600</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-700">700</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-800">800</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-900">900</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-1000">1000</div>
+                    </div>
+                    <div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-gray-</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-100">100</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-200">200</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-300">300</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-400">400</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-500">500</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-600">600</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-700">700</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-800">800</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-900">900</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-1000">1000</div>
+                    </div>
+                    <div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-yellow-</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-100">100</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-200">200</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-300">300</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-400">400</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-500">500</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-600">600</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-700">700</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-800">800</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-900">900</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-1000">1000</div>
+                    </div>
+                    <div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-purple-</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-100">100</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-200">200</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-300">300</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-400">400</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-500">500</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-600">600</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-700">700</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-800">800</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-900">900</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-1000">1000</div>
+                    </div>
+                    <div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-white-</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-100">100</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-200">200</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-300">300</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-400">400</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-500">500</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-600">600</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-700">700</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-800">800</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-900">900</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-1000">1000</div>
+                    </div>
+                    <div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-brown-</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-100">100</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-200">200</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-300">300</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-400">400</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-500">500</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-600">600</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-700">700</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-800">800</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-900">900</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-1000">1000</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mtb-60">
+                <h2 class="title-section">Exemple de couleur pour suivre la tendance</h2>
+                <h3 class="title-section">Default</h3>
+                <div class="flex flex-row flex-jc-space-between">
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-orange">bg-orange</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-blue-light">bg-blue-light</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-brown">bg-brown</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-yellow">bg-yellow</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-blue-dark">bg-blue-dark</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-green-light">bg-green-light</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-orange-light">bg-orange-light</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-green-dark">bg-green-dark</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-purple">bg-purple</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-pink-dark">bg-pink-dark</div>
+                </div>
+                <h3 class="title-section">2021</h3>
+                <div class="flex flex-row flex-jc-space-between">
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-marigold">bg-marigold</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-cerulean">bg-cerulean</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-rust">bg-rust</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-illuminating">bg-illuminating</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-french-blue">bg-french-blue</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-green-ash">bg-green-ash</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-burnt-coral">bg-burnt-coral</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-mint">bg-mint</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-amethyst-orchid">bg-amethyst-orchid</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-raspberry-sorbet">bg-raspberry-sorbet</div>
+                </div>
+                <h3 class="title-section">2020</h3>
+                <div class="flex flex-row flex-jc-space-between">
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-flame-scarlet">bg-flame-scarlet</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-saffron">bg-saffron</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-biscay-green">bg-biscay-green</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-chive">bg-chive</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-faded-denim">bg-faded-denim</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-orange-peel">bg-orange-peel</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-mosaic-blue">bg-mosaic-blue</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-sunlight">bg-sunlight</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-coral-pink">bg-coral-pink</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-cinnamon-stick">bg-cinnamon-stick</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-grape-compote">bg-grape-compote</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-lark">bg-lark</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-navy-blazer">bg-navy-blazer</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-brilliant-white">bg-brilliant-white</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-ash">bg-ash</div>
+                </div>
+                <h3 class="title-section">2019</h3>
+                <div class="flex flex-row flex-jc-space-between">
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-fiesta">bg-fiesta</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-jester-red">bg-jester-red</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-turmeric">bg-turmeric</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-living-coral">bg-living-coral</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-pink-peacock">bg-pink-peacock</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-pepper-stem">bg-pepper-stem</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-aspen-gold">bg-aspen-gold</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-princess-blue">bg-princess-blue</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-toffee">bg-toffee</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-mango-mojito">bg-mango-mojito</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-terrarium-moss">bg-terrarium-moss</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-sweet-lilac">bg-sweet-lilac</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-soybean">bg-soybean</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-eclipse">bg-eclipse</div>
+                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-sweet-corn">bg-sweet-corn</div>
+                </div>
             </section>
         </main>
 

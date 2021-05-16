@@ -17,12 +17,13 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
+    outline: none;
+    border: 1px solid var(--white-500);
+    border-radius: 0.25rem;
 }
 
 .form-input:active, .form-input:focus {
-    border: 1px solid #ced4da;
+    outline: none;
 }
 
 .form-select {
@@ -32,10 +33,19 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
-    background-color: #fff;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
+    outline: none;
+    border: 1px solid var(--white-500);
+    border-radius: 0.25rem;
+}
+
+.form-bordered .form-input, .form-bordered .form-textarea, .form-bordered .form-select {
+    border: 1px solid var(--white-500) !important;
+    border-radius: 0.25rem !important;
+}
+
+.form-no-bordered .form-input, .form-no-bordered .form-textarea, .form-no-bordered .form-select {
+    border: none !important;
+    border-bottom: 1px solid var(--white-900) !important;;
 }
 
 .form-error {

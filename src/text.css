@@ -1,24 +1,24 @@
-.txt-white-100 { color: var(--white-100); }
-.txt-white-200 { color: var(--white-200); }
-.txt-white-300 { color: var(--white-300); }
-.txt-white-400 { color: var(--white-400); }
-.txt-white-500 { color: var(--white-500); }
-.txt-white-600 { color: var(--white-600); }
-.txt-white-700 { color: var(--white-700); }
-.txt-white-800 { color: var(--white-800); }
-.txt-white-900 { color: var(--white-900); }
-.txt-white-1000 { color: var(--white-1000); }
+.txt-white-100 { color: var(--white-100) !important; }
+.txt-white-200 { color: var(--white-200) !important; }
+.txt-white-300 { color: var(--white-300) !important; }
+.txt-white-400 { color: var(--white-400) !important; }
+.txt-white-500 { color: var(--white-500) !important; }
+.txt-white-600 { color: var(--white-600) !important; }
+.txt-white-700 { color: var(--white-700) !important; }
+.txt-white-800 { color: var(--white-800) !important; }
+.txt-white-900 { color: var(--white-900) !important; }
+.txt-white-1000 { color: var(--white-1000) !important; }
 
-.txt-bleu-100 { color: var(--bleu-100); }
-.txt-bleu-200 { color: var(--bleu-200); }
-.txt-bleu-300 { color: var(--bleu-300); }
-.txt-bleu-400 { color: var(--bleu-400); }
-.txt-bleu-500 { color: var(--bleu-500); }
-.txt-bleu-600 { color: var(--bleu-600); }
-.txt-bleu-700 { color: var(--bleu-700); }
-.txt-bleu-800 { color: var(--bleu-800); }
-.txt-bleu-900 { color: var(--bleu-900); }
-.txt-bleu-1000 { color: var(--bleu-1000); }
+.txt-bleu-100 { color: var(--bleu-100) !important; }
+.txt-bleu-200 { color: var(--bleu-200) !important; }
+.txt-bleu-300 { color: var(--bleu-300) !important; }
+.txt-bleu-400 { color: var(--bleu-400) !important; }
+.txt-bleu-500 { color: var(--bleu-500) !important; }
+.txt-bleu-600 { color: var(--bleu-600) !important; }
+.txt-bleu-700 { color: var(--bleu-700) !important; }
+.txt-bleu-800 { color: var(--bleu-800) !important; }
+.txt-bleu-900 { color: var(--bleu-900) !important; }
+.txt-bleu-1000 { color: var(--bleu-1000) !important; }
 
 .txt-red-100 { color: var(--red-100); }
 .txt-red-200 { color: var(--red-200); }
@@ -97,38 +97,116 @@
 .txt-purple-900 { color: var(--purple-900); }
 .txt-purple-1000 { color: var(--purple-1000); }
 
+.txt-orange { color: var(--orange-color); }
+.txt-blue-light { color: var(--blue-light-color); }
+.txt-brown { color: var(--brown-color); }
+.txt-yellow { color: var(--yellow-color); }
+.txt-blue-dark { color: var(--blue-dark-color); }
+.txt-green-light { color: var(--green-light-color); }
+.txt-orange-light { color: var(--orange-light-color); }
+.txt-green-dark { color: var(--green-dark-color); }
+.txt-purple { color: var(--purple-color); }
+.txt-pink-dark { color: var(--pink-dark-color); }
+
+.txt-marigold { color: var(--marigold-color); }
+.txt-cerulean { color: var(--cerulean-color); }
+.txt-rust { color: var(--rust-color); }
+.txt-illuminating { color: var(--illuminating-color); }
+.txt-french-blue { color: var(--french-blue-color); }
+.txt-green-ash { color: var(--green-ash-color); }
+.txt-burnt-coral { color: var(--burnt-coral-color); }
+.txt-mint { color: var(--mint-color); }
+.txt-amethyst-orchid { color: var(--amethyst-orchid-color); }
+.txt-raspberry-sorbet { color: var(--raspberry-sorbet-color); }
+
+.txt-flame-scarlet { color: var(--flame-scarlet-color); }
+.txt-saffron { color: var(--saffron-color); }
+.txt-biscay-green { color: var(--biscay-green-color); }
+.txt-chive { color: var(--chive-color); }
+.txt-faded-denim { color: var(--faded-denim-color); }
+.txt-orange-peel { color: var(--orange-peel-color); }
+.txt-mosaic-blue { color: var(--mosaic-blue-color); }
+.txt-sunlight { color: var(--sunlight-color); }
+.txt-coral-pink { color: var(--coral-pink-color); }
+.txt-cinnamon-stick { color: var(--cinnamon-stick-color); }
+.txt-grape-compote { color: var(--grape-compote-color); }
+.txt-lark { color: var(--lark-color); }
+.txt-navy-blazer { color: var(--navy-blazer-color); }
+.txt-brilliant-white { color: var(--brilliant-white-color); }
+.txt-ash { color: var(--ash-color); }
+
+.txt-fiesta { color: var(--fiesta-color); }
+.txt-jester-red { color: var(--jester-red-color); }
+.txt-turmeric { color: var(--turmeric-color); }
+.txt-living-coral { color: var(--living-coral-color); }
+.txt-pink-peacock { color: var(--pink-peacock-color); }
+.txt-pepper-stem { color: var(--pepper-stem-color); }
+.txt-aspen-gold { color: var(--aspen-gold-color); }
+.txt-princess-blue { color: var(--princess-blue-color); }
+.txt-toffee { color: var(--toffee-color); }
+.txt-mango-mojito { color: var(--mango-mojito-color); }
+.txt-terrarium-moss { color: var(--terrarium-moss-color); }
+.txt-sweet-lilac { color: var(--sweet-lilac-color); }
+.txt-soybean { color: var(--soybean-color); }
+.txt-eclipse { color: var(--eclipse-color); }
+.txt-sweet-corn { color: var(--sweet-corn-color); }
+
 .txt-bold {font-weight: bold;}
 .txt-italic {font-style: italic;}
 .txt-right {text-align: right;}
 .txt-left {text-align: left;}
 .txt-center {text-align: center;}
-.txt-justifier {text-align: justify;}
+.txt-justify {text-align: justify;}
 .txt-no-underline {text-decoration: none;}
 .txt-no-wrap {white-space:nowrap;}
 
-.tFontSize8px {font-size: 8px;}
-.tFontSize9px {font-size: 9px;}
-.tFontSize10px {font-size: 10px;}
-.tFontSize11px {font-size: 11px;}
-.tFontSize12px {font-size: 12px;}
-.tFontSize13px {font-size: 13px;}
-.tFontSize14px {font-size: 14px;}
-.tFontSize15px {font-size: 15px;}
-.tFontSize16px {font-size: 16px;}
-.tFontSize17px {font-size: 17px;}
-.tFontSize18px {font-size: 18px;}
-.tFontSize19px {font-size: 19px;}
-.tFontSize20px {font-size: 20px;}
-.tFontSize21px {font-size: 21px;}
-.tFontSize22px {font-size: 22px;}
-.tFontSize23px {font-size: 23px;}
-.tFontSize24px {font-size: 24px;}
-.tFontSize25px {font-size: 25px;}
-.tFontSize26px {font-size: 26px;}
-.tFontSize27px {font-size: 27px;}
-.tFontSize28px {font-size: 28px;}
-.tFontSize29px {font-size: 29px;}
-.tFontSize30px {font-size: 30px;}
-.tFontSize40px {font-size: 40px;}
-.tFontSize50px {font-size: 50px;}
-.tFontSize60px {font-size: 60px;}
+.txt-size-8 {font-size: 8px;}
+.txt-size-9 {font-size: 9px;}
+.txt-size-10 {font-size: 10px;}
+.txt-size-11 {font-size: 11px;}
+.txt-size-12 {font-size: 12px;}
+.txt-size-13 {font-size: 13px;}
+.txt-size-14 {font-size: 14px;}
+.txt-size-15 {font-size: 15px;}
+.txt-size-16 {font-size: 16px;}
+.txt-size-17 {font-size: 17px;}
+.txt-size-18 {font-size: 18px;}
+.txt-size-19 {font-size: 19px;}
+.txt-size-20 {font-size: 20px;}
+.txt-size-21 {font-size: 21px;}
+.txt-size-22 {font-size: 22px;}
+.txt-size-23 {font-size: 23px;}
+.txt-size-24 {font-size: 24px;}
+.txt-size-25 {font-size: 25px;}
+.txt-size-26 {font-size: 26px;}
+.txt-size-27 {font-size: 27px;}
+.txt-size-28 {font-size: 28px;}
+.txt-size-29 {font-size: 29px;}
+.txt-size-30 {font-size: 30px;}
+.txt-size-40 {font-size: 40px;}
+.txt-size-50 {font-size: 50px;}
+.txt-size-60 {font-size: 60px;}
+
+.txt-bold { font-weight: bold; }
+.txt-bold-100 { font-weight: 100; }
+.txt-bold-200 { font-weight: 200; }
+.txt-bold-300 { font-weight: 300; }
+.txt-bold-400 { font-weight: 400; }
+.txt-bold-500 { font-weight: 500; }
+.txt-bold-600 { font-weight: 600; }
+.txt-bold-700 { font-weight: 700; }
+.txt-bold-800 { font-weight: 800; }
+.txt-bold-900 { font-weight: 900; }
+
+.txt-italic { font-style: italic; }
+.txt-oblique { font-style: oblique; }
+
+.txt-underline { text-decoration: underline; }
+.txt-dashed { text-decoration: dashed; }
+.txt-dotted { text-decoration: dotted; }
+.txt-double { text-decoration: double; }
+.txt-line-through { text-decoration: line-through; }
+.txt-none { text-decoration: none; }
+.txt-overline { text-decoration: overline; }
+.txt-solid { text-decoration: solid; }
+.txt-wavy { text-decoration: wavy; }

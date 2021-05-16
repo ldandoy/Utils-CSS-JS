@@ -20,7 +20,14 @@ The "example" folder contains the index.html file. Open it in your favorite brow
 
 ## Developpement
 
+Installation of the tools to generate the min.css file. I used uglifycss and I installed it with npm.
+
 ```bash
-$ npm install uglifycss -g # The tool I use to generate the min.js file
+$ npm install uglifycss -g
+```
+To generate the min.css files from the multiple css files.
+
+```bash
 $ uglifycss ./src/*.css > ./dist/utils-css.min.css
 ```
+After runngin this commandn, you will found the min.css in the dist folder.
