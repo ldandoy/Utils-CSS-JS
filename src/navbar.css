@@ -31,12 +31,30 @@
     font-weight: bold;
 }
 
-.navbar .navbar-menu {
+.navbar .navbar-menu-left {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .navbar-menu-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar .navbar-h .navbar-menu {
     flex-direction: row;
+}
+
+.navbar .navbar-v .navbar-menu {
+    flex-direction: column;
+}
+
+.navbar-content-menu {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
 }
 
 .navbar .navbar-item {
