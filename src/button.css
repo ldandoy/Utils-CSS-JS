@@ -33,12 +33,12 @@
 }
 
 .btn.btn-success {
-    background: var(--sucess-color);
+    background: var(--success-color);
     color: var(--light-color)
 }
 
 .btn.btn-success:hover {
-    background-color: var(--sucess-hover-color);
+    background-color: var(--success-hover-color);
 }
 
 .btn.btn-error {

@@ -361,3 +361,5 @@
 .plr-90 {padding-left:90px; padding-right:90px;}
 .plr-95 {padding-left:95px; padding-right:95px;}
 .plr-100 {padding-left:100px; padding-right:100px;}
+
+.mx-auto { margin-right: auto!important; margin-left: auto!important; }

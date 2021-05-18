@@ -1,0 +1,16 @@
+.alert {
+    margin-top: 1rem;
+    border-radius: .5rem;
+    border: 1px solid var(--gray-500);
+    padding: 1rem;
+    background-color: var(--gray-200);
+    color: var(--gray-500);
+}
+
+.alert-light { background-color: var(--white-100); color: var(--white-600); border: 1px solid var(--white-300); }
+.alert-dark { background-color: var(--white-1000); color: var(--white-100); border: 1px solid var(--white-1000); }
+.alert-error { background-color: var(--red-100); color: var(--error-color); border: 1px solid var(--error-color); }
+.alert-warning { background-color: var(--orange-100); color: var(--warning-color); border: 1px solid var(--warning-color); }
+.alert-success { background-color: var(--green-100); color: var(--success-color); border: 1px solid var(--success-color); }
+.alert-notice { background-color: var(--blue-100); color: var(--notice-color); border: 1px solid var(--notice-color); }
+.alert-debug { background-color: var(--purple-100); color: var(--debug-color); border: 1px solid var(--debug-color); }

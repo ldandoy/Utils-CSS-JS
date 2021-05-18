@@ -8,7 +8,7 @@
     </head>
     <body class="mt-80">
         <header>
-            <nav class="navbar navbar-v navbar-bordered-b bg-bleu-800 txt-white-200 sticky-top">
+            <nav class="navbar navbar-v navbar-bordered-b bg-blue-800 txt-white-200 sticky-top">
                 <div class="navbar-title">
                     <a id="home" href="#home" class="navbar-link">Examples</a>
                 </div>
@@ -88,7 +88,7 @@
 
             <section class="mtb-60">
                 <h2 class="title-section">Exemple de card construite</h2>
-                <div class="bg-bleu-100 rounded-top-l p-30 shadow-lg">
+                <div class="bg-blue-100 rounded-top-l p-30 shadow-lg">
                     Test
                 </div>
                 <div class="bg-gray-800 txt-white-300 rounded-bottom-l p-30 shadow-lg">
@@ -96,13 +96,13 @@
                 </div>
 
                 <div class="mtb-30 flex w100 flex-jc-space-between">
-                    <div class="card w30">
+                    <div class="card w-30">
                         test
                     </div>
-                    <div class="card w30">
+                    <div class="card w-30">
                         <div class="card-title">Test de titre</div>
                     </div>
-                    <div class="card w30">
+                    <div class="card w-30">
                         <div class="card-body">Test de contenue</div>
                     </div>
                 </div>
@@ -130,12 +130,6 @@
                     <div class="form-group">
                         <label for="" class="form-label">Label</label>
                         <input type="text" value="" class="form-input" />
-                        <div class="form-light">Explication du champs</div>
-                    </div>
-                    <div class="form-group">
-                        <label for="" class="form-label">Label</label>
-                        <input type="text" value="" class="form-input" />
-                        <div class="form-error">Champs en erreur</div>
                     </div>
                     <div class="form-group">
                         <label for="" class="form-label">Label</label>
@@ -162,12 +156,12 @@
                     <div class="form-group">
                         <label for="" class="form-label">Label</label>
                         <input type="text" value="" class="form-input" placeholder="Test sans bordure" />
-                        <div class="form-light">Explication du champs</div>
+                        <div class="form-message">Explication du champs</div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group form-group-error">
                         <label for="" class="form-label">Label</label>
                         <input type="text" value="" class="form-input" />
-                        <div class="form-error">Champs en erreur</div>
+                        <div class="form-message">Champs en erreur</div>
                     </div>
                     <div class="form-group">
                         <label for="" class="form-label">Label</label>
@@ -201,21 +195,167 @@
                 </div>
             </section>
 
+            <section class="mtb-60">
+                <h2 class="title-section">Exemple de formulaire sans bordure</h2>
+                <div class="flex">
+                    <div class="w-20">
+                        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="Phot de profile" class="img-fluid" />
+                    </div>
+                    <div class="w-40">
+                        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="Phot de profile" class="img-thumbnails" />
+                    </div>
+                </div>
+            </section>
+
+            <section class="mtb-60">
+                <h2 class="title-section">Exemple de tableau</h2>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2" class="table-active">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="mtb-30">
+                    <h2>Exemple avec une bordure</h2>
+                </div>
+
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2" class="table-active">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="mtb-30">
+                    <h2>Exemple avec une bordure</h2>
+                </div>
+                
+                <table class="table table-sm table-header-drak table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2" class="txt-center">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="mtb-60">
+                <h2 class="title-section">Exemple de badge</h2>
+                <div>
+                    <p>Ceci est un phrase avec un <span class="badge">badge</span></p>
+                    <p>Et en voici une autre <span class="badge bg-success">badge</span></p>
+                </div>
+            </section>
+
+            <section class="mtb-60 ">
+                <h2 id="colors" class="title-section">Exemple de message d'alerte</h2>
+                <div class="alert alert-light">
+                    Petite info !
+                </div>
+                <div class="alert alert-dark">
+                    Petite info !
+                </div>
+                <div class="alert alert-error">
+                    Petite info !
+                </div>
+                <div class="alert alert-warning">
+                    Petite info !
+                </div>
+                <div class="alert alert-success">
+                    Petite info !
+                </div>
+                <div class="alert alert-notice">
+                    Petite info !
+                </div>
+                <div class="alert alert-debug">
+                    Petite info !
+                </div>
+            </section>
+            
             <section class="mtb-60 ">
                 <h2 id="colors" class="title-section">Exemple des palattes de couleur</h2>
                 <div class="grid grid-cols-10 gap-0">
                     <div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-bleu-</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-100">100</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-200">200</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-300">300</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-400">400</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-500">500</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-600">600</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-700">700</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-800">800</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-900">900</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-bleu-1000">1000</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-blue-</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-100">100</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-200">200</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-300">300</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-400">400</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-500">500</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-600">600</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-700">700</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-800">800</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-900">900</div>
+                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-1000">1000</div>
                     </div>
                     <div>
                         <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-red-</div>

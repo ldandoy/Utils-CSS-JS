@@ -1,16 +1,16 @@
 /* Variables */
 :root {
     /* Gradient of color */
-    --bleu-100: #e6ecff;
-    --bleu-200: #ccdaff;
-    --bleu-300: #99b4ff;
-    --bleu-400: #668fff;
-    --bleu-500: #3369ff;
-    --bleu-600: #1a57ff;
-    --bleu-700: #003de6;
-    --bleu-800: #0030b3;
-    --bleu-900: #002280;
-    --bleu-1000: #00144d;
+    --blue-100: #e6ecff;
+    --blue-200: #ccdaff;
+    --blue-300: #99b4ff;
+    --blue-400: #668fff;
+    --blue-500: #3369ff;
+    --blue-600: #1a57ff;
+    --blue-700: #003de6;
+    --blue-800: #0030b3;
+    --blue-900: #002280;
+    --blue-1000: #00144d;
 
     --red-100: #ffe6e6;
     --red-200: #ffcccc;
@@ -116,7 +116,7 @@
     --dark-color: #2b2b2b;
     --error-color: #b4372e;
     --warning-color: #EF6800;
-    --sucess-color: #30853b;
+    --success-color: #30853b;
     --notice-color: #4b88fa;
     --debug-color: #8f40e9;
 
@@ -124,7 +124,7 @@
     --dark-hover-color: #000;
     --error-hover-color: #9D261D;
     --warning-hover-color: #ff6f00;
-    --sucess-hover-color: #20742b;
+    --success-hover-color: #20742b;
     --notice-hover-color: #1768ff;
     --debug-hover-color: #730de7;
 
