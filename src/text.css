@@ -151,7 +151,7 @@
 .txt-eclipse { color: var(--eclipse-color); }
 .txt-sweet-corn { color: var(--sweet-corn-color); }
 
-.txt-overconsulting { color: var(--sweet-corn-color); }
+.txt-overconsulting { color: var(--overconsulting-blue-color); }
 
 .txt-bold {font-weight: bold;}
 .txt-italic {font-style: italic;}
