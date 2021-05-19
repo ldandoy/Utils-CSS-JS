@@ -212,3 +212,8 @@
 .txt-overline { text-decoration: overline; }
 .txt-solid { text-decoration: solid; }
 .txt-wavy { text-decoration: wavy; }
+
+.txt-line-height-sm { line-height: .125rem; }
+.txt-line-height { line-height: 1rem; }
+.txt-line-height-l { line-height: 1.5rem; }
+.txt-line-height-xl { line-height: 2rem; }
