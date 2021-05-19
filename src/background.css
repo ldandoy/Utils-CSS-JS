@@ -279,3 +279,5 @@
 .bg-success { background-color: var(--success-color) !important; }
 .bg-notice { background-color: var(--notice-color) !important; }
 .bg-debug { background-color: var(--debug-color) !important; }
+
+.bg-overconsulting { background-color: var(--overconsulting-blue-color) !important; }

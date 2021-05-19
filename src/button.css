@@ -76,3 +76,12 @@
 .btn.btn-debug:hover {
     background-color: var(--debug-hover-color);
 }
+
+.btn.btn-overconsulting {
+    background: var(--overconsulting-blue-color);
+    color: var(--light-color)
+}
+
+.btn.btn-light:hover {
+    background-color: var(--overconsulting-blue-dark-color);
+}
