@@ -151,6 +151,8 @@
 .txt-eclipse { color: var(--eclipse-color); }
 .txt-sweet-corn { color: var(--sweet-corn-color); }
 
+.txt-overconsulting { color: var(--sweet-corn-color); }
+
 .txt-bold {font-weight: bold;}
 .txt-italic {font-style: italic;}
 .txt-right {text-align: right;}
