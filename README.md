@@ -15,7 +15,9 @@ Add it in the head part of your html page
 
 ## To see how it works
 
-The "example" folder contains the index.html file. Open it in your favorite browser, to show all the CSS class in action
+The "example" folder contains the index.html file. Open it in your favorite browser, to show all the CSS class in action.
+
+Or you can go on: https://overconsulting.tech to see it in action. For the moment, it's just example, you 
 
 
 ## Developpement
