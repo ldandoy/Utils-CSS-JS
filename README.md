@@ -2,10 +2,10 @@
 
 ## What is Utils-CSS
 
-CSS Library, inspired by Bootstrap and TailwindCSS. There is NO JS in the library, all is done with CSS.
+It's a CSS Library, inspired by Bootstrap and TailwindCSS. There is NO JS in this library, all is done with CSS.
 
 
-## How to use it
+## How to use it ?
 
 Just clone the repository and copy the utils-css.min.css file from the dist directory, and copy it on your CSS folder.
 Add it in the head part of your html page
@@ -28,6 +28,8 @@ $ npm install uglifycss -g
 To generate the min.css files from the multiple css files.
 
 ```bash
+$ git clone https://github.com/ldandoy/Utils-CSS.git
+$ cd Utils-CSS
 $ uglifycss ./src/*.css > ./dist/utils-css.min.css
 ```
 After runngin this commandn, you will found the min.css in the dist folder.
