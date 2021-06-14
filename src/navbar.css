@@ -24,6 +24,7 @@
 .navbar .navbar-title {
     padding: 0.5em;
     border: none;
+    white-space: nowrap;
 }
 
 .navbar .navbar-title .navbar-link {
