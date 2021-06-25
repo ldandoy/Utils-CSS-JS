@@ -35,3 +35,9 @@ $ cd Utils-CSS
 $ uglifycss ./src/*.css > ./dist/utils-css.min.css
 ```
 After runngin this commandn, you will found the min.css in the dist folder.
+
+## The Road MAP
+
+- Add the disabled for the button and other fields
+x Add the different pointer
+- Rendre la navbar active

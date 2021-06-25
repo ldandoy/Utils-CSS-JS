@@ -1,7 +1,6 @@
 /* NavBar */
 .navbar {
     display: flex;
-    padding: 0.5em;
 }
 
 .navbar.sticky-top {
@@ -22,7 +21,6 @@
 }
 
 .navbar .navbar-title {
-    padding: 0.5em;
     border: none;
     white-space: nowrap;
 }
@@ -58,11 +56,13 @@
     width: 100%;
 }
 
-.navbar .navbar-item {
-    padding: 0.5em;
-}
-
 .navbar .navbar-title .navbar-link, .navbar .navbar-item .navbar-link {
     text-decoration: none;
     color: var(--black-color);
+    display: inline-block;
+    padding: 1rem;
+}
+
+.navbar-link.active {
+    font-weight: bolder;
 }
