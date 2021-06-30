@@ -40,4 +40,7 @@ After runngin this commandn, you will found the min.css in the dist folder.
 
 - Add the disabled for the button and other fields
 x Add the different pointer
-- Rendre la navbar active
+x Render active link for the navbar
+- Add hover for the navbar
+- Responsive de la navbar
+- Responsive global
