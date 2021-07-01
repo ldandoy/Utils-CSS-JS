@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>utlis CSS doc</title>
+        <link href="../dist/utils-css.min.css" rel="stylesheet" />
+        <link rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/styles/default.min.css">
+        <link href="../css/hljs.css" rel="stylesheet" />
+        
+    </head>
+    <body class="mt-80">
+        <header>
+            <!-- Top Nav -->
+            <nav class="navbar navbar-v navbar-bordered-b bg-blue-800 txt-white-200 sticky-top">
+                <div class="navbar-title">
+                    <a id="home" href="index.html" class="navbar-link">Doc</a>
+                </div>
+                <div class="navbar-content-menu">
+                    <ul class="navbar-menu-left"></ul>
+                    <ul class="navbar-menu-right">
+                        <li class="navbar-item"><a href="../index.html" class="navbar-link">Utils-CSS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <!-- Side Nav -->
+        <div class="navbar-content-menu">
+            <ul class="navbar-menu-left">
+                <li class="navbar-item"><a href="cards.html" class="navbar-link">Cards</a></li>
+                <li class="navbar-item"><a href="texts.html" class="navbar-link">Texts</a></li>
+                <li class="navbar-item"><a href="forms.html" class="navbar-link">Forms</a></li>
+                <li class="navbar-item"><a href="buttons.html" class="navbar-link">Buttons</a></li>
+            </ul>
+        </div>
+
+        <main class="container">
+            <section>
+                <h1 class="title-page">Forms</h1>
+            </section>
+            <p>
+                Implement nice looking <span class="badge bg-success">Forms</span> 
+                with the <span class="badge bg-success">Form Component</span>.
+            </p>
+            <section class="mtb-60">
+                <h2 id="forms" class="title-section">Example of form with border</h2>
+                <form class="form-bordered">
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <input type="text" value="" class="form-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <textarea class="form-textarea txt-purple-900">Test</textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn bg-purple-600 txt-white-100 hover:bg-purple-900 btn-rounded">Link</button>
+                    </div>
+                </form><br>
+
+                <!-- Code -->
+                <h3>Code</h3>
+                <pre>
+                    <code class="language-html rounded-top-l rounded-bottom-l">
+                        &#x3C;form class=&#x22;form-bordered&#x22;&#x3E;
+                            &#x3C;div class=&#x22;form-group&#x22;&#x3E;
+                                &#x3C;label for=&#x22;&#x22; class=&#x22;form-label&#x22;&#x3E;Label&#x3C;/label&#x3E;
+                                &#x3C;input type=&#x22;text&#x22; value=&#x22;&#x22; class=&#x22;form-input&#x22; /&#x3E;
+                            &#x3C;/div&#x3E;
+                            &#x3C;div class=&#x22;form-group&#x22;&#x3E;
+                                &#x3C;label for=&#x22;&#x22; class=&#x22;form-label&#x22;&#x3E;Label&#x3C;/label&#x3E;
+                                &#x3C;select class=&#x22;form-select&#x22; aria-label=&#x22;Default select example&#x22;&#x3E;
+                                    &#x3C;option selected&#x3E;Open this select menu&#x3C;/option&#x3E;
+                                    &#x3C;option value=&#x22;1&#x22;&#x3E;One&#x3C;/option&#x3E;
+                                    &#x3C;option value=&#x22;2&#x22;&#x3E;Two&#x3C;/option&#x3E;
+                                    &#x3C;option value=&#x22;3&#x22;&#x3E;Three&#x3C;/option&#x3E;
+                                &#x3C;/select&#x3E;
+                            &#x3C;/div&#x3E;
+                            &#x3C;div class=&#x22;form-group&#x22;&#x3E;
+                                &#x3C;label for=&#x22;&#x22; class=&#x22;form-label&#x22;&#x3E;Label&#x3C;/label&#x3E;
+                                &#x3C;textarea class=&#x22;form-textarea txt-purple-900&#x22;&#x3E;Test&#x3C;/textarea&#x3E;
+                            &#x3C;/div&#x3E;
+                            &#x3C;div class=&#x22;form-group&#x22;&#x3E;
+                                &#x3C;button class=&#x22;btn bg-purple-600 txt-white-100 hover:bg-purple-900 btn-rounded&#x22;&#x3E;Link&#x3C;/button&#x3E;
+                            &#x3C;/div&#x3E;
+                        &#x3C;/form&#x3E;
+                    </code>
+                </pre>
+            </section>
+            <section class="mtb-60">
+                <h2 class="title-section">Example of form without border</h2>
+                <form class="form-no-bordered">
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <input type="text" value="" class="form-input" placeholder="Test sans bordure" />
+                        <div class="form-message">Explication du champs</div>
+                    </div>
+                    <div class="form-group form-group-error">
+                        <label for="" class="form-label">Label</label>
+                        <input type="text" value="" class="form-input" />
+                        <div class="form-message">Champs en erreur</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <textarea class="form-textarea">Test</textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn bg-purple-600 txt-white-100 hover:bg-purple-900">Link</button>
+                    </div>
+                </form><br>
+
+                <!-- Code -->
+                <h3>Code</h3>
+                <pre>
+                    <code class="language-html rounded-top-l rounded-bottom-l">
+                        &#x3C;form class=&#x22;form-no-bordered&#x22;&#x3E;
+                            &#x3C;div class=&#x22;form-group&#x22;&#x3E;
+                                &#x3C;label for=&#x22;&#x22; class=&#x22;form-label&#x22;&#x3E;Label&#x3C;/label&#x3E;
+                                &#x3C;input type=&#x22;text&#x22; value=&#x22;&#x22; class=&#x22;form-input&#x22; placeholder=&#x22;Test sans bordure&#x22; /&#x3E;
+                                &#x3C;div class=&#x22;form-message&#x22;&#x3E;Explication du champs&#x3C;/div&#x3E;
+                            &#x3C;/div&#x3E;
+                            &#x3C;div class=&#x22;form-group form-group-error&#x22;&#x3E;
+                                &#x3C;label for=&#x22;&#x22; class=&#x22;form-label&#x22;&#x3E;Label&#x3C;/label&#x3E;
+                                &#x3C;input type=&#x22;text&#x22; value=&#x22;&#x22; class=&#x22;form-input&#x22; /&#x3E;
+                                &#x3C;div class=&#x22;form-message&#x22;&#x3E;Champs en erreur&#x3C;/div&#x3E;
+                            &#x3C;/div&#x3E;
+                            &#x3C;div class=&#x22;form-group&#x22;&#x3E;
+                                &#x3C;label for=&#x22;&#x22; class=&#x22;form-label&#x22;&#x3E;Label&#x3C;/label&#x3E;
+                                &#x3C;select class=&#x22;form-select&#x22; aria-label=&#x22;Default select example&#x22;&#x3E;
+                                    &#x3C;option selected&#x3E;Open this select menu&#x3C;/option&#x3E;
+                                    &#x3C;option value=&#x22;1&#x22;&#x3E;One&#x3C;/option&#x3E;
+                                    &#x3C;option value=&#x22;2&#x22;&#x3E;Two&#x3C;/option&#x3E;
+                                    &#x3C;option value=&#x22;3&#x22;&#x3E;Three&#x3C;/option&#x3E;
+                                &#x3C;/select&#x3E;
+                            &#x3C;/div&#x3E;
+                            &#x3C;div class=&#x22;form-group&#x22;&#x3E;
+                                &#x3C;label for=&#x22;&#x22; class=&#x22;form-label&#x22;&#x3E;Label&#x3C;/label&#x3E;
+                                &#x3C;textarea class=&#x22;form-textarea&#x22;&#x3E;Test&#x3C;/textarea&#x3E;
+                            &#x3C;/div&#x3E;
+                            &#x3C;div class=&#x22;form-group&#x22;&#x3E;
+                                &#x3C;button class=&#x22;btn bg-purple-600 txt-white-100 hover:bg-purple-900&#x22;&#x3E;Link&#x3C;/button&#x3E;
+                            &#x3C;/div&#x3E;
+                        &#x3C;/form&#x3E;
+                    </code>
+                </pre>
+            </section>
+        </main>
+
+        <footer>
+            
+        </footer>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+    </body>
+</html>
