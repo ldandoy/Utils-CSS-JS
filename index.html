@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>utlis CSS</title>
+        <link rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/styles/default.min.css">
+        <link href="../css/hljs.css" rel="stylesheet" />
         <link href="../dist/utils-css.min.css" rel="stylesheet" />
     </head>
     <body class="mt-80">
@@ -46,32 +49,29 @@
                     </p>
                 </div>
             </section>
-            <section class="mt-30 mb-60">
+            <section class="mb-60">
                 <h2 class="title-section">Developpement</h2>
                 <div>
                     <p>
                         Installation of the tools to generate the min.css file. 
                         I used uglifycss and I installed it with npm.
                     </p>
-                    <div class="alert alert-notice">
-                        <code>
-                            $ npm install uglifycss -g
+                    <pre>
+                        <code class="language-bash rounded-top-l rounded-bottom-l">
+        $ npm install uglifycss -g
                         </code>
-                    </div><br>
+                    </pre>
                     <p>
                         To generate the min.css file from the multiple css files.
                     </p>
-                    <div class="alert alert-notice">
-                        <code>
-                            $ git clone https://github.com/ldandoy/Utils-CSS.git<br>
-                            <br>
-                            $ cd Utils-CSS<br>
-                            <br>
-                            $ mkdir dist<br>
-                            <br>
-                            $ uglifycss ./src/*.css > ./dist/utils-css.min.css
+                    <pre>
+                        <code class="bash rounded-top-l rounded-bottom-l">
+        $ git clone https://github.com/ldandoy/Utils-CSS.git
+        $ cd Utils-CSS
+        $ mkdir dist
+        $ uglifycss ./src/*.css > ./dist/utils-css.min.css
                         </code>
-                    </div><br>
+                    </pre>
                     <p>
                         After runngin this command, you will found the min.css in the dist folder.
                     </p>
@@ -80,13 +80,13 @@
             <section class="mt-30 mb-60">
                 <h2 class="title-section">More details ?</h2>
                 <div>
-                    <p>
+                    <p class="pb-30">
                         All the coding details are specifyed in the 
                         <span class="badge bg-notice">Doc</span> section.
                         If you want to see all CSS classes in action, follow the 
                         <span class="badge bg-success">Examples</span> link.
                     </p>
-                    <br>
+
                     <a href="doc/" class="btn btn-notice">Doc</a>
                     <a href="example.html" class="btn btn-success">Examples</a>
                 </div>
@@ -96,5 +96,8 @@
         <footer>
             
         </footer>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
     </body>
 </html>

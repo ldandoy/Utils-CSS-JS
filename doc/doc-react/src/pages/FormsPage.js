@@ -1,0 +1,132 @@
+import React from "react";
+import HighlightCode from "../components/HighlightCode";
+
+const FormsPage = () => {
+    return (
+        <div>
+            <section>
+                <h1 class="title-page">Forms</h1>
+            </section>
+            <p>
+                Implement nice looking <span class="badge bg-success">Forms</span> 
+                with the <span class="badge bg-success">Form Component</span>.
+            </p>
+            <section class="mtb-60">
+                <h2 id="forms" class="title-section">Example of form with border</h2>
+                <form class="form-bordered">
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <input type="text" value="" class="form-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <textarea class="form-textarea txt-purple-900">Test</textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn bg-purple-600 txt-white-100 hover:bg-purple-900 btn-rounded">Link</button>
+                    </div>
+                </form>
+
+                {/* Code */}
+                <h3>Code</h3>
+                <HighlightCode code={`<form class="form-bordered">
+    <div class="form-group">
+        <label for="" class="form-label">Label</label>
+        <input type="text" value="" class="form-input" />
+    </div>
+    <div class="form-group">
+        <label for="" class="form-label">Label</label>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="" class="form-label">Label</label>
+        <textarea class="form-textarea txt-purple-900">Test</textarea>
+    </div>
+    <div class="form-group">
+        <button class="btn bg-purple-600 txt-white-100 hover:bg-purple-900 btn-rounded">Link</button>
+    </div>
+</form>`} language="htmlbars" />
+                
+            </section>
+            <section class="mtb-60">
+                <h2 class="title-section">Example of form without border</h2>
+                <form class="form-no-bordered">
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <input type="text" value="" class="form-input" placeholder="Test sans bordure" />
+                        <div class="form-message">Explication du champs</div>
+                    </div>
+                    <div class="form-group form-group-error">
+                        <label for="" class="form-label">Label</label>
+                        <input type="text" value="" class="form-input" />
+                        <div class="form-message">Champs en erreur</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">Label</label>
+                        <textarea class="form-textarea">Test</textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn bg-purple-600 txt-white-100 hover:bg-purple-900">Link</button>
+                    </div>
+                </form>
+
+                {/* Code */}
+                <h3>Code</h3>
+                <HighlightCode code={`<form class="form-no-bordered">
+<div class="form-group">
+    <label for="" class="form-label">Label</label>
+    <input type="text" value="" class="form-input" placeholder="Test sans bordure" />
+    <div class="form-message">Explication du champs</div>
+</div>
+<div class="form-group form-group-error">
+    <label for="" class="form-label">Label</label>
+    <input type="text" value="" class="form-input" />
+    <div class="form-message">Champs en erreur</div>
+</div>
+<div class="form-group">
+    <label for="" class="form-label">Label</label>
+    <select class="form-select" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+    </select>
+</div>
+<div class="form-group">
+    <label for="" class="form-label">Label</label>
+    <textarea class="form-textarea">Test</textarea>
+</div>
+<div class="form-group">
+    <button class="btn bg-purple-600 txt-white-100 hover:bg-purple-900">Link</button>
+</div>
+</form>`} language="htmlbars" />
+                
+            </section>
+        </div>
+    );
+}
+
+export default FormsPage;
