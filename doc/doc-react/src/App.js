@@ -14,7 +14,12 @@ import CardsPage from "./pages/CardsPage";
 import TextsPage from "./pages/TextsPage";
 import FormsPage from "./pages/FormsPage";
 import ButtonsPage from "./pages/ButtonsPage";
-
+import ImagesPage from "./pages/ImagesPage";
+import TablesPage from "./pages/TablesPage";
+import BadgesPage from "./pages/BadgesPage";
+import AlertsPage from "./pages/AlertsPage";
+import ToastsPage from "./pages/ToastsPage";
+import ColorsPage from "./pages/ColorsPage";
 
 function App() {
 
@@ -27,10 +32,11 @@ function App() {
                   <Link class="navbar-link" to="/">Doc</Link>
                 </div>
                 <div class="navbar-content-menu">
-                    <ul class="navbar-menu-left"></ul>
+                    <ul class="navbar-menu-left">
+                    </ul>
                     <ul class="navbar-menu-right">
                         <li class="navbar-item">
-                          <Link class="navbar-link" to="/">Utils-CSS</Link>
+                          <a class="navbar-link" href="example.html" target="_blank">Examples</a>
                         </li>
                     </ul>
                 </div>
@@ -51,6 +57,24 @@ function App() {
                 <li class="navbar-item">
                   <Link to="/buttons">Buttons</Link>
                 </li>
+                <li class="navbar-item">
+                  <Link to="/images">Images</Link>
+                </li>
+                <li class="navbar-item">
+                  <Link to="/tables">Tables</Link>
+                </li>
+                <li class="navbar-item">
+                  <Link to="/badges">Badges</Link>
+                </li>
+                <li class="navbar-item">
+                  <Link to="/alerts">Alerts</Link>
+                </li>
+                <li class="navbar-item">
+                  <Link to="/toasts">Toasts</Link>
+                </li>
+                <li class="navbar-item">
+                  <Link to="/colors">Colors</Link>
+                </li>
             </ul>
         </div>
         <main class="container">
@@ -69,6 +93,24 @@ function App() {
             </Route>
             <Route path="/buttons">
               <ButtonsPage />
+            </Route>
+            <Route path="/images">
+              <ImagesPage />
+            </Route>
+            <Route path="/tables">
+              <TablesPage />
+            </Route>
+            <Route path="/badges">
+              <BadgesPage />
+            </Route>
+            <Route path="/alerts">
+              <AlertsPage />
+            </Route>
+            <Route path="/toasts">
+              <ToastsPage />
+            </Route>
+            <Route path="/colors">
+              <ColorsPage />
             </Route>
           </Switch>
         </main>
