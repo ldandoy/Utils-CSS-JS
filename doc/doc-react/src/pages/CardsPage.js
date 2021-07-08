@@ -46,6 +46,9 @@ const CardsPage= () => {
         Ea numquam aspernatur assumenda tenetur a autem, nihil 
         quo?
     </div>
+    <div class="card-footer txt-right">
+        <button class="btn btn-success">See More</button>
+    </div>
 </div>`} language="htmlbars"/>
                     </div>
                 </div>
