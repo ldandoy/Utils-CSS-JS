@@ -16,13 +16,18 @@
 .navbar.navbar-bordered-b {border-bottom: #c0C0C0 1px solid;}
 .navbar.navbar-bordered-r {border-right: #c0C0C0 1px solid;}
 
-.navbar .navbar-h {
+.navbar.navbar-h {
+    flex-direction: column;
+}
+
+.navbar.navbar-v {
     flex-direction: row;
 }
 
 .navbar .navbar-title {
     border: none;
     white-space: nowrap;
+    font-weight: bold;
 }
 
 .navbar .navbar-title .navbar-link {
@@ -42,12 +47,12 @@
     justify-content: center;
 }
 
-.navbar .navbar-h .navbar-menu {
-    flex-direction: row;
+.navbar.navbar-h .navbar-menu {
+    flex-direction: column;
 }
 
-.navbar .navbar-v .navbar-menu {
-    flex-direction: column;
+.navbar.navbar-v .navbar-menu {
+    flex-direction: row;
 }
 
 .navbar-content-menu {
@@ -65,4 +70,10 @@
 
 .navbar-link.active {
     font-weight: bolder;
+}
+
+.navbar.navbar-h .navbar-menu .navbar-item .navbar-link {
+    width: 100%;
+    display: block;
+    padding: .5rem;
 }

@@ -203,6 +203,10 @@
 .txt-italic { font-style: italic; }
 .txt-oblique { font-style: oblique; }
 
+.txt-uppercase { text-transform: uppercase; }
+.txt-lowercase { text-transform: lowercase; }
+.txt-capitalize { text-transform: capitalize; }
+
 .txt-underline { text-decoration: underline; }
 .txt-dashed { text-decoration: dashed; }
 .txt-dotted { text-decoration: dotted; }
