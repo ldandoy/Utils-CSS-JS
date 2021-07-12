@@ -59,9 +59,9 @@ $ uglifycss ./src/*.css > ./dist/utils-css.min.css`} language='bash' />
                     <Link tp="/" className="mr-10 btn btn-notice">
                         Doc
                     </Link>
-                    <Link to="/" className="mr-10 btn btn-success">
+                    <a href="https://overconsulting.tech/" target="_blank" className="mr-10 btn btn-success">
                         Examples
-                    </Link>
+                    </a>
                 </div>
             </section>
         </div>

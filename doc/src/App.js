@@ -29,10 +29,16 @@ function App() {
             {/* Top Nav */}
             <nav className="navbar navbar-v navbar-bordered-b bg-blue-800 txt-white-200 sticky-top">
                 <div className="navbar-title">
-                  <Link className="navbar-link" to="/">Doc</Link>
+                  <Link className="navbar-link" to="/">Utils CSS</Link>
                 </div>
                 <div className="navbar-content-menu">
                     <ul className="navbar-menu-left">
+                      <li className="navbar-item">
+                        <Link className="navbar-link" to="/">Doc</Link>
+                      </li>
+                      <li className="navbar-item">
+                        <a className="navbar-link" target="_blank" href="https://overconsulting.tech">Examples</a>
+                      </li>
                     </ul>
                     <ul className="navbar-menu-right">
                         <li className="navbar-item">
