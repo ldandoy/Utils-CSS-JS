@@ -1,3 +1,5 @@
 /dist/*
 /.vscode
-/doc/nodes_modules
+/doc/node_modules
+/doc/yarn.lock
+/doc/package-lock.json
