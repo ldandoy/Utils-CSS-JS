@@ -5,15 +5,15 @@ const TablesPage = () => {
     return (
         <div>
             <section>
-                <h1 class="title-page">Tables</h1>
+                <h1 className="title-page">Tables</h1>
             </section>
             <p>
-                You can easyly custom your <span class="badge bg-success">Tables</span> 
-                with the <span class="badge bg-success">Table Component</span>.
+                You can easyly custom your <span className="badge bg-success">Tables</span> 
+                with the <span className="badge bg-success">Table Component</span>.
             </p>
-            <section class="mtb-60">
-                <h2 id='tables' class="title-section">Example of tables without border</h2>
-                <table class="mb-30 table table-hover">
+            <section className="mtb-60">
+                <h2 id='tables' className="title-section">Example of tables without border</h2>
+                <table className="mb-30 table table-hover">
                     <thead>
                         <tr>
                             <th scope="col">#</th>
@@ -37,7 +37,7 @@ const TablesPage = () => {
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td colspan="2" class="table-active">Larry the Bird</td>
+                            <td colspan="2" className="table-active">Larry the Bird</td>
                             <td>@twitter</td>
                         </tr>
                     </tbody>
@@ -73,10 +73,10 @@ const TablesPage = () => {
     </tbody>
 </table>`} language="htmlbars" />
             </section>
-            <section class="mtb-60">
-                <h2 class="title-section">Example of tables with border</h2>
+            <section className="mtb-60">
+                <h2 className="title-section">Example of tables with border</h2>
 
-                <table class="mb-30 table table-bordered">
+                <table className="mb-30 table table-bordered">
                     <thead>
                         <tr>
                             <th scope="col">#</th>
@@ -100,7 +100,7 @@ const TablesPage = () => {
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td colspan="2" class="table-active">Larry the Bird</td>
+                            <td colspan="2" className="table-active">Larry the Bird</td>
                             <td>@twitter</td>
                         </tr>
                     </tbody>
@@ -137,10 +137,10 @@ const TablesPage = () => {
     </tbody>
 </table>`} language="htmlbars" />
             </section>
-            <section class="mtb-60">
-                <h2 class="title-section">Example of thin table</h2>
+            <section className="mtb-60">
+                <h2 className="title-section">Example of thin table</h2>
                 
-                <table class="mb-30 table table-sm table-header-drak table-hover">
+                <table className="mb-30 table table-sm table-header-drak table-hover">
                     <thead>
                         <tr>
                             <th scope="col">#</th>
@@ -164,7 +164,7 @@ const TablesPage = () => {
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td colspan="2" class="txt-center">Larry the Bird</td>
+                            <td colspan="2" className="txt-center">Larry the Bird</td>
                             <td>@twitter</td>
                         </tr>
                     </tbody>

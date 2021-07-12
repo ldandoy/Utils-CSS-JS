@@ -6,29 +6,29 @@ const CardsPage= () => {
     return(
         <div>
             <section>
-                <h1 class="title-page">Cards</h1>
+                <h1 className="title-page">Cards</h1>
             </section>
             <p>
-                The <span class="badge bg-success">Card Component</span> 
+                The <span className="badge bg-success">Card Component</span> 
                 is an easy way to display a card with a title, an image 
                 and some buttons.
             </p>
-            <section class="mt-30 mb-60">
-                <h2 class="title-section">Exemple of card component</h2>
-                <div class="mb-20 grid grid-cols-2 gap-8">
-                    <div class="card">
-                        <div class="card-image">
+            <section className="mt-30 mb-60">
+                <h2 className="title-section">Exemple of card component</h2>
+                <div className="mb-20 grid grid-cols-2 gap-8">
+                    <div className="card">
+                        <div className="card-image">
                             <img alt="" src="https://www.w3schools.com/w3images/team2.jpg" />
                         </div>
-                        <div class="card-title">Titre Card 1</div>
-                        <div class="card-body">Lorem ipsum dolor sit amet consectetur 
+                        <div className="card-title">Titre Card 1</div>
+                        <div className="card-body">Lorem ipsum dolor sit amet consectetur 
                             adipisicing elit. Ab provident aliquam eos hic dolor aut 
                             doloremque inventore sint. Quis, dignissimos recusandae! 
                             Ea numquam aspernatur assumenda tenetur a autem, nihil 
                             quo?
                         </div>
-                        <div class="card-footer txt-right">
-                            <button class="btn btn-success">See More</button>
+                        <div className="card-footer txt-right">
+                            <button className="btn btn-success">See More</button>
                         </div>
                     </div>
                     <div>
@@ -55,14 +55,14 @@ const CardsPage= () => {
 
 
             </section>
-            <section class="mtb-60">
-                <h2 class="title-section">Constructed cards exemple</h2>
-                <div class="mb-60 grid grid-cols-2 gap-8">
+            <section className="mtb-60">
+                <h2 className="title-section">Constructed cards exemple</h2>
+                <div className="mb-60 grid grid-cols-2 gap-8">
                     <div>
-                        <div class="bg-blue-100 rounded-top-l p-30 shadow-lg">
+                        <div className="bg-blue-100 rounded-top-l p-30 shadow-lg">
                             Test
                         </div>
-                        <div class="mb-20 bg-gray-800 txt-white-300 rounded-bottom-l p-30 shadow-lg">
+                        <div className="mb-20 bg-gray-800 txt-white-300 rounded-bottom-l p-30 shadow-lg">
                             Test
                         </div>
                     </div>
@@ -77,8 +77,8 @@ const CardsPage= () => {
                     </div>
                 </div>
 
-                <div class="mb-60 grid grid-cols-2 gap-8">
-                    <div class="card w-30">
+                <div className="mb-60 grid grid-cols-2 gap-8">
+                    <div className="card w-30">
                         test
                     </div>
                     <div>
@@ -88,9 +88,9 @@ const CardsPage= () => {
 </div>`} language="htmlbars" />
                     </div>
                 </div>
-                <div class="mb-60 grid grid-cols-2 gap-8">
-                    <div class="card w-30">
-                        <div class="card-title">Title test</div>
+                <div className="mb-60 grid grid-cols-2 gap-8">
+                    <div className="card w-30">
+                        <div className="card-title">Title test</div>
                     </div>
                     <div>
                         {/* Code */}
@@ -99,9 +99,9 @@ const CardsPage= () => {
 </div>`} language="htmlbars" />
                     </div>
                 </div>
-                <div class="mb-60 grid grid-cols-2 gap-8">
-                    <div class="card w-30">
-                        <div class="card-body">Content test</div>
+                <div className="mb-60 grid grid-cols-2 gap-8">
+                    <div className="card w-30">
+                        <div className="card-body">Content test</div>
                     </div>
                     <div>
                         {/* Code */}

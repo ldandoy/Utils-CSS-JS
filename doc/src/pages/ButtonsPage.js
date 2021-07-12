@@ -13,15 +13,15 @@ const ButtonsPage = () => {
     return (
         <div>
             <section>
-                <h1 class="title-page">Buttons</h1>
+                <h1 className="title-page">Buttons</h1>
             </section>
             <p>
-                Use a <span class="badge bg-success">Button</span> in keeping of the situation
-                with the <span class="badge bg-success">Button Component</span>.
+                Use a <span className="badge bg-success">Button</span> in keeping of the situation
+                with the <span className="badge bg-success">Button Component</span>.
             </p>
-            <section class="mtb-60">
-                <h2 id="buttons" class="title-section">Example of simple buttons</h2>
-                <div class="mb-30 grid grid-cols-7 gap-4">
+            <section className="mtb-60">
+                <h2 id="buttons" className="title-section">Example of simple buttons</h2>
+                <div className="mb-30 grid grid-cols-7 gap-4">
                     {colors.map(color => 
                         <button className={`btn btn-${color}`}>btn-{color}</button>
                         )}
@@ -37,9 +37,9 @@ const ButtonsPage = () => {
 <button class="btn btn-debug">btn-debug</button>`} language="htmlbars" />
             </section>
 
-            <section class="mtb-60">
-                <h2 id="buttons" class="title-section">Example of rounded buttons</h2>
-                <div class="mb-30 grid grid-cols-7 gap-4">
+            <section className="mtb-60">
+                <h2 id="buttons" className="title-section">Example of rounded buttons</h2>
+                <div className="mb-30 grid grid-cols-7 gap-4">
                     {colors.map(color => 
                         <button className={`btn btn-${color} btn-rounded`}>btn-{color}</button>
                         )}

@@ -13,16 +13,16 @@ const BadgesPage = () => {
     return (
         <div>
             <section>
-                <h1 class="title-page">Badges</h1>
+                <h1 className="title-page">Badges</h1>
             </section>
             <p>
-                Highlight words using the <span class="badge bg-success">Badge Component</span>.
+                Highlight words using the <span className="badge bg-success">Badge Component</span>.
             </p>
-            <section class="mtb-60">
-                <h2 id="badges" class="title-section">Example of badge</h2>
-                <div class="mb-30">
-                    <p>This is a sentence with a <span class="badge">badge</span>.</p>
-                    <p>And there you have a sentence with another <span class="badge bg-success">badge</span>.</p>
+            <section className="mtb-60">
+                <h2 id="badges" className="title-section">Example of badge</h2>
+                <div className="mb-30">
+                    <p>This is a sentence with a <span className="badge">badge</span>.</p>
+                    <p>And there you have a sentence with another <span className="badge bg-success">badge</span>.</p>
                 </div>
                 {/* Code */}
                 <h3>Code</h3>
@@ -33,7 +33,7 @@ const BadgesPage = () => {
                 <div class="mb-30 grid grid-cols-2">
                     <div>
                         {colors.map(color => 
-                            <p class="mb-10">Look at this <span className={`badge bg-${color}`}>{color}</span> badge.</p>
+                            <p className="mb-10">Look at this <span className={`badge bg-${color}`}>{color}</span> badge.</p>
                             )}
                     </div>
                     <div>

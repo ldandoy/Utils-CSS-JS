@@ -27,57 +27,63 @@ function App() {
     <Router>
       <header>
             {/* Top Nav */}
-            <nav class="navbar navbar-v navbar-bordered-b bg-blue-800 txt-white-200 sticky-top">
-                <div class="navbar-title">
-                  <Link class="navbar-link" to="/">Doc</Link>
+            <nav className="navbar navbar-v navbar-bordered-b bg-blue-800 txt-white-200 sticky-top">
+                <div className="navbar-title">
+                  <Link className="navbar-link" to="/">Doc</Link>
                 </div>
-                <div class="navbar-content-menu">
-                    <ul class="navbar-menu-left">
+                <div className="navbar-content-menu">
+                    <ul className="navbar-menu-left">
                     </ul>
-                    <ul class="navbar-menu-right">
-                        <li class="navbar-item">
-                          <a class="navbar-link" href="example.html" target="_blank">Examples</a>
+                    <ul className="navbar-menu-right">
+                        <li className="navbar-item">
+                          <a className="navbar-link" href="example.html" target="_blank">Examples</a>
                         </li>
                     </ul>
                 </div>
             </nav>
+            <div className="mt-50"></div>
         </header>
+        
         {/* Side Nav */}
-        <div class="navbar-content-menu mt-80">
-            <ul class="navbar-menu-left">
-                <li class="navbar-item">
-                  <Link to="/cards">Cards</Link>
-                </li>
-                <li class="navbar-item">
-                  <Link to="/texts">Texts</Link>
-                </li>
-                <li class="navbar-item">
-                  <Link to="/forms">Forms</Link>
-                </li>
-                <li class="navbar-item">
-                  <Link to="/buttons">Buttons</Link>
-                </li>
-                <li class="navbar-item">
-                  <Link to="/images">Images</Link>
-                </li>
-                <li class="navbar-item">
-                  <Link to="/tables">Tables</Link>
-                </li>
-                <li class="navbar-item">
-                  <Link to="/badges">Badges</Link>
-                </li>
-                <li class="navbar-item">
-                  <Link to="/alerts">Alerts</Link>
-                </li>
-                <li class="navbar-item">
-                  <Link to="/toasts">Toasts</Link>
-                </li>
-                <li class="navbar-item">
-                  <Link to="/colors">Colors</Link>
-                </li>
-            </ul>
-        </div>
-        <main class="container">
+        <aside className="aside aside-fixed bg-blue-300">
+            <nav className="navbar navbar-h">
+                <div className="navbar-title txt-uppercase">
+                </div>
+                <ul className="navbar-menu">
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/cards">Cards</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/texts">Texts</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/forms">Forms</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/buttons">Buttons</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/images">Images</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/tables">Tables</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/badges">Badges</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/alerts">Alerts</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/toasts">Toasts</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/colors">Colors</Link>
+                  </li>
+                </ul>
+            </nav>
+        </aside>
+        <main className="container-aside">
           <Switch>
             <Route path="/" exact>
               <GetStartedPage />

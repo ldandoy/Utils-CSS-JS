@@ -28,15 +28,15 @@ const ColorsPage = () => {
     return (
         <div>
             <section>
-                <h1 class="title-page">Colors</h1>
+                <h1 className="title-page">Colors</h1>
             </section>
-            <section class="mtb-60 ">
-                <h2 id="colors" class="title-section">Background color palettes</h2>
+            <section className="mtb-60 ">
+                <h2 id="colors" className="title-section">Background color palettes</h2>
                    {colors.map(color => 
                         <>
                             <h3 className="title-section">{color}</h3>
-                            <div class="mb-30 grid grid-cols-2 gap-4">
-                                <div class="flex">
+                            <div className="mb-30 grid grid-cols-2 gap-4">
+                                <div className="flex">
                                     <div className={`bg-${color}-100 ${classes.colorSquare}`}>100</div>
                                     <div className={`bg-${color}-200 ${classes.colorSquare}`}>200</div>
                                     <div className={`bg-${color}-300 ${classes.colorSquare}`}>300</div>
@@ -65,13 +65,13 @@ const ColorsPage = () => {
                         </>
                     )}
             </section>
-            <section class="mtb-60 ">
-                <h2 id="colors" class="title-section">Text color palettes</h2>
+            <section className="mtb-60 ">
+                <h2 id="colors" className="title-section">Text color palettes</h2>
                    {colors.map(color => 
                         <>
                             <h3 className="title-section">{color}</h3>
-                            <div class="mb-30 grid grid-cols-2 gap-4">
-                                <div class="flex">
+                            <div className="mb-30 grid grid-cols-2 gap-4">
+                                <div className="flex">
                                     <div className={`txt-${color}-100 ${classes.colorSquare}`}>100</div>
                                     <div className={`txt-${color}-200 ${classes.colorSquare}`}>200</div>
                                     <div className={`txt-${color}-300 ${classes.colorSquare}`}>300</div>
@@ -101,10 +101,10 @@ const ColorsPage = () => {
                     )}
             </section>
 
-            <section class="mtb-60">
-                <h2 class="title-section">Example of colors by trend</h2>
-                <h3 class="title-section">Default</h3>
-                <div class="mb-30 flex flex-row flex-jc-space-between">
+            <section className="mtb-60">
+                <h2 className="title-section">Example of colors by trend</h2>
+                <h3 className="title-section">Default</h3>
+                <div className="mb-30 flex flex-row flex-jc-space-between">
                     <div className={`bg-orange ${classes.colorSquare}`}>bg-orange</div>
                     <div className={`bg-blue-light ${classes.colorSquare}`}>bg-blue-light</div>
                     <div className={`bg-brown ${classes.colorSquare}`}>bg-brown</div>
@@ -116,7 +116,7 @@ const ColorsPage = () => {
                     <div className={`bg-purple ${classes.colorSquare}`}>bg-purple</div>
                     <div className={`bg-pink-dark ${classes.colorSquare}`}>bg-pink-dark</div>
                 </div>
-                <div class="flex flex-row flex-jc-space-between">
+                <div className="flex flex-row flex-jc-space-between">
                     <div className={`txt-orange ${classes.colorSquare}`}>txt-orange</div>
                     <div className={`txt-blue-light ${classes.colorSquare}`}>txt-blue-light</div>
                     <div className={`txt-brown ${classes.colorSquare}`}>txt-brown</div>
@@ -159,8 +159,8 @@ const ColorsPage = () => {
                     </div>
                 </div>
 
-                <h3 class="title-section">2021</h3>
-                <div class="mb-30 flex flex-row flex-jc-space-between">
+                <h3 className="title-section">2021</h3>
+                <div className="mb-30 flex flex-row flex-jc-space-between">
                     <div className={`bg-marigold ${classes.colorSquare}`}>bg-marigold</div>
                     <div className={`bg-cerulean ${classes.colorSquare}`}>bg-cerulean</div>
                     <div className={`bg-rust ${classes.colorSquare}`}>bg-rust</div>
@@ -172,7 +172,7 @@ const ColorsPage = () => {
                     <div className={`bg-amethyst-orchid ${classes.colorSquare}`}>bg-amethyst-orchid</div>
                     <div className={`bg-raspberry-sorbet ${classes.colorSquare}`}>bg-raspberry-sorbet</div>
                 </div>
-                <div class="flex flex-row flex-jc-space-between">
+                <div className="flex flex-row flex-jc-space-between">
                     <div className={`txt-marigold ${classes.colorSquare}`}>txt-marigold</div>
                     <div className={`txt-cerulean ${classes.colorSquare}`}>txt-cerulean</div>
                     <div className={`txt-rust ${classes.colorSquare}`}>txt-rust</div>
@@ -215,8 +215,8 @@ const ColorsPage = () => {
                     </div>
                 </div> 
 
-                <h3 class="title-section">2020</h3>
-                <div class="mb-30 flex flex-row flex-jc-space-between">
+                <h3 className="title-section">2020</h3>
+                <div className="mb-30 flex flex-row flex-jc-space-between">
                     <div className={`bg-flame-scarlet ${classes.colorSquare}`}>bg-flame-scarlet</div>
                     <div className={`bg-saffron ${classes.colorSquare}`}>bg-saffron</div>
                     <div className={`bg-biscay-green ${classes.colorSquare}`}>bg-biscay-green</div>
@@ -233,7 +233,7 @@ const ColorsPage = () => {
                     <div className={`bg-brilliant-white ${classes.colorSquare}`}>bg-brilliant-white</div>
                     <div className={`bg-ash ${classes.colorSquare}`}>bg-ash</div>
                 </div>
-                <div class="flex flex-row flex-jc-space-between">
+                <div className="flex flex-row flex-jc-space-between">
                     <div className={`txt-flame-scarlet ${classes.colorSquare}`}>txt-flame-scarlet</div>
                     <div className={`txt-saffron ${classes.colorSquare}`}>txt-saffron</div>
                     <div className={`txt-biscay-green ${classes.colorSquare}`}>txt-biscay-green</div>
@@ -291,8 +291,8 @@ const ColorsPage = () => {
                     </div> 
                 </div>
 
-                <h3 class="title-section">2019</h3>
-                <div class="mb-30 flex flex-row flex-jc-space-between">
+                <h3 className="title-section">2019</h3>
+                <div className="mb-30 flex flex-row flex-jc-space-between">
                     <div className={`bg-fiesta ${classes.colorSquare}`}>bg-fiesta</div>
                     <div className={`bg-jester-red ${classes.colorSquare}`}>bg-jester-red</div>
                     <div className={`bg-turmeric ${classes.colorSquare}`}>bg-turmeric</div>
@@ -309,7 +309,7 @@ const ColorsPage = () => {
                     <div className={`bg-eclipse ${classes.colorSquare}`}>bg-eclipse</div>
                     <div className={`bg-sweet-corn ${classes.colorSquare}`}>bg-sweet-corn</div>
                 </div>
-                <div class="flex flex-row flex-jc-space-between">
+                <div className="flex flex-row flex-jc-space-between">
                     <div className={`txt-fiesta ${classes.colorSquare}`}>txt-fiesta</div>
                     <div className={`txt-jester-red ${classes.colorSquare}`}>txt-jester-red</div>
                     <div className={`txt-turmeric ${classes.colorSquare}`}>txt-turmeric</div>
