@@ -7,8 +7,6 @@ import {
   Link
 } from "react-router-dom";
 
-import "./dist/utils-css.min.css";
-
 import GetStartedPage from "./pages/GetStartedPage";
 import CardsPage from "./pages/CardsPage";
 import TextsPage from "./pages/TextsPage";
@@ -37,7 +35,7 @@ function App() {
                         <Link className="navbar-link" to="/">Doc</Link>
                       </li>
                       <li className="navbar-item">
-                        <a className="navbar-link" target="_blank" href="https://overconsulting.tech">Examples</a>
+                        <a className="navbar-link" target="_blank" rel="noreferrer" href="https://overconsulting.tech">Examples</a>
                       </li>
                     </ul>
                     <ul className="navbar-menu-right">
@@ -47,7 +45,6 @@ function App() {
                     </ul>
                 </div>
             </nav>
-            <div className="mt-50"></div>
         </header>
         
         {/* Side Nav */}
@@ -89,6 +86,7 @@ function App() {
                 </ul>
             </nav>
         </aside>
+        
         <main className="container-aside">
           <Switch>
             <Route path="/" exact>
