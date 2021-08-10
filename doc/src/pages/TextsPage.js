@@ -15,7 +15,7 @@ const TextsPage= () => {
             <section className="mtb-60">
                 <h2 id="texts" className="title-section">Examples of text effects</h2>
                 <div className="txt-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab <span className="txt-green-1000">provident aliquam</span> eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
-                    Lorem ipsum dolor sit amet <span className="txt-yellow-1000">consectetur adipisicing elit</span>. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
+                    Lorem ipsum dolor sit amet <span className="txt-yellow-500">consectetur adipisicing elit</span>. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
                 </div>
                 <div className="txt-justify mt-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab <span className="txt-overline">provident aliquam</span> eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
@@ -30,7 +30,7 @@ const TextsPage= () => {
                 {/* Code */}
                 <h3>Code</h3>
                 <HighlightCode code={`<div class="txt-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab <span class="txt-green-1000">provident aliquam</span> eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
-    Lorem ipsum dolor sit amet <span class="txt-yellow-1000">consectetur adipisicing elit</span>. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
+    Lorem ipsum dolor sit amet <span class="txt-yellow-500">consectetur adipisicing elit</span>. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
 </div>
 <div class="txt-justify mt-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab <span class="txt-overline">provident aliquam</span> eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?

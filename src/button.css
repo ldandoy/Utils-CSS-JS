@@ -81,7 +81,3 @@
     background: var(--overconsulting-blue-color);
     color: var(--light-color)
 }
-
-.btn.btn-light:hover {
-    background-color: var(--overconsulting-blue-dark-color);
-}
