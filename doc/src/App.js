@@ -18,6 +18,7 @@ import BadgesPage from "./pages/BadgesPage";
 import AlertsPage from "./pages/AlertsPage";
 import ToastsPage from "./pages/ToastsPage";
 import ColorsPage from "./pages/ColorsPage";
+import ExamplePage from "./pages/ExamplePage";
 
 function App() {
 
@@ -83,6 +84,9 @@ function App() {
                   <li className="navbar-item">
                     <Link className="navbar-link" to="/colors">Colors</Link>
                   </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/examples">Examples</Link>
+                  </li>
                 </ul>
             </nav>
         </aside>
@@ -121,6 +125,9 @@ function App() {
             </Route>
             <Route path="/colors">
               <ColorsPage />
+            </Route>
+            <Route path="/examples">
+              <ExamplePage />
             </Route>
           </Switch>
         </main>
