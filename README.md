@@ -18,12 +18,12 @@ Add those line in your html page:
 
 The "example" folder contains the index.html file. Open it in your favorite browser, to show all the CSS and JS in action.
 
-Or you can go on: https://overconsulting.tech to see it online.
+Or you can go on: [overconsulting.tech](https://overconsulting.tech){:target="_blank"} to see it online.
 
 
 ## The documentation
 
-available on https://overconsulting.tech
+available on [overconsulting.tech](https://overconsulting.tech){:target="_blank"}
 
 
 ## Developpement
