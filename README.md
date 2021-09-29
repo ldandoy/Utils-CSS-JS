@@ -16,14 +16,12 @@ Add those line in your html page:
 
 ## To see how it works
 
-The "example" folder contains the index.html file. Open it in your favorite browser, to show all the CSS and JS in action.
-
-Or you can go on: [overconsulting.tech](https://overconsulting.tech) to see it online.
+Available on: [overconsulting.tech](https://overconsulting.tech) to see it online.
 
 
 ## The documentation
 
-available on [overconsulting.tech](https://overconsulting.tech)
+Available on [overconsulting.tech](https://overconsulting.tech)
 
 
 ## Developpement
