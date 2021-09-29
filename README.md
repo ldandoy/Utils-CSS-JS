@@ -37,7 +37,7 @@ $ npm install uglify-js -g
 To generate the min.css files from the multiple css files.
 
 ```bash
-$ git clone https://github.com/ldandoy/Utils-CSS.git
+$ git clone https://github.com/ldandoy/Utils-CSS-JS.git
 $ cd Utils-CSS
 $ uglifycss ./src/css/*.css > ./dist/utils-css-js.min.css
 $ uglifyjs ./src/js/*.js > ./dist/utils-css-js.min.js
