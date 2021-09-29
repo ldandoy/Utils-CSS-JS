@@ -1,13 +1,12 @@
-# Utils-CSS
+# Utils-CSS-JS
 
-## What is Utils-CSS
+## What is Utils-CSS-JS
 
-It's a CSS Library, inspired by Bootstrap and TailwindCSS. There is NO JS in this library, all is done with CSS.
+It's a CSS Library, inspired by Bootstrap and TailwindCSS
 
 
 ## How to use it ?
 
-Just clone the repository and copy the utils-css.min.css file from the dist directory, and copy it on your CSS folder.
 Add it in the head part of your html page
 
 <link href="https://overconsulting.tech/utils-css-js.min.css" rel="stylesheet" />
@@ -23,10 +22,11 @@ Or you can go on: https://overconsulting.tech to see it in action. For the momen
 
 ## Developpement
 
-Installation of the tools to generate the min.css file. I used uglifycss and I installed it with npm.
+Installation of the tools to generate the minified file. I used uglifycss and . You can installe it with npm.
 
 ```bash
 $ npm install uglifycss -g
+$ npm install uglify-js -g
 ```
 To generate the min.css files from the multiple css files.
 
@@ -34,9 +34,9 @@ To generate the min.css files from the multiple css files.
 $ git clone https://github.com/ldandoy/Utils-CSS.git
 $ cd Utils-CSS
 $ uglifycss ./src/css/*.css > ./dist/utils-css-js.min.css
-$ uglifycss ./src/js/*.js > ./dist/utils-css-js.min.js
+$ uglifyjs ./src/js/*.js > ./dist/utils-css-js.min.js
 ```
-After runngin this commandn, you will found the min.css in the dist folder.
+After runngin this commandn, you will found the min.css and min.js in the dist folder.
 
 ## The Road MAP
 
@@ -46,3 +46,4 @@ x Render active link for the navbar
 - Add hover for the navbar
 - Responsive de la navbar
 - Responsive global
+- Modify the doc to be React compatible
