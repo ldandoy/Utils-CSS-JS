@@ -18,7 +18,14 @@ import BadgesPage from "./pages/BadgesPage";
 import AlertsPage from "./pages/AlertsPage";
 import ToastsPage from "./pages/ToastsPage";
 import ColorsPage from "./pages/ColorsPage";
-import ExamplePage from "./pages/ExamplePage";
+import SpacingPage from "./pages/SpacingPage";
+import FlexPage from "./pages/FlexPage";
+import GridPage from "./pages/GridPage";
+import ShadowPage from "./pages/ShadowPage";
+import StructurePage from "./pages/StructurePage";
+import NavbarPage from "./pages/NavbarPage";
+import OpacityPage from "./pages/OpacityPage";
+import PointerPage from "./pages/PointerPage";
 
 function App() {
 
@@ -35,11 +42,11 @@ function App() {
                       <li className="navbar-item">
                         <Link className="navbar-link" to="/">Doc</Link>
                       </li>
-                      <li className="navbar-item">
-                        <a className="navbar-link" target="_blank" rel="noreferrer" href="https://overconsulting.tech">Examples</a>
-                      </li>
                     </ul>
                     <ul className="navbar-menu-right">
+                        <li className="navbar-item">
+                          <a className="navbar-link" href="https://github.com/ldandoy/Utils-CSS-JS" target="_blank">Repos GitHub</a>
+                        </li>
                         <li className="navbar-item">
                           <a className="navbar-link" href="example.html" target="_blank">Examples</a>
                         </li>
@@ -52,42 +59,64 @@ function App() {
         <aside className="aside aside-fixed bg-blue-300">
             <nav className="navbar navbar-h">
                 <div className="navbar-title txt-uppercase">
+                  CSS
                 </div>
                 <ul className="navbar-menu">
                   <li className="navbar-item">
-                    <Link className="navbar-link" to="/cards">Cards</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/texts">Texts</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/forms">Forms</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/buttons">Buttons</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/images">Images</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/tables">Tables</Link>
+                    <Link className="navbar-link" to="/alerts">Alerts</Link>
                   </li>
                   <li className="navbar-item">
                     <Link className="navbar-link" to="/badges">Badges</Link>
                   </li>
                   <li className="navbar-item">
-                    <Link className="navbar-link" to="/alerts">Alerts</Link>
+                    <Link className="navbar-link" to="/buttons">Buttons</Link>
                   </li>
                   <li className="navbar-item">
-                    <Link className="navbar-link" to="/toasts">Toasts</Link>
+                    <Link className="navbar-link" to="/cards">Cards</Link>
                   </li>
                   <li className="navbar-item">
                     <Link className="navbar-link" to="/colors">Colors</Link>
                   </li>
                   <li className="navbar-item">
-                    <Link className="navbar-link" to="/examples">Examples</Link>
+                    <Link className="navbar-link" to="/flex">Flex box</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/forms">Forms</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/grid">Grid</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/images">Images</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/navbar">Navbar</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/opacity">Opacity</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/pointer">Pointer</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/spacing">Spacing</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/structure">Structure</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/tables">Tables</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/texts">Texts</Link>
+                  </li>
+                  <li className="navbar-item">
+                    <Link className="navbar-link" to="/toasts">Toasts</Link>
                   </li>
                 </ul>
+                <div className="navbar-title txt-uppercase">
+                  JS
+                </div>
             </nav>
         </aside>
         
@@ -126,8 +155,29 @@ function App() {
             <Route path="/colors">
               <ColorsPage />
             </Route>
-            <Route path="/examples">
-              <ExamplePage />
+            <Route path="/spacing">
+              <SpacingPage />
+            </Route>
+            <Route path="/structure">
+              <StructurePage />
+            </Route>
+            <Route path="/shadow">
+              <ShadowPage />
+            </Route>
+            <Route path="/grid">
+              <GridPage />
+            </Route>
+            <Route path="/flex">
+              <FlexPage />
+            </Route>
+            <Route path="/opacity">
+              <OpacityPage />
+            </Route>
+            <Route path="/navbar">
+              <NavbarPage />
+            </Route>
+            <Route path="/pointer">
+              <PointerPage />
             </Route>
           </Switch>
         </main>

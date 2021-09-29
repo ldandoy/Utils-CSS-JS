@@ -7,25 +7,13 @@ const GetStartedPage= () => {
     return(
         <div>
             <section>
-                <h1 className="title-page">Utils CSS documentation</h1>
+                <h1 className="title-page">Utils CSS JS documentation</h1>
             </section>
             <section className="mt-30 mb-60">
-                <h2 className="title-section">What is Utils-CSS</h2>
+                <h2 className="title-section">What is Utils-CSS-JS</h2>
                 <div>
                     <p>
-                        It's a <span className="badge bg-success">CSS Library</span>, 
-                        inspired by Bootstrap and TailwindCSS. There is <span className="badge bg-success">no JS</span> in this library, 
-                        all is done with CSS.
-                    </p>
-                </div>
-            </section>
-            <section className="mt-30 mb-60">
-                <h2 className="title-section">How to use it ?</h2>
-                <div>
-                    <p>
-                        Just clone the repository and copy the  <span className="badge bg-success">
-                        utils-css.min.css</span> file from the dist directory, 
-                        and copy it on your CSS folder. Add it in the head part of your html page
+                        It's a CSS and JS Library, inspired by Bootstrap and TailwindCSS
                     </p>
                 </div>
             </section>
@@ -33,19 +21,20 @@ const GetStartedPage= () => {
                 <h2 className="title-section">Developpement</h2>
                 <div>
                     <p>
-                        Installation of the tools to generate the min.css file. 
-                        I used uglifycss and I installed it with npm.
+                    Installation of the tools to generate the minified file. I used uglifycss and uglifyjs. You can installe it with npm.
                     </p>
                     <HighlightCode code={`$ npm install uglifycss -g`} language='bash' />
+                    <HighlightCode code={`$ npm install uglifyjs -g`} language='bash' />
                     <p>
                         To generate the min.css file from the multiple css files.
                     </p>
                     <HighlightCode code={`$ git clone https://github.com/ldandoy/Utils-CSS.git
 $ cd Utils-CSS
 $ mkdir dist
-$ uglifycss ./src/*.css > ./dist/utils-css.min.css`} language='bash' />
+$ uglifycss ./src/css/*.css > ./dist/utils-css-js.min.css
+$ uglifyjs ./src/js/*.js > ./dist/utils-css-js.min.js`} language='bash' />
                     <p>
-                        After running this command, you will found the min.css in the dist folder.
+                        After running this command, you will found the min.css and min.js in the dist folder.
                     </p>
                 </div>
             </section>
@@ -59,7 +48,7 @@ $ uglifycss ./src/*.css > ./dist/utils-css.min.css`} language='bash' />
                     <Link tp="/" className="mr-10 btn btn-notice">
                         Doc
                     </Link>
-                    <a href="https://overconsulting.tech/" target="_blank" rel="noreferrer" className="mr-10 btn btn-success">
+                    <a href="example.html" target="_blank" rel="noreferrer" className="mr-10 btn btn-success">
                         Examples
                     </a>
                 </div>

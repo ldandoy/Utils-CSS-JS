@@ -19,17 +19,24 @@ const BadgesPage = () => {
                 Highlight words using the <span className="badge bg-success">Badge Component</span>.
             </p>
             <section className="mtb-60">
-                <h2 id="badges" className="title-section">Example of badge</h2>
-                <div className="mb-30">
-                    <p>This is a sentence with a <span className="badge">badge</span>.</p>
-                    <p>And there you have a sentence with another <span className="badge bg-success">badge</span>.</p>
+                <div className="mb-20 grid grid-cols-2 gap-8">
+                    <div>
+                        <h2 id="badges" className="title-section">Example of badge</h2>
+                        <div className="mb-30">
+                            <p>This is a sentence with a <span className="badge">badge</span>.</p>
+                            <p>You have a <span class="badge bg-success">sentence</span>.</p>
+                        </div>
+                    </div>
+                    {/* Code */}
+                    <div>
+                        <h2 className="title-section">Code</h2>
+                        <HighlightCode code={`<p>This is a sentence with a <span class="badge">badge</span>.</p>
+<p>You have a <span class="badge bg-success">sentence</span>.</p>`} language="htmlbars" />
+                    </div>
                 </div>
-                {/* Code */}
-                <h3>Code</h3>
-                <HighlightCode code={`<p>This is a sentence with a <span class="badge">badge</span>.</p>
-<p>And there you have a sentence with another <span class="badge bg-success">badge</span>.</p>`} language="htmlbars" />
             </section>
             <section class="mtb-60">
+                <h2 className="title-section">More examples</h2>
                 <div class="mb-30 grid grid-cols-2">
                     <div>
                         {colors.map(color => 
