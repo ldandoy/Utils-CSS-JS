@@ -7,7 +7,7 @@ It's a CSS and JS Library, inspired by Bootstrap and TailwindCSS
 
 ## How to use it ?
 
-Add it in the head part of your html page:
+Add those line in your html page:
 
 ```html
 <link href="https://overconsulting.tech/utils-css-js.min.css" rel="stylesheet" />
@@ -16,9 +16,14 @@ Add it in the head part of your html page:
 
 ## To see how it works
 
-The "example" folder contains the index.html file. Open it in your favorite browser, to show all the CSS and JS class in action.
+The "example" folder contains the index.html file. Open it in your favorite browser, to show all the CSS and JS in action.
 
-Or you can go on: https://overconsulting.tech to see it in action. For the moment, it's just example, you 
+Or you can go on: https://overconsulting.tech to see it online.
+
+
+## The documentation
+
+available on https://overconsulting.tech
 
 
 ## Developpement
