@@ -2,16 +2,17 @@
 
 ## What is Utils-CSS-JS
 
-It's a CSS Library, inspired by Bootstrap and TailwindCSS
+It's a CSS and JS Library, inspired by Bootstrap and TailwindCSS
 
 
 ## How to use it ?
 
-Add it in the head part of your html page
+Add it in the head part of your html page:
 
+```html
 <link href="https://overconsulting.tech/utils-css-js.min.css" rel="stylesheet" />
 <script type="javascript" href="https://overconsulting.tech/utils-css-js.min.js"></script>
-
+```
 
 ## To see how it works
 
