@@ -28,7 +28,7 @@ available on https://overconsulting.tech
 
 ## Developpement
 
-Installation of the tools to generate the minified file. I used uglifycss and . You can installe it with npm.
+Installation of the tools to generate the minified file. I used uglifycss and uglifyjs. You can installe it with npm.
 
 ```bash
 $ npm install uglifycss -g
