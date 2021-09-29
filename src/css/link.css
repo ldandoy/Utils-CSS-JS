@@ -1,0 +1,7 @@
+a {
+    text-decoration: none;
+}
+
+a:focus, a:focus-visible, a:hover, a:visited, a:active {
+    border: none;
+}

@@ -1,0 +1,44 @@
+.rounded-none { border-radius:0; }
+.rounded { border-radius:.25rem; }
+.rounded-sm { border-radius:.125rem; }
+.rounded-md { border-radius:.375rem; }
+.rounded-lg { border-radius:.5rem; }
+.rounded-l { border-radius:.75rem; }
+.rounded-xl { border-radius:1rem; }
+
+.rounded-top { border-top-left-radius:.25rem; border-top-right-radius:.25rem; }
+.rounded-bottom { border-bottom-left-radius:.25rem; border-bottom-right-radius:.25rem; }
+
+.rounded-top-sm { border-top-left-radius:.125rem; border-top-right-radius:.125rem; }
+.rounded-bottom-sm { border-bottom-left-radius:.125rem; border-bottom-right-radius:.125rem; }
+
+.rounded-top-md { border-top-left-radius:.375rem; border-top-right-radius:.375rem; }
+.rounded-bottom-md { border-bottom-left-radius:.375rem; border-bottom-right-radius:.375rem; }
+
+.rounded-top-lg { border-top-left-radius:.5rem; border-top-right-radius:.5rem; }
+.rounded-bottom-lg { border-bottom-left-radius:.5rem; border-bottom-right-radius:.5rem; }
+
+.rounded-top-l { border-top-left-radius:.75rem; border-top-right-radius:.75rem; }
+.rounded-bottom-l { border-bottom-left-radius:.75rem; border-bottom-right-radius:.75rem; }
+
+.rounded-top-xl { border-top-left-radius:.1rem; border-top-right-radius:.1rem; }
+.rounded-bottom-xl { border-bottom-left-radius:.1rem; border-bottom-right-radius:.1rem; }
+
+.border-solid { border-style: solid; }
+.border-dashed { border-style: dashed; }
+.border-dotted { border-style: dotted; }
+.border-double { border-style: double; }
+.border-none { border-style: none; }
+
+/* border */
+.borderSilver {border: 1px solid var(--silver-color);}
+.borderRightSilver {border-right: 1px solid var(--silver-color);}
+.borderLeftSilver {border-left: 1px solid var(--silver-color);}
+.borderBottomSilver {border-bottom: 1px solid var(--silver-color);}
+.borderTopSilver {border-bottom: 1px solid var(--silver-color);}
+
+.borderRed {border: 1px solid var(--red-color);}
+.borderRightRed {border-right: 1px solid var(--red-color);}
+.borderLeftRed {border-left: 1px solid var(--red-color);}
+.borderBottomRed {border-bottom: 1px solid var(--red-color);}
+.borderTopRed {border-bottom: 1px solid var(--red-color);}
