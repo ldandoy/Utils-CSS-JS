@@ -113,6 +113,7 @@
   
     /* Color for button */
     --light-color: #fff;
+    --black-color: #000;
     --dark-color: #2b2b2b;
     --error-color: #b4372e;
     --warning-color: #EF6800;

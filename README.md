@@ -47,7 +47,7 @@ After runngin this commandn, you will found the min.css and min.js in the dist f
 - [ ] Add the disabled for the button and other fields
 - [x] Add the different pointer
 - [x] Render active link for the navbar
-- [ ] Add hover for the navbar
-- [ ] Responsive de la navbar
+- [X] Add hover for the navbar
+- [X] Responsive de la navbar
 - [ ] Responsive global
 - [ ] Modify the doc to be React compatible

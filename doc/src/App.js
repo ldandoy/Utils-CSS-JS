@@ -45,7 +45,7 @@ function App() {
                     </ul>
                     <ul className="navbar-menu-right">
                         <li className="navbar-item">
-                          <a className="navbar-link" href="https://github.com/ldandoy/Utils-CSS-JS" target="_blank">Repos GitHub</a>
+                          <a className="navbar-link" rel="noreferrer" href="https://github.com/ldandoy/Utils-CSS-JS" target="_blank">Repos GitHub</a>
                         </li>
                         <li className="navbar-item">
                           <a className="navbar-link" href="example.html" target="_blank">Examples</a>

@@ -24,7 +24,7 @@ const GetStartedPage= () => {
                     Installation of the tools to generate the minified file. I used uglifycss and uglifyjs. You can installe it with npm.
                     </p>
                     <HighlightCode code={`$ npm install uglifycss -g`} language='bash' />
-                    <HighlightCode code={`$ npm install uglifyjs -g`} language='bash' />
+                    <HighlightCode code={`$ npm install uglify-js -g`} language='bash' />
                     <p>
                         To generate the min.css file from the multiple css files.
                     </p>
