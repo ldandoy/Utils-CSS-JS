@@ -16,52 +16,56 @@ const AlertsPage = () => {
                     <div>
                     <h2 id="alerts" className="title-section">Example of alert messages</h2>
                         <div className="alert alert-light">
-                            Little news !
+                            Alert light !
                         </div>
                         <div className="alert alert-dark">
-                            Little news !
+                            Alert dark !
                         </div>
                         <div className="alert alert-error">
-                            Little news !
+                            Alert Error !
                         </div>
                         <div className="alert alert-warning">
-                            Little news !
+                            Alert warning !
                         </div>
                         <div className="alert alert-success">
-                            Little news !
+                            Alert success !
                         </div>
                         <div className="alert alert-notice">
-                            Little news !
+                            Alert notice !
                         </div>
                         <div className="mb-30 alert alert-debug">
-                            Little news !
+                            Alert debug !
                         </div>
                     </div>
                 
                 <div>
                     <h2 className="title-section">Code</h2>
-                    <HighlightCode code={`<div class="alert alert-dark">
-    Little news !
+                    <HighlightCode code={`<div class="alert alert-light">
+    Alert light !
+</div>
+
+<div class="alert alert-dark">
+    Alert dark !
 </div>
 
 <div class="alert alert-error">
-    Little news !
+    Alert error !
 </div>
 
 <div class="alert alert-warning">
-    Little news !
+    Alert warning !
 </div>
 
 <div class="alert alert-success">
-    Little news !
+    Alert success !
 </div>
 
 <div class="alert alert-notice">
-    Little news !
+    Alert notice !
 </div>
 
 <div class="alert alert-debug">
-    Little news !
+    Alert debug !
 </div>`} language='htmlbars' />
     </div>
     </div>

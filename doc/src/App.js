@@ -33,7 +33,7 @@ function App() {
     <Router>
       <header>
             {/* Top Nav */}
-            <nav className="navbar navbar-v navbar-bordered-b bg-blue-800 txt-white-200 sticky-top">
+            <nav className="navbar navbar-v navbar-bordered-b bg-blue-800 navbar-dark sticky-top">
                 <div className="navbar-title">
                   <Link className="navbar-link" to="/">Utils CSS</Link>
                 </div>

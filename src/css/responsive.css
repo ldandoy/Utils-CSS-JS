@@ -31,7 +31,7 @@
     .grid.grid-cols-10 {grid-template-columns: repeat(2, minmax(0, 1fr));}
 }
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 650px)
 {
     /* Grid */
     .grid.grid-cols-2 {grid-template-columns: repeat(1, minmax(0, 1fr));}
@@ -43,6 +43,11 @@
     .grid.grid-cols-8 {grid-template-columns: repeat(1, minmax(0, 1fr));}
     .grid.grid-cols-9 {grid-template-columns: repeat(1, minmax(0, 1fr));}
     .grid.grid-cols-10 {grid-template-columns: repeat(1, minmax(0, 1fr));}
+
+    /* Container */
+    .container {
+        width: 85% !important;
+    }
 
     /* Navbar */
     .navbar .navbar-menu-icon {
