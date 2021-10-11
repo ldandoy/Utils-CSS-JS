@@ -44,6 +44,11 @@
     .grid.grid-cols-9 {grid-template-columns: repeat(1, minmax(0, 1fr));}
     .grid.grid-cols-10 {grid-template-columns: repeat(1, minmax(0, 1fr));}
 
+    /* flexbox */
+    .flex {
+        flex-direction: column;
+    }
+
     /* Container */
     .container {
         width: 85% !important;
