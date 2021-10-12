@@ -4,7 +4,6 @@
 
 It's a CSS and JS Library, inspired by Bootstrap and TailwindCSS
 
-
 ## How to use it ?
 
 Add those line in your html page:
@@ -18,11 +17,9 @@ Add those line in your html page:
 
 Available on: [overconsulting.tech](https://overconsulting.tech) to see it online.
 
-
 ## The documentation
 
 Available on [overconsulting.tech](https://overconsulting.tech)
-
 
 ## Developpement
 
@@ -37,17 +34,22 @@ To generate the min.css files from the multiple css files.
 ```bash
 $ git clone https://github.com/ldandoy/Utils-CSS-JS.git
 $ cd Utils-CSS
-$ uglifycss ./src/css/*.css > ./dist/utils-css-js.min.css
-$ uglifyjs ./src/js/*.js > ./dist/utils-css-js.min.js
+$ uglifycss ./src/css/*.css > ./dist/utils.min.css
+$ uglifyjs ./src/js/*.js > ./dist/utils.min.js
 ```
 After runngin this commandn, you will found the min.css and min.js in the dist folder.
 
 ## The Road MAP
 
-- [ ] Add the disabled for the button and other fields
+- [x] Add the disabled for the button
 - [x] Add the different pointer
 - [x] Render active link for the navbar
 - [X] Add hover for the navbar
 - [X] Responsive de la navbar
-- [ ] Responsive global
+- [ ] Add Js part
+- [X] Responsive global
 - [ ] Modify the doc to be React compatible
+- [X] Add outlined to the button
+- [X] Add size to the button
+- [ ] Add a grid with quarter, half and tiers
+- [ ] Add disabled for all the form field
