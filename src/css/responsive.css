@@ -16,6 +16,11 @@
     .grid.grid-cols-8 {grid-template-columns: repeat(4, minmax(0, 1fr));}
     .grid.grid-cols-9 {grid-template-columns: repeat(4, minmax(0, 1fr));}
     .grid.grid-cols-10 {grid-template-columns: repeat(4, minmax(0, 1fr));}
+
+    /* Aside */
+    aside .navbar-title, .aside .navbar-title {
+        font-size: 1.2rem !important;
+    }
 }
 
 @media screen and (max-width: 900px)
@@ -29,6 +34,26 @@
     .grid.grid-cols-8 {grid-template-columns: repeat(2, minmax(0, 1fr));}
     .grid.grid-cols-9 {grid-template-columns: repeat(2, minmax(0, 1fr));}
     .grid.grid-cols-10 {grid-template-columns: repeat(2, minmax(0, 1fr));}
+
+    /* Structure */
+    .row.row-quarter {
+        flex-direction: column;
+    }
+
+    .row.row-quarter .col {
+        width: 100% !important;
+    }
+
+    /* Aside */
+    aside .navbar-title, .aside .navbar-title {
+        font-size: 1rem !important;
+    }
+
+    /* Menu */
+    .menu-titre, .menu-link {
+        padding: .5rem !important;
+        font-size: 1rem !important;
+    }
 }
 
 @media screen and (max-width: 650px)
@@ -49,9 +74,34 @@
         flex-direction: column;
     }
 
-    /* Container */
+    /* Structure */
     .container {
         width: 85% !important;
+    }
+
+    .container-aside {
+        width: 100% !important;
+        margin: 0 !important;
+        float: none !important;
+    }
+
+    aside, .aside { 
+        width: 100% !important;
+        float: none !important;
+        min-height: auto !important;
+        height: auto !important;
+    }
+
+    aside nav, .aside nav { 
+        display: flex;
+    }
+
+    .row.row-half, .row.row-tiers, .row.row-quarter {
+        flex-direction: column;
+    }
+
+    .row .col {
+        width: 100% !important;
     }
 
     /* Navbar */

@@ -8,6 +8,10 @@
     width: 30%;
 }
 
+.toast.toast-rounded {
+    border-radius: .5rem;
+}
+
 .toast-top-left { position: fixed; top: 0; left: 10px; z-index: 1000; }
 .toast-top-right { position: fixed; top: 0; right: 10px; z-index: 1000; }
 .toast-bottom-left { position: fixed; bottom: 0; left: 10px; z-index: 1000; }

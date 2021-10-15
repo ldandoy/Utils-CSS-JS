@@ -1,0 +1,24 @@
+.menu {
+    display: block;
+    width: 100%;
+}
+
+.menu-titre {
+    text-align: left;
+    padding: 1rem;
+}
+
+.menu-item {
+    display: block;
+    width: 100%;
+}
+
+.menu-link {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+}
+
+.menu-link:hover {
+    background: #CCC;
+}

@@ -1,10 +1,13 @@
 .alert {
     margin-top: 1rem;
-    border-radius: .5rem;
     border: 1px solid var(--gray-500);
     padding: 1rem;
     background-color: var(--gray-200);
     color: var(--gray-500);
+}
+
+.alert.alert-rounded {
+    border-radius: .5rem;
 }
 
 .alert-light { background-color: var(--white-100); color: var(--white-600); border: 1px solid var(--white-300); }

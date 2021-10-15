@@ -1,0 +1,9 @@
+.hero {
+    font-size: 1.3rem;
+    padding: 50px;
+    background: var(--light-color);
+}
+
+.hero.hero-rounded {
+    border-radius: .5rem;
+}

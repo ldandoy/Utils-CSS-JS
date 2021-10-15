@@ -1,16 +1,17 @@
-# Utils-CSS-JS
+# Utils CSS and JS librairy
 
-## What is Utils-CSS-JS
+## What is CSS and JS librairy
 
-It's a CSS and JS Library, inspired by Bootstrap and TailwindCSS
+It's a CSS and JS Library, inspired by Bootstrap, TailwindCSS and Bulma.
+We try to get the best of those libraries and framework.
 
 ## How to use it ?
 
 Add those line in your html page:
 
 ```html
-<link href="https://overconsulting.tech/utils-css-js.min.css" rel="stylesheet" />
-<script type="javascript" href="https://overconsulting.tech/utils-css-js.min.js"></script>
+<link href="https://overconsulting.tech/utils.min.css" rel="stylesheet" />
+<script type="javascript" href="https://overconsulting.tech/utils.min.js"></script>
 ```
 
 ## To see how it works
@@ -37,7 +38,7 @@ $ cd Utils-CSS
 $ uglifycss ./src/css/*.css > ./dist/utils.min.css
 $ uglifyjs ./src/js/*.js > ./dist/utils.min.js
 ```
-After runngin this commandn, you will found the min.css and min.js in the dist folder.
+After runngin this commande, you will found the min.css and min.js in the dist folder.
 
 ## The Road MAP
 
@@ -45,11 +46,15 @@ After runngin this commandn, you will found the min.css and min.js in the dist f
 - [x] Add the different pointer
 - [x] Render active link for the navbar
 - [X] Add hover for the navbar
-- [X] Responsive de la navbar
-- [ ] Add Js part
 - [X] Responsive global
-- [ ] Modify the doc to be React compatible
 - [X] Add outlined to the button
 - [X] Add size to the button
-- [ ] Add a grid with quarter, half and tiers
+- [X] Add a grid with quarter, half and tiers
+- [X] Add Hero section
+- [X] Add class rounded sur les élements
+- [X] Add some menu
 - [ ] Add disabled for all the form field
+- [ ] Add Js part
+- [ ] Responsive de la navbar
+- [ ] Modify the doc to be React compatible
+- [ ] Finish the documentation
