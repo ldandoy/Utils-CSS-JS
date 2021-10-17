@@ -1,5 +1,5 @@
 body {
-    font-size: 1.1em;
+    font-size: 1.1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -40,8 +40,8 @@ body {
 .sep {clear:both; visibility:hidden; margin:0px; padding:0px; line-height:0px;}
 
 /* Visibility */
-.visible { visibility: visible !important; }
-.hidden { visibility: hidden !important; }
+.hidden, .hide { display: block; visibility: hidden !important; }
+.show { display: block; visibility: visible !important; }
 
 /* title */
 .title-page {

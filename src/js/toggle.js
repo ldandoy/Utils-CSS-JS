@@ -1,42 +1,35 @@
-class Toggle {
-
-    /**
-     * 
-     * @param {HTMLElement} toggle 
-     * @param {HTMLElement} target 
-     * @param {Object} options 
-     */
-    constructor(toggle, target, options = {}) {
-        this.target = target;
-        this.toggle = toggle;
-        this.options = options;
-
-        // Modif DOM
-        this.target.classList.add('toggle-target');
-
-        //Events
-        this.toggle.addEventListener('click', 
-            () => this.target.classList.toggle('active'));
-    }
-}
-
-let toggleOnReady = function () {
+document.addEventListener('DOMContentLoaded', (event) => {
     // Get all elements with class "toggle"
     let toggles = document.getElementsByClassName('toggle');
 
     // Creating toggles
     for (let toggle of toggles) {
-        toggle.classList.forEach(className => {
-            if (className.includes('target')) {
-                let target = document.getElementById(className.split('-')[1]);
-                new Toggle(toggle, target);
+        let targets = document.querySelectorAll("." + toggle.getAttribute('target-show'));
+        
+        // Hide the target
+        for (let target of targets) {
+            target.classList.add('toggle-target');
+        }
+
+        targets = document.querySelectorAll("." + toggle.getAttribute('target-hide'));
+        
+        // Hide the target
+        for (let target of targets) {
+            target.classList.add('toggle-target');
+        }
+        
+        // Add event to display target on click
+        toggle.addEventListener('click', (event) => {
+            event.preventDefault();
+            let targetsShow = document.querySelectorAll("." + toggle.getAttribute('target-show'));
+            for (let target of targetsShow) {
+                target.classList.toggle('active');
             }
-        })
+
+            let targetsHide = document.querySelectorAll("." + toggle.getAttribute('target-hide'));
+            for (let target of targetsHide) {
+                target.classList.toggle('active');
+            }
+        });
     }
-}
-
-if (document.readyState !== 'loading') {
-    toggleOnReady();
-}
-
-document.addEventListener('DOMContentLoaded', toggleOnReady);
+});

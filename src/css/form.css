@@ -56,14 +56,30 @@
     border-radius: 0.25rem !important;
 }
 
-.form-no-bordered .form-input, .form-no-bordered .form-textarea, .form-no-bordered .form-select {
-    border: none !important;
-    border-bottom: 1px solid var(--white-900) !important;;
+.form-bordered .form-group-error .form-input, .form-bordered .form-group-error .form-textarea, .form-bordered .form-group-error .form-select {
+    color: var(--error-color);
+    border: 1px solid var(--error-color) !important;
 }
 
-.form-no-bordered .form-group-error .form-input {
+.form-bordered .form-group-error .form-input[disabled], .form-bordered .form-group-error .form-textarea[disabled], .form-bordered .form-group-error .form-select[disabled] {
+    color: var(--error-color) !important;
+    border: 1px solid var(--error-color) !important;
+    border-radius: 0.25rem !important;
+}
+
+.form-no-bordered .form-input, .form-no-bordered .form-textarea, .form-no-bordered .form-select {
+    border: none !important;
+    border-bottom: 1px solid var(--white-900) !important;
+}
+
+.form-no-bordered .form-group-error .form-input, .form-no-bordered .form-group-error .form-textarea, .form-no-bordered .form-group-error .form-select {
     color: var(--error-color);
     border-bottom: 1px solid var(--error-color) !important;
+}
+
+.form-no-bordered .form-group-error .form-input[disabled], .form-no-bordered .form-group-error .form-textarea[disabled], .form-no-bordered .form-group-error .form-select[disabled] {
+    color: var(--error-disabled-color);
+    border-bottom: 1px solid var(--error-disabled-color) !important;
 }
 
 .form-group-error .form-label {

@@ -53,8 +53,8 @@ After runngin this commande, you will found the min.css and min.js in the dist f
 - [X] Add Hero section
 - [X] Add class rounded sur les élements
 - [X] Add some menu
-- [ ] Add disabled for all the form field
+- [X] Add disabled for all the form field
+- [X] Responsive de la navbar
 - [ ] Add Js part
-- [ ] Responsive de la navbar
 - [ ] Modify the doc to be React compatible
 - [ ] Finish the documentation

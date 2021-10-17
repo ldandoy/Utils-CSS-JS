@@ -1,0 +1,46 @@
+.accordions {
+    border: 1px solid #000;
+    width: 100%;
+    display: block;
+}
+
+.accordion {
+    border: 1px solid #000;
+    width: 100%;
+    display: block;
+}
+
+.accordion-label {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.accordion-label::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.accordion.active .accordion-label::before {
+    content: '-';
+}
+
+.accordion-content {
+    position: relative;
+    text-align: justify;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.accordion.active .accordion-content {
+    height: auto;
+    padding: 20px 10px;
+}

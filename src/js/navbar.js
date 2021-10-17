@@ -1,10 +1,8 @@
-let navbar = document.querySelector('.navbar');
-let icon = document.querySelector('.navbar-menu-icon');
+document.addEventListener('DOMContentLoaded', (event) => {
+    let navbar = document.querySelector('.navbar');
+    let icon = document.querySelector('.navbar-menu-icon');
 
-const showNavbar = () => {
-    navbar.classList.toggle('responsive');
-};
-
-icon.addEventListener("click", (event) => {
-    showNavbar();
+    icon.addEventListener("click", (event) => {
+        navbar.classList.toggle('responsive');
+    });
 });

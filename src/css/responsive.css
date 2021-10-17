@@ -120,6 +120,7 @@
 
     .navbar.responsive .navbar-content-menu {
         display: flex;
+        flex-direction: column;
     }
 
     .navbar .navbar-content-menu, 
