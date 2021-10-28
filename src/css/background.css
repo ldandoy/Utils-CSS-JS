@@ -218,6 +218,7 @@
 .hover\:bg-brown-900:hover { background-color: var(--brown-900); }
 .hover\:bg-brown-1000:hover { background-color: var(--brown-1000); }
 
+.bg-white { background-color: var(--white-color); }
 .bg-orange { background-color: var(--orange-color); }
 .bg-blue-light { background-color: var(--blue-light-color); }
 .bg-brown { background-color: var(--brown-color); }
