@@ -1,3 +1,11 @@
+.form-inline {
+    display: flex;
+}
+
+.form-inline .form-input {
+    margin-right: 10px;
+}
+
 .form-group {
     margin: 20px auto;
     display: block;
