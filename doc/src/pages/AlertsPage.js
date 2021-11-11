@@ -14,7 +14,7 @@ const AlertsPage = () => {
             <section className="mtb-60 ">
                 <div className="mb-20 grid grid-cols-2 gap-8">
                     <div>
-                    <h2 id="alerts" className="title-section">Example of alert messages</h2>
+                        <h2 id="alerts" className="title-section">Example of alert messages</h2>
                         <div className="alert alert-light">
                             Alert light !
                         </div>
@@ -38,9 +38,9 @@ const AlertsPage = () => {
                         </div>
                     </div>
                 
-                <div>
-                    <h2 className="title-section">Code</h2>
-                    <HighlightCode codeHtml={`<div class="alert alert-light">
+                    <div>
+                        <h2 className="title-section">Code</h2>
+                        <HighlightCode codeHtml={`<div class="alert alert-light">
     Alert light !
 </div>
 
@@ -93,8 +93,21 @@ const AlertsPage = () => {
 <div className="alert alert-debug">
     Alert debug !
 </div>`} language='htmlbars' />
-    </div>
-    </div>
+                    </div>
+                </div>
+            </section>
+            <section className="mtb-60 ">
+                <h2 id="alerts" className="title-section">Example of rounded alert</h2>
+                <div className="alert alert-rounded alert-light">
+                    Alert light !
+                </div>
+                <div className="mt-20">
+                <HighlightCode codeHtml={`<div class="alert alert-light">
+    Alert light !
+</div>`} codeReact={`<div className="alert alert-light">
+    Alert light !
+</div>`} language='htmlbars' />
+                </div>
             </section>
         </div>
     );

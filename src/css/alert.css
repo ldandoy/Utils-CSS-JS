@@ -6,7 +6,7 @@
     color: var(--gray-500);
 }
 
-.alert.alert-rounded {
+.alert.alert-rounded, .rounded .alert {
     border-radius: .5rem;
 }
 

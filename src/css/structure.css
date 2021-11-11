@@ -56,6 +56,10 @@ aside, .aside {
     width: 33% !important;
 }
 
+.row.row-twotiers .col {
+    width: 66% !important;
+}
+
 .row.row-quarter .col {
     width: 24%  !important;
 }
