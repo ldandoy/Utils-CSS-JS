@@ -20,11 +20,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
             toggle.classList.toggle('active');
             console.log(toggle.getAttribute('text-active'));
             if (toggle.classList.contains('active')) {
-                console.log('active');
-                toggle.innerHTML = toggle.getAttribute('text-active');
-            } else {
-                console.log('non active');
                 toggle.innerHTML = toggle.getAttribute('text-nonactive');
+            } else {
+                toggle.innerHTML = toggle.getAttribute('text-active');
             }
 
 
