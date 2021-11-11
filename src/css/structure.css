@@ -48,18 +48,18 @@ aside, .aside {
     width: 100%;
 }
 
-.row.row-half .col {
+.row .col.col-half {
     width: 48% !important;
 }
 
-.row.row-tiers .col {
+.row .col.col-tiers {
     width: 33% !important;
 }
 
-.row.row-twotiers .col {
+.row .col.col-twotiers {
     width: 66% !important;
 }
 
-.row.row-quarter .col {
+.row .col.col-quarter {
     width: 24%  !important;
 }
