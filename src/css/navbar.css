@@ -83,7 +83,14 @@
     width: 100%;
 }
 
-.navbar .navbar-title .navbar-link, .navbar .navbar-item .navbar-link {
+.navbar .navbar-title .navbar-link {
+    text-decoration: none;
+    display: inline-block;
+    padding: .5rem;
+}
+
+
+.navbar .navbar-item .navbar-link {
     text-decoration: none;
     display: inline-block;
     padding: 1rem;
