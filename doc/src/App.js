@@ -4,8 +4,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
+
+import LayoutCss from './layouts/LayoutCss'
 
 import GetStartedPage from "./pages/GetStartedPage";
 import CardsPage from "./pages/CardsPage";
@@ -31,160 +32,103 @@ function App() {
 
   return (
     <Router>
-      <header>
-            {/* Top Nav */}
-            <nav className="navbar navbar-v navbar-bordered-b bg-blue-800 navbar-dark sticky-top">
-                <div className="navbar-title">
-                  <Link className="navbar-link" to="/">Utils CSS</Link>
-                </div>
-                <div className="navbar-content-menu">
-                    <ul className="navbar-menu-left">
-                      <li className="navbar-item">
-                        <Link className="navbar-link" to="/">Doc</Link>
-                      </li>
-                    </ul>
-                    <ul className="navbar-menu-right">
-                        <li className="navbar-item">
-                          <a className="navbar-link" rel="noreferrer" href="https://github.com/ldandoy/Utils-CSS-JS" target="_blank">Repos GitHub</a>
-                        </li>
-                        <li className="navbar-item">
-                          <a className="navbar-link" href="example.html" target="_blank">Examples</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        
-        {/* Side Nav */}
-        <aside className="aside aside-fixed bg-blue-300">
-            <nav className="navbar navbar-h">
-                <div className="navbar-title txt-uppercase">
-                  CSS
-                </div>
-                <ul className="navbar-menu">
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/alerts">Alerts</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/badges">Badges</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/buttons">Buttons</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/cards">Cards</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/colors">Colors</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/flex">Flex box</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/forms">Forms</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/grid">Grid</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/images">Images</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/navbar">Navbar</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/opacity">Opacity</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/pointer">Pointer</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/spacing">Spacing</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/structure">Structure</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/tables">Tables</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/texts">Texts</Link>
-                  </li>
-                  <li className="navbar-item">
-                    <Link className="navbar-link" to="/toasts">Toasts</Link>
-                  </li>
-                </ul>
-                <div className="navbar-title txt-uppercase">
-                  JS
-                </div>
-            </nav>
-        </aside>
-        
-        <main className="container-aside">
           <Switch>
             <Route path="/" exact>
-              <GetStartedPage />
+              <LayoutCss>
+                <GetStartedPage />
+              </LayoutCss>
             </Route>
             <Route path="/cards">
-              <CardsPage />
+              <LayoutCss>
+                <CardsPage />
+              </LayoutCss>
             </Route>
             <Route path="/texts">
-              <TextsPage />
+              <LayoutCss>
+                <TextsPage />
+              </LayoutCss>
             </Route>
             <Route path="/forms">
-              <FormsPage />
+              <LayoutCss>
+                <FormsPage />
+              </LayoutCss>
             </Route>
             <Route path="/buttons">
-              <ButtonsPage />
+              <LayoutCss>
+                <ButtonsPage />
+              </LayoutCss>
             </Route>
             <Route path="/images">
-              <ImagesPage />
+              <LayoutCss>
+                <ImagesPage />
+              </LayoutCss>
             </Route>
             <Route path="/tables">
-              <TablesPage />
+              <LayoutCss>
+                <TablesPage />
+              </LayoutCss>
             </Route>
             <Route path="/badges">
-              <BadgesPage />
+              <LayoutCss>
+                <BadgesPage />
+              </LayoutCss>
             </Route>
             <Route path="/alerts">
-              <AlertsPage />
+              <LayoutCss>
+                <AlertsPage />
+              </LayoutCss>
             </Route>
             <Route path="/toasts">
-              <ToastsPage />
+              <LayoutCss>
+                <ToastsPage />
+              </LayoutCss>
             </Route>
             <Route path="/colors">
-              <ColorsPage />
+              <LayoutCss>
+                <ColorsPage />
+              </LayoutCss>
             </Route>
             <Route path="/spacing">
-              <SpacingPage />
+              <LayoutCss>
+                <SpacingPage />
+              </LayoutCss>
             </Route>
             <Route path="/structure">
-              <StructurePage />
+              <LayoutCss>
+                <StructurePage />
+              </LayoutCss>
             </Route>
             <Route path="/shadow">
-              <ShadowPage />
+              <LayoutCss>
+                <ShadowPage />
+              </LayoutCss>
             </Route>
             <Route path="/grid">
-              <GridPage />
+              <LayoutCss>
+                <GridPage />
+              </LayoutCss>
             </Route>
             <Route path="/flex">
-              <FlexPage />
+              <LayoutCss>
+                <FlexPage />
+              </LayoutCss>
             </Route>
             <Route path="/opacity">
-              <OpacityPage />
+              <LayoutCss>
+                <OpacityPage />
+              </LayoutCss>
             </Route>
             <Route path="/navbar">
-              <NavbarPage />
+              <LayoutCss>
+                <NavbarPage />
+              </LayoutCss>
             </Route>
             <Route path="/pointer">
-              <PointerPage />
+              <LayoutCss>
+                <PointerPage />
+              </LayoutCss>
             </Route>
           </Switch>
-        </main>
-
-        <footer>
-            
-        </footer>
     </Router>
   );
 }

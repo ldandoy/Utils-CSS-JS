@@ -5,12 +5,12 @@ import HighlightCode from "../components/HighlightCode";
 
 const GetStartedPage= () => {
     return(
-        <div>
+        <div className="mlr-20">
             <section>
-                <h1 className="title-page">Utils CSS JS documentation</h1>
+                <h1 className="title-page">Documentation of Utils</h1>
             </section>
             <section className="mt-30 mb-60">
-                <h2 className="title-section">What is Utils-CSS-JS</h2>
+                <h2 className="title-section">What is Utils ?</h2>
                 <div>
                     <p>
                         It's a CSS and JS Library, inspired by Bootstrap and TailwindCSS
@@ -18,21 +18,21 @@ const GetStartedPage= () => {
                 </div>
             </section>
             <section className="mt-30 mb-60">
-                <h2 className="title-section">Developpement</h2>
+                <h2 className="title-section">Developpement informations</h2>
                 <div>
                     <p>
-                    Installation of the tools to generate the minified file. I used uglifycss and uglifyjs. You can installe it with npm.
+                        To generate the minified file, I use uglifycss and uglifyjs. You can installe it with npm.
                     </p>
-                    <HighlightCode code={`$ npm install uglifycss -g`} language='bash' />
-                    <HighlightCode code={`$ npm install uglify-js -g`} language='bash' />
+                    <HighlightCode code={`$ npm install uglifycss -g
+$ npm install uglify-js -g`} language='bash' />
                     <p>
-                        To generate the min.css file from the multiple css files.
+                        To generate the min file from the multiple css and js files.
                     </p>
-                    <HighlightCode code={`$ git clone https://github.com/ldandoy/Utils-CSS.git
-$ cd Utils-CSS
+                    <HighlightCode code={`$ git clone https://github.com/ldandoy/Utils-CSS-JS.git
+$ cd Utils-CSS-JS
 $ mkdir dist
-$ uglifycss ./src/css/*.css > ./dist/utils-css-js.min.css
-$ uglifyjs ./src/js/*.js > ./dist/utils-css-js.min.js`} language='bash' />
+$ uglifycss ./src/css/*.css > ./dist/utils.min.css
+$ uglifyjs ./src/js/*.js > ./dist/utils.min.js`} language='bash' />
                     <p>
                         After running this command, you will found the min.css and min.js in the dist folder.
                     </p>
