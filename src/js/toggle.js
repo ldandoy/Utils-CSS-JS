@@ -16,7 +16,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
         
         toggle.addEventListener('click', (event) => {
             event.preventDefault();
+            
             toggle.classList.toggle('active');
+            if (toggle.classList.contains('active')) {
+                toggle.innerHTML = toggle.getAttribute('text-active');
+            } else {
+                toggle.innerHTML = toggle.getAttribute('text-nonactive');
+            }
+
+
             let targetsShow = document.querySelectorAll("." + toggle.getAttribute('target-show'));
             for (let target of targetsShow) {
                 target.classList.toggle('active');
