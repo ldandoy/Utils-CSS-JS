@@ -3,7 +3,7 @@ import HighlightCode from "../components/HighlightCode";
 
 const OpacityPage = () => {
     return (
-        <div>
+        <div className="mlr-20">
             <section>
                 <h1 className="title-page">Opacity</h1>
             </section>
@@ -21,9 +21,11 @@ const OpacityPage = () => {
                     </div>
                     <div className="">
                         {/* Code */}
-                        <HighlightCode code={`<div class="m-30 opacity-25 bg-purple-500">
+                        <HighlightCode codeHtml={`<div class="m-30 opacity-25 bg-purple-500">
     Test
-</div>`} language="htmlbars" />
+</div>`} language="htmlbars" codeReact={`<div className="m-30 opacity-25 bg-purple-500">
+    Test
+</div>`} />
                     </div>
                 </div>
 

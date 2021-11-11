@@ -8,7 +8,7 @@
     width: 30%;
 }
 
-.toast.toast-rounded {
+.toast.toast-rounded, .rounded .toast {
     border-radius: .5rem;
 }
 

@@ -30,6 +30,17 @@ const StructurePage = () => {
                         </div>
                     </div>
                     <div className="row">
+                        <div className="col p-20 txt-center bg-orange-200">
+                            Col
+                        </div>
+                        <div className="col p-20 txt-center bg-red-200">
+                            Col
+                        </div>
+                        <div className="col p-20 txt-center bg-red-200">
+                            Col
+                        </div>
+                    </div>
+                    <div className="row">
                         <div className="col col-tiers p-20 txt-center bg-orange-200">
                             Col
                         </div>
@@ -61,6 +72,20 @@ const StructurePage = () => {
                             Col
                         </div>
                         <div className="col col-tiers p-20 txt-center bg-red-200">
+                            Col
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col p-20 txt-center bg-orange-200">
+                            Col
+                        </div>
+                        <div className="col p-20 txt-center bg-red-200">
+                            Col
+                        </div>
+                        <div className="col p-20 txt-center bg-red-200">
+                            Col
+                        </div>
+                        <div className="col p-20 txt-center bg-red-200">
                             Col
                         </div>
                     </div>
@@ -110,27 +135,308 @@ const StructurePage = () => {
                     </div>
                 </div>
             </section>
-            
-            <section className="mtb-60 ">
-                <h2 className="title-section">How to add a container with a centered content</h2>
-            
-                <div className="mb-30">
-                    <HighlightCode codeHtml={`<div class="container">
-    Test
+
+            <section>
+            <div>
+                <HighlightCode codeReact={`<div className="container">
+    <div className="row">
+        <div className="col p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div className="col p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div className="row">
+        <div className="col col-half p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div className="col col-half p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div className="row">
+        <div className="col p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div className="col p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div className="col p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div className="row">
+        <div className="col col-tiers p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div className="col col-tiers p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div className="col col-tiers p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div className="row">
+        <div className="col col-tiers p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div className="col col-tiers p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div className="row">
+        <div className="col col-tiers p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div className="col col-two-tiers p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div className="row">
+        <div className="col col-two-tiers p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div className="col col-tiers p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div className="row">
+        <div className="col p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div className="col p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div className="col p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div className="col p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div className="row">
+        <div className="col col-quarter p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div className="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div className="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div className="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div className="row">
+        <div className="col col-quarter p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div className="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div className="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div className="row">
+        <div className="col col-two-quarter p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div className="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div className="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div className="row">
+        <div className="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div className="col col-three-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+</div>`} language="htmlbars" codeHtml={`<div class="container">
+    <div class="row">
+        <div class="col p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div class="col p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-half p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div class="col col-half p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div class="row">
+        <div class="col p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div class="col p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div class="col p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-tiers p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div class="col col-tiers p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div class="col col-tiers p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-tiers p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div class="col col-tiers p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-tiers p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div class="col col-two-tiers p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-two-tiers p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div class="col col-tiers p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div class="row">
+        <div class="col p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div class="col p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div class="col p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div class="col p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-quarter p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div class="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div class="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div class="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-quarter p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div class="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div class="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-two-quarter p-20 txt-center bg-orange-200">
+            Col
+        </div>
+        <div class="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div class="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+        <div class="col col-three-quarter p-20 txt-center bg-red-200">
+            Col
+        </div>
+    </div>
 </div>`} language="htmlbars" />
                 </div>
-                <h2 className="title-section mb-30">How to add a fullwidth container</h2>
-                <div className="mb-30">
-                    <HighlightCode codeHtml={`<div class="container-fluid">
-    Test
-</div>`} language="htmlbars" />
-                </div>
-                <h2 className="title-section mb-30">How to add a container with a side bar</h2>
-                <div className="mb-30">
-                    <HighlightCode codeHtml={`<div class="container-aside">
-    Test
-</div>`} language="htmlbars" />
-                </div>
+            </section>
+                <section className="mb-30 ">
+                    <h2 className="title-section">How to add a container with a centered content</h2>
+                
+                    <div className="mb-30">
+                        <HighlightCode codeHtml={`<div class="container">
+    <div class="row">
+        <div class="col p-20">
+            Col 1
+        </div>
+    </div>
+</div>`} language="htmlbars" codeReact={`<div className="container">
+    <div className="row">
+        <div className="col p-20">
+            Col 1
+        </div>
+    </div>
+</div>`} />
+                    </div>
+                </section>
+                <section className="mb-30 ">
+                    <h2 className="title-section">How to add a fullwidth container</h2>
+                    <div className="mb-30">
+                        <HighlightCode codeHtml={`<div class="container-fluid">
+    <div class="row">
+        <div class="col p-20">
+            Col 1
+        </div>
+    </div>
+</div>`} language="htmlbars" codeReact={`<div className="container-fluid">
+    <div className="row">
+        <div className="col p-20">
+            Col 1
+        </div>
+    </div>
+</div>`} />
+                    </div>
+                </section>
+                <section className="mb-30 ">
+                    <h2 className="title-section mb-30">How to add a container with a side bar</h2>
+                    <div className="mb-30">
+                        <HighlightCode codeHtml={`<div class="container-aside">
+    <div class="row">
+        <div class="col p-20">
+            Col 1
+        </div>
+    </div>
+</div>`} language="htmlbars" codeReact={`<div className="container-aside">
+    <div className="row">
+        <div className="col p-20">
+            Col 1
+        </div>
+    </div>
+</div>`} />
+                    </div>
             </section>
         </div>
     )

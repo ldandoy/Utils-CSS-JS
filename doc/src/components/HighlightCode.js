@@ -6,7 +6,7 @@ const HighlightCode = ({ codeHtml, language, codeReact=null }) => {
     return(
         <>
             <div className="pl-30 p-15 mt-10 bg-gray-200">
-                <button className="btn btn-light toggle" target-show="show-html" text-active="Show HTML" text-nonactive="Show React" target-hide="show-react">Show HTML</button>
+                <button className="btn btn-light toggle" target-show="show-html" text-active="Show in React" text-nonactive="Show in HTML" target-hide="show-react">Show in React</button>
             </div>
             <div className="show-html active">
                 <SyntaxHighlighter style={ hljsStyle } language={ language } className="pl-30 p-15 mb-10">

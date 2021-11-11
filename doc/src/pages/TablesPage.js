@@ -3,7 +3,7 @@ import HighlightCode from "../components/HighlightCode";
 
 const TablesPage = () => {
     return (
-        <div>
+        <div className="mlr-20">
             <section>
                 <h1 className="title-page">Tables</h1>
             </section>
@@ -43,7 +43,7 @@ const TablesPage = () => {
                     </tbody>
                 </table>
                 <h3>Code</h3>
-                <HighlightCode code={`<table class="table table-hover">
+                <HighlightCode codeHtml={`<table class="table table-hover">
     <thead>
         <tr>
             <th scope="col">#</th>
@@ -71,7 +71,35 @@ const TablesPage = () => {
             <td>@twitter</td>
         </tr>
     </tbody>
-</table>`} language="htmlbars" />
+</table>`} language="htmlbars" codeReact={`<table className="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td colspan="2" className="table-active">Larry the Bird</td>
+            <td>@twitter</td>
+        </tr>
+    </tbody>
+</table>`} />
             </section>
             <section className="mtb-60">
                 <h2 className="title-section">Example of tables with border</h2>
@@ -107,7 +135,7 @@ const TablesPage = () => {
                 </table>
                 {/* Code */}
                 <h3>Code</h3>
-                <HighlightCode code={`<table class="table table-bordered">
+                <HighlightCode codeHtml={`<table class="table table-bordered">
     <thead>
         <tr>
             <th scope="col">#</th>
@@ -135,7 +163,35 @@ const TablesPage = () => {
             <td>@twitter</td>
         </tr>
     </tbody>
-</table>`} language="htmlbars" />
+</table>`} language="htmlbars" codeReact={`<table className="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td colspan="2" className="table-active">Larry the Bird</td>
+            <td>@twitter</td>
+        </tr>
+    </tbody>
+</table>`} />
             </section>
             <section className="mtb-60">
                 <h2 className="title-section">Example of thin table</h2>
@@ -171,7 +227,7 @@ const TablesPage = () => {
                 </table>
                 {/* Code */}
                 <h3>Code</h3>
-                <HighlightCode code={`<table class="table table-sm table-header-drak table-hover">
+                <HighlightCode codeHtml={`<table class="table table-sm table-header-drak table-hover">
     <thead>
         <tr>
             <th scope="col">#</th>
@@ -199,7 +255,35 @@ const TablesPage = () => {
             <td>@twitter</td>
         </tr>
     </tbody>
-</table>`} language="htmlbars" />
+</table>`} language="htmlbars" codeReact={`<table className="table table-sm table-header-drak table-hover">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td colspan="2" className="txt-center">Larry the Bird</td>
+            <td>@twitter</td>
+        </tr>
+    </tbody>
+</table>`} />
             </section>
         </div>
     );

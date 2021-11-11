@@ -3,7 +3,7 @@ import HighlightCode from "../components/HighlightCode";
 
 const SpacingPage = () => {
     return (
-        <div>
+        <div className="mlr-20">
             <section>
                 <h1 className="title-page">Spacing</h1>
             </section>
@@ -25,13 +25,19 @@ const SpacingPage = () => {
                     </div>
                     <div className="">
                         {/* Code */}
-                        <HighlightCode code={`<div class="m-30 bg-purple-500">
+                        <HighlightCode codeHtml={`<div class="m-30 bg-purple-500">
     Test
 </div>
 
 <div class="p-50 bg-green-200">
     Test
-</div>`} language="htmlbars" />
+</div>`} language="htmlbars" codeReact={`<div className="m-30 bg-purple-500">
+    Test
+</div>
+
+<div className="p-50 bg-green-200">
+    Test
+</div>`} />
                     </div>
                 </div>
                 <div className="mb-30">

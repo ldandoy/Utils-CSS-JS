@@ -26,11 +26,11 @@ const ColorsPage = () => {
         "brown"]
 
     return (
-        <div>
+        <div className="mlr-20">
             <section>
                 <h1 className="title-page">Colors</h1>
             </section>
-            <section className="mtb-60 ">
+            <section className="mtb-60">
                 <h2 id="colors" className="title-section">Background color palettes</h2>
                    {colors.map(color => 
                         <>
@@ -50,7 +50,7 @@ const ColorsPage = () => {
                                 </div>
                                 {/* Code */}
                                 <div>
-                                    <HighlightCode code={`<div class="bg-${color}-100">100</div>
+                                    <HighlightCode codeHtml={`<div class="bg-${color}-100">100</div>
 <div class="bg-${color}-200">200</div>
 <div class="bg-${color}-300">300</div>
 <div class="bg-${color}-400">400</div>
@@ -65,7 +65,7 @@ const ColorsPage = () => {
                         </>
                     )}
             </section>
-            <section className="mtb-60 ">
+            <section className="mtb-60">
                 <h2 id="colors" className="title-section">Text color palettes</h2>
                    {colors.map(color => 
                         <>
@@ -85,7 +85,7 @@ const ColorsPage = () => {
                                 </div>
                                 {/* Code */}
                                 <div>
-                                    <HighlightCode code={`<div class="txt-${color}-100">100</div>
+                                    <HighlightCode codeHtml={`<div class="txt-${color}-100">100</div>
 <div class="txt-${color}-200">200</div>
 <div class="txt-${color}-300">300</div>
 <div class="txt-${color}-400">400</div>
@@ -132,7 +132,7 @@ const ColorsPage = () => {
                     <div>
                         {/* Code */}
                         <h3>Code background</h3>
-                        <HighlightCode code={`<div class="bg-orange">bg-orange</div>
+                        <HighlightCode codeHtml={`<div class="bg-orange">bg-orange</div>
 <div class="bg-blue-light">bg-blue-light</div>
 <div class="bg-brown">bg-brown</div>
 <div class="bg-yellow">bg-yellow</div>
@@ -146,7 +146,7 @@ const ColorsPage = () => {
                     <div>
                         {/* Code */}
                         <h3>Code text</h3>
-                        <HighlightCode code={`<div class="txt-orange">txt-orange</div>
+                        <HighlightCode codeHtml={`<div class="txt-orange">txt-orange</div>
 <div class="txt-blue-light">txt-blue-light</div>
 <div class="txt-brown">txt-brown</div>
 <div class="txt-yellow">txt-yellow</div>
@@ -188,7 +188,7 @@ const ColorsPage = () => {
                     <div>
                         {/* Code */}
                         <h3>Code background</h3>
-                        <HighlightCode code={`<div class="bg-marigold">bg-marigold</div>
+                        <HighlightCode codeHtml={`<div class="bg-marigold">bg-marigold</div>
 <div class="bg-cerulean">bg-cerulean</div>
 <div class="bg-rust">bg-rust</div>
 <div class="bg-illuminating">bg-illuminating</div>
@@ -202,7 +202,7 @@ const ColorsPage = () => {
                     <div>
                         {/* Code */}
                         <h3>Code text</h3>
-                        <HighlightCode code={`<div class="txt-marigold">txt-marigold</div>
+                        <HighlightCode codeHtml={`<div class="txt-marigold">txt-marigold</div>
 <div class="txt-cerulean">txt-cerulean</div>
 <div class="txt-rust">txt-rust</div>
 <div class="txt-illuminating">txt-illuminating</div>
@@ -254,7 +254,7 @@ const ColorsPage = () => {
                     <div>
                         {/* Code */}
                         <h3>Code background</h3>
-                        <HighlightCode code={`<div class="bg-flame-scarlet">bg-flame-scarlet</div>
+                        <HighlightCode codeHtml={`<div class="bg-flame-scarlet">bg-flame-scarlet</div>
 <div class="bg-saffron">bg-saffron</div>
 <div class="bg-biscay-green">bg-biscay-green</div>
 <div class="bg-chive">bg-chive</div>
@@ -273,7 +273,7 @@ const ColorsPage = () => {
                     <div>
                         {/* Code */}
                         <h3>Code text</h3>
-                        <HighlightCode code={`<div class="txt-flame-scarlet">bg-flame-scarlet</div>
+                        <HighlightCode codeHtml={`<div class="txt-flame-scarlet">bg-flame-scarlet</div>
 <div class="txt-saffron">txt-saffron</div>
 <div class="txt-biscay-green">txt-biscay-green</div>
 <div class="txt-chive">txt-chive</div>
@@ -330,7 +330,7 @@ const ColorsPage = () => {
                     <div>
                         {/* Code */}
                         <h3>Code background</h3>
-                        <HighlightCode code={`<div class="bg-fiesta">bg-fiesta</div>
+                        <HighlightCode codeHtml={`<div class="bg-fiesta">bg-fiesta</div>
 <div class="bg-jester-red">bg-jester-red</div>
 <div class="bg-turmeric">bg-turmeric</div>
 <div class="bg-living-coral">bg-living-coral</div>
@@ -349,7 +349,7 @@ const ColorsPage = () => {
                     <div>
                         {/* Code */}
                         <h3>Code text</h3>
-                        <HighlightCode code={`<div class="txt-fiesta">txt-fiesta</div>
+                        <HighlightCode codeHtml={`<div class="txt-fiesta">txt-fiesta</div>
 <div class="txt-jester-red">txt-jester-red</div>
 <div class="txt-turmeric">txt-turmeric</div>
 <div class="txt-living-coral">txt-living-coral</div>

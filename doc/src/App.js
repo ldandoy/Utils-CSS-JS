@@ -88,6 +88,11 @@ function App() {
                 <ColorsPage />
               </LayoutCss>
             </Route>
+            <Route path="/shadow">
+              <LayoutCss>
+                <ShadowPage />
+              </LayoutCss>
+            </Route>
             <Route path="/spacing">
               <LayoutCss>
                 <SpacingPage />

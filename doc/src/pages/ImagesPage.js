@@ -3,7 +3,7 @@ import HighlightCode from "../components/HighlightCode";
 
 const ImagesPage = () => {
     return (
-        <div>
+        <div className="mlr-20">
             <section>
                 <h1 className="title-page">Images</h1>
             </section>
@@ -18,9 +18,11 @@ const ImagesPage = () => {
                         <img src="https://www.w3schools.com/w3images/team2.jpg" alt="Profile" className="img-fluid" />
                     </div>
                     <div>
-                        <HighlightCode code={`<div class="w-20">
+                        <HighlightCode codeHtml={`<div class="w-20">
     <img src="#" alt="Profile picture" class="img-fluid" />
-</div>`} language="htmlbars" />
+</div>`} language="htmlbars" codeReact={`<div className="w-20">
+    <img src="#" alt="Profile picture" className="img-fluid" />
+</div>`} />
                     </div>
                 </div>
                 <div className="mb-30 grid grid-cols-2">
@@ -28,9 +30,11 @@ const ImagesPage = () => {
                         <img src="https://www.w3schools.com/w3images/team2.jpg" alt="Profile" className="img-thumbnails" />
                     </div>
                     <div>
-                        <HighlightCode code={`<div class="w-40">
+                        <HighlightCode codeHtml={`<div class="w-40">
     <img src="#" alt="Profile picture" class="img-thumbnails" />
-</div>`} language="htmlbars" />
+</div>`} language="htmlbars" codeReact={`<div className="w-40">
+    <img src="#" alt="Profile picture" className="img-thumbnails" />
+</div>`} />
                     </div>
                 </div>
             </section>

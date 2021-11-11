@@ -45,6 +45,9 @@ const MenuCss = () => {
                 <Link className="navbar-link" to="/pointer">Pointer</Link>
             </li>
             <li className="navbar-item">
+                <Link className="navbar-link" to="/shadow">Shadow</Link>
+            </li>
+            <li className="navbar-item">
                 <Link className="navbar-link" to="/spacing">Spacing</Link>
             </li>
             <li className="navbar-item">
