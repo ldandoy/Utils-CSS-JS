@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             event.preventDefault();
             
             toggle.classList.toggle('active');
+            console.log(toggle.getAttribute('text-active'));
             if (toggle.classList.contains('active')) {
                 toggle.innerHTML = toggle.getAttribute('text-active');
             } else {
