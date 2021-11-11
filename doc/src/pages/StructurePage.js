@@ -52,12 +52,12 @@ const StructurePage = () => {
                         <div className="col col-tiers p-20 txt-center bg-orange-200">
                             Col
                         </div>
-                        <div className="col col-twotiers p-20 txt-center bg-red-200">
+                        <div className="col col-two-tiers p-20 txt-center bg-red-200">
                             Col
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col col-twotiers p-20 txt-center bg-orange-200">
+                        <div className="col col-two-tiers p-20 txt-center bg-orange-200">
                             Col
                         </div>
                         <div className="col col-tiers p-20 txt-center bg-red-200">
@@ -90,13 +90,21 @@ const StructurePage = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col col-twoquarter p-20 txt-center bg-orange-200">
+                        <div className="col col-two-quarter p-20 txt-center bg-orange-200">
                             Col
                         </div>
                         <div className="col col-quarter p-20 txt-center bg-red-200">
                             Col
                         </div>
                         <div className="col col-quarter p-20 txt-center bg-red-200">
+                            Col
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col col-quarter p-20 txt-center bg-red-200">
+                            Col
+                        </div>
+                        <div className="col col-three-quarter p-20 txt-center bg-red-200">
                             Col
                         </div>
                     </div>
