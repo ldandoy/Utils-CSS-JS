@@ -1,0 +1,7 @@
+.show-target {
+    display: none;
+}
+
+.show-target.active {
+    display: block;
+}

@@ -67,31 +67,31 @@ const AlertsPage = () => {
 <div class="alert alert-debug">
     Alert debug !
 </div>`} codeReact={`<div className="alert alert-light">
-Alert light !
+    Alert light !
 </div>
 
 <div className="alert alert-dark">
-Alert dark !
+    Alert dark !
 </div>
 
 <div className="alert alert-error">
-Alert error !
+    Alert error !
 </div>
 
 <div className="alert alert-warning">
-Alert warning !
+    Alert warning !
 </div>
 
 <div className="alert alert-success">
-Alert success !
+    Alert success !
 </div>
 
 <div className="alert alert-notice">
-Alert notice !
+    Alert notice !
 </div>
 
 <div className="alert alert-debug">
-Alert debug !
+    Alert debug !
 </div>`} language='htmlbars' />
     </div>
     </div>
