@@ -128,8 +128,12 @@
         width: 100%;
     }
 
-    .navbar .navbar-menu-left, .navbar .navbar-menu-rightt{
+    .navbar .navbar-menu-left, .navbar .navbar-menu-right{
         flex-direction: column;
+    }
+
+    .navbar .navbar-menu-right{
+        margin-left: 0;
     }
 
     .navbar .navbar-title, .navbar .navbar-ss-menu {
