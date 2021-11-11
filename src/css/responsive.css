@@ -140,6 +140,10 @@
         display: block;
         position: relative;
     }
+
+    .navbar .navbar-link {
+        width: 100%;
+    }
 }
 
 
