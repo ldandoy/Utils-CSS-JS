@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         
         toggle.addEventListener('click', (event) => {
             event.preventDefault();
+            toggle.classList.toggle('active');
             let targetsShow = document.querySelectorAll("." + toggle.getAttribute('target-show'));
             for (let target of targetsShow) {
                 target.classList.toggle('active');
