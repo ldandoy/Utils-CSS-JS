@@ -5,3 +5,15 @@
 .toggle-target.active {
     display: block;
 }
+
+/*a.toggle.active {
+    color: ;
+}*/
+
+a.toggle.light {
+    color: var(--light-color);
+}
+
+a.toggle.dark {
+    color: var(--dark-color);
+}

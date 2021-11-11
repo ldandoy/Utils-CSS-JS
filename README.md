@@ -55,6 +55,7 @@ After runngin this commande, you will found the min.css and min.js in the dist f
 - [X] Add some menu
 - [X] Add disabled for all the form field
 - [X] Responsive de la navbar
+- [ ] Faire un rounded global
 - [ ] Add Js part
 - [ ] Modify the doc to be React compatible
 - [ ] Finish the documentation

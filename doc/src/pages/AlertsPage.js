@@ -4,7 +4,7 @@ import HighlightCode from "../components/HighlightCode";
 const AlertsPage = () => {
 
     return (
-        <div>
+        <div className="mlr-20">
             <section>
                 <h1 className="title-page">Alerts</h1>
             </section>
@@ -40,7 +40,7 @@ const AlertsPage = () => {
                 
                 <div>
                     <h2 className="title-section">Code</h2>
-                    <HighlightCode code={`<div class="alert alert-light">
+                    <HighlightCode codeHtml={`<div class="alert alert-light">
     Alert light !
 </div>
 
@@ -66,6 +66,32 @@ const AlertsPage = () => {
 
 <div class="alert alert-debug">
     Alert debug !
+</div>`} codeReact={`<div className="alert alert-light">
+Alert light !
+</div>
+
+<div className="alert alert-dark">
+Alert dark !
+</div>
+
+<div className="alert alert-error">
+Alert error !
+</div>
+
+<div className="alert alert-warning">
+Alert warning !
+</div>
+
+<div className="alert alert-success">
+Alert success !
+</div>
+
+<div className="alert alert-notice">
+Alert notice !
+</div>
+
+<div className="alert alert-debug">
+Alert debug !
 </div>`} language='htmlbars' />
     </div>
     </div>
