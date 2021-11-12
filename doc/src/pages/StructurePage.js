@@ -380,7 +380,7 @@ const StructurePage = () => {
             Col
         </div>
     </div>
-</div>`} language="htmlbars" />
+</div>`} />
                 </div>
             </section>
                 <section className="mb-30 ">
@@ -423,19 +423,25 @@ const StructurePage = () => {
                 <section className="mb-30 ">
                     <h2 className="title-section mb-30">How to add a container with a side bar</h2>
                     <div className="mb-30">
-                        <HighlightCode codeHtml={`<div class="container-aside">
-    <div class="row">
-        <div class="col p-20">
-            Col 1
-        </div>
+                        <HighlightCode codeHtml={`<main>
+    <div class="container-aside">
+        <section class="container">
+            
+        </section>
     </div>
-</div>`} language="htmlbars" codeReact={`<div className="container-aside">
-    <div className="row">
-        <div className="col p-20">
-            Col 1
-        </div>
+    <aside class="aside-fixed">
+        Menu
+    </aside>
+</main>`} language="htmlbars" codeReact={`<main>
+    <div className="container-aside">
+        <section className="container">
+            
+        </section>
     </div>
-</div>`} />
+    <aside className="aside-fixed">
+        Menu
+    </aside>
+</main>`} />
                     </div>
             </section>
         </div>
