@@ -31,7 +31,8 @@ const BadgesPage = () => {
                     <div className="col col-two-tiers">
                         <h2 className="title-section">Code</h2>
                         <HighlightCode codeHtml={`<p>This is a sentence with a <span class="badge">badge</span>.</p>
-<p>You have a <span class="badge bg-success">sentence</span>.</p>`} language="htmlbars" />
+<p>You have a <span class="badge bg-success">sentence</span>.</p>`} language="htmlbars" codeReact={`<p>This is a sentence with a <span className="badge">badge</span>.</p>
+<p>You have a <span className="badge bg-success">sentence</span>.</p>`} />
                     </div>
                 </div>
             </section>
@@ -46,7 +47,13 @@ const BadgesPage = () => {
 <p>Look at this <span class="badge bg-warning">warning</span> badge.</p>
 <p>Look at this <span class="badge bg-success">success</span> badge.</p>
 <p>Look at this <span class="badge bg-notice">notice</span> badge.</p>
-<p>Look at this <span class="badge bg-debug">debug</span> badge.</p>`} language="htmlbars" />
+<p>Look at this <span class="badge bg-debug">debug</span> badge.</p>`} language="htmlbars" codeReact={`<p>Look at this <span className="badge bg-light">light</span> badge.</p>
+<p>Look at this <span className="badge bg-dark">dark</span> badge.</p>
+<p>Look at this <span className="badge bg-error">error</span> badge.</p>
+<p>Look at this <span className="badge bg-warning">warning</span> badge.</p>
+<p>Look at this <span className="badge bg-success">success</span> badge.</p>
+<p>Look at this <span className="badge bg-notice">notice</span> badge.</p>
+<p>Look at this <span className="badge bg-debug">debug</span> badge.</p>`} />
                     </div>
                     <div className="col col-tiers">
                         {colors.map((color, index) => 

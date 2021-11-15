@@ -37,7 +37,13 @@ const ButtonsPage = () => {
 <button class="btn btn-warning">btn-warning</button>
 <button class="btn btn-success">btn-success</button>
 <button class="btn btn-notice">btn-notice</button>
-<button class="btn btn-debug">btn-debug</button>`} language="htmlbars" />
+<button class="btn btn-debug">btn-debug</button>`} language="htmlbars" codeReact={`<button className="btn btn-light">btn-light</button>
+<button className="btn btn-dark">btn-dark</button>
+<button className="btn btn-error">btn-error</button>
+<button className="btn btn-warning">btn-warning</button>
+<button className="btn btn-success">btn-success</button>
+<button className="btn btn-notice">btn-notice</button>
+<button className="btn btn-debug">btn-debug</button>`} />
                     </div>
                 </div>
             </section>
