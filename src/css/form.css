@@ -40,6 +40,9 @@
     line-height: 1.5;
     outline: none;
     border: 1px solid var(--white-500);
+}
+
+.form-input-rounded , .rounded .form-input, .form-textarea-rounded .rounded .form-textarea {
     border-radius: 0.25rem;
 }
 

@@ -38,6 +38,37 @@ $ uglifyjs ./src/js/*.js > ./dist/utils.min.js`} language='bash' />
                     </p>
                 </div>
             </section>
+
+            <section className="mt-30 mb-60">
+                <h2 className="title-section">Started Page</h2>
+                <div>
+                    <p>Template of a page</p>
+                    <HighlightCode code={`<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Title</title>
+        <link rel="stylesheet" href="https://overconsulting.tech/utils.min.css" />
+        <script src="https://overconsulting.tech/utils.min.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Titre de la page</h1>
+        </header>
+        <main>
+            <section class="container mtb-30">
+
+            </section>
+
+            <footer>&copy; 2021</footer>
+        <main>
+    </body>
+</html>`} language='htmlbars' />
+                </div>
+            </section>
+
             <section className="mt-30 mb-60">
                 <h2 className="title-section">More details ?</h2>
                 <div>
@@ -45,7 +76,7 @@ $ uglifyjs ./src/js/*.js > ./dist/utils.min.js`} language='bash' />
                         All the coding details are specifyed in the <span className="badge bg-notice">Doc</span> section.
                         If you want to see all CSS classes in action, follow the <span className="badge bg-success">Examples</span> link.
                     </p>
-                    <Link tp="/" className="mr-10 btn btn-notice">
+                    <Link to="/" className="mr-10 btn btn-notice">
                         Doc
                     </Link>
                     <a href="example.html" target="_blank" rel="noreferrer" className="mr-10 btn btn-success">

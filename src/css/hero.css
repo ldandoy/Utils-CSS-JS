@@ -4,6 +4,6 @@
     background: var(--light-color);
 }
 
-.hero.hero-rounded {
+.hero.hero-rounded, .rounded .hero {
     border-radius: .5rem;
 }

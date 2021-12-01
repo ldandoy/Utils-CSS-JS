@@ -5,7 +5,7 @@
     border: 1px solid rgba(0,0,0,0.1)
 }
 
-.card.card-rounded {
+.card.card-rounded, .rounded .card {
     border-radius: .5rem;
 }
 
