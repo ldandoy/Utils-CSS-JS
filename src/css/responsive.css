@@ -100,7 +100,7 @@
         flex-direction: column;
     }
 
-    .row .col {
+    .row .col, .row.row-half .col.col-half {
         width: 100% !important;
     }
 
