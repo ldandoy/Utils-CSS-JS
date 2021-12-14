@@ -111,8 +111,8 @@
     }
 
     .navbar-container, .navbar {
-        flex-direction: column;
-        width: 100%;
+        flex-direction: column !important;
+        width: 100% !important;
     }
 
     .navbar .navbar-content-menu {
