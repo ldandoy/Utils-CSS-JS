@@ -110,7 +110,7 @@
         padding-right: 1rem;
     }
 
-    .navbar-container {
+    .navbar-container, .navbar {
         flex-direction: column;
         width: 100%;
     }
