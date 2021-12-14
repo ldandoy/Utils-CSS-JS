@@ -110,8 +110,9 @@
         padding-right: 1rem;
     }
 
-    .navbar {
+    .navbar-container {
         flex-direction: column;
+        width: 100%;
     }
 
     .navbar .navbar-content-menu {

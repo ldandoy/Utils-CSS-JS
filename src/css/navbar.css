@@ -37,6 +37,13 @@
 
 }
 
+.navbar .navbar-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
 .navbar .navbar-title > div {
     display: flex;
     align-items: center;
