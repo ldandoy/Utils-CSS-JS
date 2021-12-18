@@ -100,7 +100,7 @@
         flex-direction: column;
     }
 
-    .row .col, .row.row-half .col.col-half {
+    .row .col, .row.row-half .col.col-half, .row.row-tiers .col.col-tiers {
         width: 100% !important;
     }
 
@@ -110,8 +110,9 @@
         padding-right: 1rem;
     }
 
-    .navbar {
-        flex-direction: column;
+    .navbar-container, .navbar {
+        flex-direction: column !important;
+        width: 100% !important;
     }
 
     .navbar .navbar-content-menu {

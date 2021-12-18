@@ -15,6 +15,7 @@ const NavbarPage = () => {
                     <nav class="navbar bg-blue-800 navbar-dark txt-white-200">
                         <div class="navbar-title">
                             <a id="home" href="#" class="navbar-link">Titre</a>
+                            <i class="navbar-menu-icon">☰</i>
                         </div>
                         <div class="navbar-content-menu">
                             <ul class="navbar-menu-left">
@@ -34,6 +35,7 @@ const NavbarPage = () => {
                     <HighlightCode codeHtml={`<nav class="navbar bg-blue-800 navbar-dark">
     <div class="navbar-title">
         <a id="home" href="#" class="navbar-link">Titre</a>
+        <i className="navbar-menu-icon">☰</i>
     </div>
     <div class="navbar-content-menu">
         <ul class="navbar-menu-left">
@@ -69,6 +71,7 @@ const NavbarPage = () => {
                     <nav class="navbar bg-blue-100 navbar-light">
                         <div class="navbar-title">
                             <a id="home" href="#" class="navbar-link">Titre</a>
+                            <i class="navbar-menu-icon">☰</i>
                         </div>
                         <div class="navbar-content-menu">
                             <ul class="navbar-menu-left">
@@ -88,6 +91,7 @@ const NavbarPage = () => {
                     <HighlightCode codeHtml={`<nav class="navbar bg-blue-800 navbar-dark txt-white-200">
     <div class="navbar-title">
         <a id="home" href="#" class="navbar-link">Titre</a>
+        <i className="navbar-menu-icon">☰</i>
     </div>
     <div class="navbar-content-menu">
         <ul class="navbar-menu-left">
