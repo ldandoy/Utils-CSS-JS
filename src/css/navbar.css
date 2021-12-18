@@ -41,12 +41,13 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding-left: .5rem;
+    padding-left: 1rem;
 }
 
 .navbar .navbar-title .navbar-link {
     font-size: 1rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .navbar .navbar-menu-left {
@@ -86,7 +87,8 @@
 .navbar .navbar-title .navbar-link {
     text-decoration: none;
     display: inline-block;
-    padding: .5rem;
+    padding: 1rem;
+    cursor: pointer;
 }
 
 
@@ -94,6 +96,7 @@
     text-decoration: none;
     display: inline-block;
     padding: 1rem;
+    cursor: pointer;
 }
 
 .navbar-dark .navbar-menu-icon, .navbar-dark .navbar-title .navbar-link, .navbar-dark .navbar-item .navbar-link {
@@ -111,7 +114,8 @@
 .navbar.navbar-h .navbar-menu .navbar-item .navbar-link {
     width: 100%;
     display: block;
-    padding: .5rem;
+    padding: 1rem;
+    cursor: pointer;
 }
 
 .navbar .navbar-menu-right .navbar-ss-menu, .navbar .navbar-menu-left .navbar-ss-menu {
