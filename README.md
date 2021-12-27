@@ -60,3 +60,5 @@ After runngin this commande, you will found the min.css and min.js in the dist f
 - [X] Modify the doc to be React compatible
 - [ ] Finish the documentation
 - [ ] Add container to the navbar
+- [ ] Complete menu part
+- [ ] Add color in input

@@ -5,7 +5,7 @@
     width: 100%;
 }
 
-.navbar.sticky-top {
+.navbar.navbar-fixed-top {
     width: 100%;
     position: fixed;
     top: 0;
@@ -41,6 +41,13 @@
     display: flex;
     align-items: center;
     width: 80%;
+    margin: auto;
+}
+
+.navbar .navbar-container-fluid {
+    display: flex;
+    align-items: center;
+    width: 100%;
     margin: auto;
 }
 
@@ -97,7 +104,6 @@
     padding: 1rem;
     cursor: pointer;
 }
-
 
 .navbar .navbar-item .navbar-link {
     text-decoration: none;

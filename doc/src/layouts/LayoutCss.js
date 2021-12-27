@@ -9,11 +9,11 @@ const LayoutCss = ({ children }) => {
             <Navbar />
         </header>
 
-        <aside className="aside aside-fixed bg-blue-300">
+        <aside className="aside aside-fixed bg-blue-300 pt-20">
             <MenuCss />
         </aside>
 
-        <main className="container-aside">
+        <main className="container-aside pt-20">
             { children }
         </main>
         <footer className="txt-center mt-50 txt-size-11 ptb-50 bg-green txt-white-100">

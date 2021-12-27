@@ -29,6 +29,7 @@ aside, .aside {
     height: 100vh;
     min-height: 100vh;
     float: left;
+    overflow: auto;
 }
 
 .aside-fixed {

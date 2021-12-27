@@ -9,10 +9,220 @@ const NavbarPage = () => {
         <p>
             Customised <span className="badge bg-success">Alert Messages</span> made simple with the <span className="badge bg-success">Alert Component</span>.
         </p>
+
         <section className="mtb-60 ">
+            <div class="row mb-20">
+                <div class="col">
+                    <h2>Exemple complet</h2>
+                </div>
+            </div>
             <div class="row">
                 <div class="col">
-                    <nav class="navbar bg-blue-800 navbar-dark txt-white-200">
+                    <nav class="bg-blue-800 navbar-dark navbar">
+                        <div class="navbar-container-fluid">
+                            <div class="navbar-title txt-white-100">
+                                <div>
+                                    <a class="navbar-link" href="">
+                                        <img src="icon_overconsulting.png" alt="logo" />
+                                    </a>
+                                    <a class="navbar-link" href="">Titre du site</a>
+                                </div>
+                                <i class="navbar-menu-icon">&#9776;</i>
+                            </div>
+                            <div class="navbar-content-menu">
+                                <ul class="navbar-menu navbar-menu-left">
+                                    <li class="navbar-item">
+                                        <a class="navbar-link" href="">Lien 1</a>
+                                    </li>
+                                    <li class="navbar-item dropdown">
+                                        <a class="navbar-link" href="">Lien 2</a>
+                                        <ul class="navbar-ss-menu bg-blue-800">
+                                            <li class="navbar-item">
+                                                <li class="navbar-item">
+                                                    <a class="navbar-link" href="">Sous Lien 1</a>
+                                                </li>
+                                                <li class="navbar-item">
+                                                    <a class="navbar-link" href="">Sous Lien 2</a>
+                                                </li>
+                                                <li class="navbar-item">
+                                                    <a class="navbar-link" href="">Sous Lien 3</a>
+                                                </li>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="navbar-item">
+                                        <a class="navbar-link" href="">Lien 3</a>
+                                    </li>
+                                </ul>
+                                <ul class="navbar-menu navbar-menu-right">
+                                    <li class="navbar-item">
+                                        <a class="navbar-link" href="">Lien 1</a>
+                                    </li>
+                                    <li class="navbar-item dropdown">
+                                        <a class="navbar-link" href="">Lien 2</a>
+                                        <ul class="navbar-ss-menu bg-blue-800">
+                                            <li class="navbar-item">
+                                                <li class="navbar-item">
+                                                    <a class="navbar-link" href="">Sous Lien 1</a>
+                                                </li>
+                                                <li class="navbar-item">
+                                                    <a class="navbar-link" href="">Sous Lien 2</a>
+                                                </li>
+                                                <li class="navbar-item">
+                                                    <a class="navbar-link" href="">Sous Lien 3</a>
+                                                </li>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="navbar-item">
+                                        <a class="navbar-link" href="">Lien 3</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <HighlightCode codeHtml={`<nav class="bg-blue-800 navbar-dark navbar navbar-fixed-top">
+    <div class="navbar-container-fluid">
+        <div class="navbar-title txt-white-100">
+            <div>
+                <a class="navbar-link" href="">
+                    <img src="icon_overconsulting.png" alt="logo" />
+                </a>
+                <a class="navbar-link" href="">Titre du site</a>
+            </div>
+            <i class="navbar-menu-icon">&#9776;</i>
+        </div>
+        <div class="navbar-content-menu">
+            <ul class="navbar-menu navbar-menu-left">
+                <li class="navbar-item">
+                    <a class="navbar-link" href="">Lien 1</a>
+                </li>
+                <li class="navbar-item dropdown">
+                    <a class="navbar-link" href="">Lien 2</a>
+                    <ul class="navbar-ss-menu bg-blue-800">
+                        <li class="navbar-item">
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="">Sous Lien 1</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="">Sous Lien 2</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="">Sous Lien 3</a>
+                            </li>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="">Lien 3</a>
+                </li>
+            </ul>
+            <ul class="navbar-menu navbar-menu-right">
+                <li class="navbar-item">
+                    <a class="navbar-link" href="">Lien 1</a>
+                </li>
+                <li class="navbar-item dropdown">
+                    <a class="navbar-link" href="">Lien 2</a>
+                    <ul class="navbar-ss-menu bg-blue-800">
+                        <li class="navbar-item">
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="">Sous Lien 1</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="">Sous Lien 2</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="">Sous Lien 3</a>
+                            </li>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="">Lien 3</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>`} language="htmlbars" codeReact={`<nav className="bg-blue-800 navbar-dark navbar navbar-fixed-top">
+<div className="navbar-container-fluid">
+    <div className="navbar-title txt-white-100">
+        <div>
+            <a className="navbar-link" href="">
+                <img src="icon_overconsulting.png" alt="logo" />
+            </a>
+            <a className="navbar-link" href="">Titre du site</a>
+        </div>
+        <i className="navbar-menu-icon">&#9776;</i>
+    </div>
+    <div className="navbar-content-menu">
+        <ul className="navbar-menu navbar-menu-left">
+            <li className="navbar-item">
+                <a className="navbar-link" href="">Lien 1</a>
+            </li>
+            <li className="navbar-item dropdown">
+                <a className="navbar-link" href="">Lien 2</a>
+                <ul className="navbar-ss-menu bg-blue-800">
+                    <li className="navbar-item">
+                        <li className="navbar-item">
+                            <a className="navbar-link" href="">Sous Lien 1</a>
+                        </li>
+                        <li className="navbar-item">
+                            <a className="navbar-link" href="">Sous Lien 2</a>
+                        </li>
+                        <li className="navbar-item">
+                            <a className="navbar-link" href="">Sous Lien 3</a>
+                        </li>
+                    </li>
+                </ul>
+            </li>
+            <li className="navbar-item">
+                <a className="navbar-link" href="">Lien 3</a>
+            </li>
+        </ul>
+        <ul className="navbar-menu navbar-menu-right">
+            <li className="navbar-item">
+                <a className="navbar-link" href="">Lien 1</a>
+            </li>
+            <li className="navbar-item dropdown">
+                <a className="navbar-link" href="">Lien 2</a>
+                <ul className="navbar-ss-menu bg-blue-800">
+                    <li className="navbar-item">
+                        <li className="navbar-item">
+                            <a className="navbar-link" href="">Sous Lien 1</a>
+                        </li>
+                        <li className="navbar-item">
+                            <a className="navbar-link" href="">Sous Lien 2</a>
+                        </li>
+                        <li className="navbar-item">
+                            <a className="navbar-link" href="">Sous Lien 3</a>
+                        </li>
+                    </li>
+                </ul>
+            </li>
+            <li className="navbar-item">
+                <a className="navbar-link" href="">Lien 3</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>`} />
+                </div>
+            </div>
+        </section>
+
+        <section className="mtb-60 ">
+            <div class="row mb-20">
+                <div class="col">
+                    <h2>Exemple font dark</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar bg-purple-900 navbar-dark txt-white-200">
                         <div class="navbar-title">
                             <a id="home" href="#" class="navbar-link">Titre</a>
                             <i class="navbar-menu-icon">☰</i>
@@ -65,7 +275,13 @@ const NavbarPage = () => {
                 </div>
             </div>
         </section>
+
         <section className="mb-60 ">
+            <div class="row mb-20">
+                <div class="col">
+                    <h2>Exemple font light</h2>
+                </div>
+            </div>
             <div class="row">
                 <div class="col">
                     <nav class="navbar bg-blue-100 navbar-light">
@@ -126,8 +342,8 @@ const NavbarPage = () => {
             <div class="row">
                 <div class="col">
                     <HighlightCode 
-                        codeHtml={`<!-- For a sticky on top navbar: .sticky-top -->
-<nav class="navbar bg-blue-800 navbar-dark sticky-top"></nav>
+                        codeHtml={`<!-- For a sticky on top navbar: .navbar-fixed-top -->
+<nav class="navbar bg-blue-800 navbar-dark navbar-fixed-top"></nav>
 
 <!-- Pour qu'il y est une bordure tout autours: .navbar-bordered -->
 <nav class="navbar bg-blue-800 navbar-dark navbar-bordered"></nav>
@@ -145,7 +361,7 @@ const NavbarPage = () => {
 <nav class="navbar bg-blue-800 navbar-dark navbar-bordered-r"></nav>`} 
                         language="htmlbars" 
                         codeReact={`<!-- For a sticky on top navbar: .sticky-top -->
-<nav className="navbar bg-blue-800 navbar-dark sticky-top"></nav>
+<nav className="navbar bg-blue-800 navbar-dark navbar-fixed-top"></nav>
 
 <!-- Pour qu'il y est une bordure tout autours: .navbar-bordered -->
 <nav className="navbar bg-blue-800 navbar-dark navbar-bordered"></nav>

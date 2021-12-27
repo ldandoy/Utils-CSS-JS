@@ -3,635 +3,219 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>utlis CSS | Example</title>
-        <link href="https://overconsulting.tech/utils.min.css" rel="stylesheet" />
+        <link rel="icon" href="icon_overconsulting.png" />
+        <title>utlis CSS | Landing Page Example</title>
+        <link href="/utils.min.css" rel="stylesheet" />
+        <script type="text/javascript" src="/utils.min.js" defer></script>
     </head>
     <body class="mt-80">
         <header>
-            <nav class="navbar bg-blue-800 navbar-dark txt-white-200 sticky-top">
-                <div class="navbar-title">
-                    <a id="home" href="http://overconsulting.tech" class="navbar-link">Utils CSS</a>
-                </div>
-                <div class="navbar-content-menu">
-                    <ul class="navbar-menu-left">
-                        <li class="navbar-item"><a href="#home" class="navbar-link">Home</a></li>
-                        <li class="navbar-item"><a href="#cards" class="navbar-link">Cards</a></li>
-                        <li class="navbar-item"><a href="#texts" class="navbar-link">Texts</a></li>
-                        <li class="navbar-item"><a href="#forms" class="navbar-link">Forms</a></li>
-                        <li class="navbar-item"><a href="#buttons" class="navbar-link active">Buttons</a></li>
-                        <li class="navbar-item"><a href="#images" class="navbar-link">Images</a></li>
-                        <li class="navbar-item"><a href="#tables" class="navbar-link">Tables</a></li>
-                        <li class="navbar-item"><a href="#badges" class="navbar-link">Badges</a></li>
-                        <li class="navbar-item"><a href="#alerts" class="navbar-link">Alerts</a></li>
-                        <li class="navbar-item"><a href="#toasts" class="navbar-link">Toasts</a></li>
-                        <li class="navbar-item"><a href="#colors" class="navbar-link">Colors</a></li>
-                    </ul>
-                    <ul class="navbar-menu-right">
-                    </ul>
+            <nav class="bg-blue-500 navbar-dark navbar navbar-fixed-top">
+                <div class="navbar-container-fluid">
+                    <div class="navbar-title txt-white-100">
+                        <div>
+                            <a class="navbar-link" href="">
+                                <img src="icon_overconsulting.png" alt="logo" />
+                            </a>
+                            <a class="navbar-link" href="">Titre du site</a>
+                        </div>
+                        <i class="navbar-menu-icon">&#9776;</i>
+                    </div>
+                    <div class="navbar-content-menu">
+                        <ul class="navbar-menu navbar-menu-left">
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="">Lien 1</a>
+                            </li>
+                            <li class="navbar-item dropdown">
+                                <a class="navbar-link" href="">Lien 2</a>
+                                <ul class="navbar-ss-menu bg-blue-500">
+                                    <li class="navbar-item">
+                                        <li class="navbar-item">
+                                            <a class="navbar-link" href="">Sous Lien 1</a>
+                                        </li>
+                                        <li class="navbar-item">
+                                            <a class="navbar-link" href="">Sous Lien 2</a>
+                                        </li>
+                                        <li class="navbar-item">
+                                            <a class="navbar-link" href="">Sous Lien 3</a>
+                                        </li>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="">Lien 3</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-menu navbar-menu-right">
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="">Lien 1</a>
+                            </li>
+                            <li class="navbar-item dropdown">
+                                <a class="navbar-link" href="">Lien 2</a>
+                                <ul class="navbar-ss-menu bg-blue-500">
+                                    <li class="navbar-item">
+                                        <li class="navbar-item">
+                                            <a class="navbar-link" href="">Sous Lien 1</a>
+                                        </li>
+                                        <li class="navbar-item">
+                                            <a class="navbar-link" href="">Sous Lien 2</a>
+                                        </li>
+                                        <li class="navbar-item">
+                                            <a class="navbar-link" href="">Sous Lien 3</a>
+                                        </li>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="">Lien 3</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </header>
 
-        <main class="container">
-            <section>
-                <h1 class="title-page">Utils-CSS examples</h1>
-            </section>
-            <section>
-                <div class="">
-                    <p class="mtb-10">This page presents the different possibilities of Utils-CSS. It is free to use. Do not hesitate to make this
-                        full-css library grow. You can send me your feedbacks on ldandoy@overconsulting.net.</p>
-                    <p class="mtb-10">You can find the source code at: <a href="https://github.com/ldandoy/Utils-CSS.git" target="_blank">Github</a>.</p>
-                </div>
-            </section>
-            <section class="mt-30 mb-60">
-                <h2 id="cards" class="title-section">Example of the card component</h2>
-                <div class="grid grid-cols-3 gap-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="https://www.w3schools.com/w3images/team2.jpg" />
-                        </div>
-                        <div class="card-title">Card Title 1</div>
-                        <div class="card-body">Lorem ipsum dolor sit amet consectetur 
-                            adipisicing elit. Ab provident aliquam eos hic dolor aut 
-                            doloremque inventore sint. Quis, dignissimos recusandae! 
-                            Ea numquam aspernatur assumenda tenetur a autem, nihil 
-                            quo?</div>
-                        <div class="card-footer txt-right">
-                            <button class="btn btn-success">See More</button>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="https://www.w3schools.com/w3images/team2.jpg" />
-                        </div>
-                        <div class="card-title">Card Title 2</div>
-                        <div class="card-body">Lorem ipsum dolor sit amet consectetur 
-                            adipisicing elit. Ab provident aliquam eos hic dolor aut 
-                            doloremque inventore sint. Quis, dignissimos recusandae! 
-                            Ea numquam aspernatur assumenda tenetur a autem, nihil 
-                            quo?</div>
-                        <div class="card-footer txt-right">
-                            <button class="btn btn-success">See More</button>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="https://www.w3schools.com/w3images/team2.jpg" />
-                        </div>
-                        <div class="card-title">Card Title 3</div>
-                        <div class="card-body">Lorem ipsum dolor sit amet consectetur 
-                            adipisicing elit. Ab provident aliquam eos hic dolor aut 
-                            doloremque inventore sint. Quis, dignissimos recusandae! 
-                            Ea numquam aspernatur assumenda tenetur a autem, nihil 
-                            quo?</div>
-                        <div class="card-footer txt-right">
-                            <button class="btn btn-success">See More</button>
+        <main>
+            <section class="mt-90 mb-60">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="txt-size-45">Utils-CSS examples</h1>
                         </div>
                     </div>
                 </div>
             </section>
 
             <section class="mtb-60">
-                <h2 class="title-section">Example of a constructed card</h2>
-                <div class="bg-blue-100 rounded-top-l p-30 shadow-lg">
-                    Custom card test 1
-                </div>
-                <div class="bg-gray-800 txt-white-300 rounded-bottom-l p-30 shadow-lg">
-                    Custom card test 2
-                </div>
-
-                <div class="mtb-30 flex w100 flex-jc-space-between">
-                    <div class="card w-30">
-                        Empty card test
-                    </div>
-                    <div class="card w-30">
-                        <div class="card-title">Card-title test</div>
-                    </div>
-                    <div class="card w-30">
-                        <div class="card-body">Card-body test</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="alert alert-notice">
+                                Exempel d'alert message
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <section class="mtb-60">
-                <h2 id="texts" class="title-section">Example of effects you can apply to your texts</h2>
-                <div class="txt-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab <span class="txt-green-1000">provident aliquam</span> eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
-                    Lorem ipsum dolor sit amet <span class="txt-yellow-1000">consectetur adipisicing elit</span>. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
-                </div>
-                <div class="txt-justify mt-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab <span class="txt-overline">provident aliquam</span> eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
-                    Lorem ipsum dolor sit amet <span class="txt-line-through">consectetur adipisicing elit</span>. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
-                </div>
-                <div class="txt-justify mt-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab <span class="txt-orange-600 txt-wavy">provident aliquam</span> eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
-                    Lorem ipsum dolor sit amet <span class="txt-red-400 txt-dotted">consectetur adipisicing elit</span>. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident aliquam eos hic dolor aut doloremque inventore sint. Quis, dignissimos recusandae! Ea numquam aspernatur assumenda tenetur a autem, nihil quo?
-                </div>
-            </section>
-
-            <section class="mtb-60">
-                <h2 id="forms" class="title-section">Example of form with border</h2>
-                <form class="form-bordered">
-                    <div class="form-group">
-                        <label for="" class="form-label">Label</label>
-                        <input type="text" value="" class="form-input" />
-                    </div>
-                    <div class="form-group">
-                        <label for="" class="form-label">Label</label>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Open this select menu</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="" class="form-label">Label</label>
-                        <textarea class="form-textarea txt-purple-900">Test</textarea>
-                    </div>
-                    <div class="form-group">
-                        <button class="btn bg-purple-600 txt-white-100 hover:bg-purple-900 btn-rounded">Link</button>
-                    </div>
-                </form>
-            </section>
-
-            <section class="mtb-60">
-                <h2 class="title-section">Example of form without border</h2>
-                <form class="form-no-bordered">
-                    <div class="form-group">
-                        <label for="" class="form-label">Label</label>
-                        <input type="text" value="" class="form-input" placeholder="Test without form-no-bordered" />
-                        <div class="form-message">Field explanation</div>
-                    </div>
-                    <div class="form-group form-group-error">
-                        <label for="" class="form-label">Label</label>
-                        <input type="text" value="" class="form-input" />
-                        <div class="form-message">Field with error</div>
-                    </div>
-                    <div class="form-group">
-                        <label for="" class="form-label">Label</label>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Open this select menu</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="" class="form-label">Label</label>
-                        <textarea class="form-textarea">Test</textarea>
-                    </div>
-                    <div class="form-group">
-                        <button class="btn bg-purple-600 txt-white-100 hover:bg-purple-900">Link</button>
-                    </div>
-                </form>
-            </section>
-
-            <section class="mtb-60">
-                <h2 id="buttons" class="title-section">Example of buttons</h2>
-                <div>
-                    <button class="btn btn-light">btn-light</button>
-                    <button class="btn btn-dark">btn-dark</button>
-                    <button class="btn btn-success btn-rounded">btn-success</button>
-                    <button class="btn btn-error">btn-error</button>
-                    <button class="btn btn-warning">btn-warning</button>
-                    <button class="btn btn-notice">btn-notice</button>
-                    <button class="btn btn-debug">btn-debug</button>
-                </div>
-            </section>
-
-            <section class="mtb-60">
-                <h2 id='images' class="title-section">Example of images</h2>
-                <div class="flex">
-                    <div class="w-20">
-                        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="Profile picture" class="img-fluid" />
-                    </div>
-                    <div class="w-40">
-                        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="Profile picture" class="img-thumbnails" />
+                <div class="container">
+                    <div class="row row-tiers">
+                        <div class="col col-tiers">
+                            <img class="img-rounded" src="https://images.unsplash.com/photo-1640610041030-7ac28e1ab318?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" alt="test" />
+                        </div>
+                        <div class="col col-tiers">
+                            <img class="img-rounded" src="https://images.unsplash.com/photo-1640610041030-7ac28e1ab318?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" alt="test" />
+                        </div>
+                        <div class="col col-tiers">
+                            <img class="img-rounded" src="https://images.unsplash.com/photo-1640610041030-7ac28e1ab318?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" alt="test" />
+                        </div>
                     </div>
                 </div>
             </section>
 
             <section class="mtb-60">
-                <h2 id='tables' class="title-section">Example of tables without border</h2>
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2" class="table-active">Larry the Bird</td>
-                            <td>@twitter</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-            <section class="mtb-60">
-                <h2 class="title-section">Example of tables with border</h2>
-
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2" class="table-active">Larry the Bird</td>
-                            <td>@twitter</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-            <section class="mtb-60">
-                <h2 class="title-section">Example of thin table</h2>
-                
-                <table class="table table-sm table-header-drak table-hover">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2" class="txt-center">Larry the Bird</td>
-                            <td>@twitter</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="container">
+                    <div class="row row-half">
+                        <div class="col col-half">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo est illum voluptatem sint eveniet minima nemo eligendi reprehenderit nulla. Aliquid quos accusantium illo esse magni officia reprehenderit aperiam, maxime, saepe distinctio veniam itaque est at optio, quidem praesentium doloribus sequi neque consequatur dicta delectus quis iusto voluptates dolore. Temporibus dolorem soluta optio illo, nemo exercitationem atque corrupti odio quod! Asperiores at minus rerum dolore. Maiores aliquam qui nemo est quam quidem eveniet, voluptas ducimus, libero placeat beatae deleniti vel facilis culpa sunt iste quasi? Ipsam maiores fugiat, tenetur doloribus saepe maxime, sunt iste neque, tempora eum recusandae animi dolores quam ad odit repellendus quos laudantium aspernatur voluptatibus similique distinctio totam nobis? Atque placeat unde illum obcaecati sint recusandae saepe numquam nihil aut. Omnis, modi cum quidem sunt, minus sequi rerum, maiores laborum iusto rem atque consequuntur. Impedit aliquam, assumenda cum sequi repellendus eveniet corporis delectus itaque sed architecto, commodi ut iure neque eligendi ex. Odio ipsam adipisci quas corporis dolores sint numquam eligendi. Quas fugit maiores consectetur rem saepe temporibus hic, dolore tempore fugiat distinctio, assumenda non. Voluptates debitis accusamus nemo similique nam vitae sit? Expedita optio fuga provident assumenda excepturi veritatis dignissimos illum. Veritatis corrupti temporibus voluptate officia dolores expedita nulla, harum, voluptates sed consequuntur dolorum exercitationem repudiandae aliquid libero ab dicta in fugiat. Porro labore, cum omnis fugiat eligendi neque corporis nam, nulla a ad vitae sint rem aperiam sit. Illum ex labore quis architecto. Quam exercitationem repudiandae porro adipisci consequatur sunt deserunt nemo doloremque qui tempore? Voluptates at libero corrupti in fuga quod, qui, pariatur hic quae, velit placeat natus quos necessitatibus laborum ab fugit inventore cupiditate sint laudantium quam aliquam tempore consectetur! Culpa pariatur perferendis asperiores. Ut harum sint neque quibusdam vero fugit, ab minus, nobis explicabo dolorum accusamus quasi in ipsa! Recusandae quis eius numquam?
+                        </div>
+                        <div class="col col-half">
+                            <img class="img-fluid" src="https://images.unsplash.com/photo-1640610041030-7ac28e1ab318?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" alt="test" />
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section class="mtb-60">
-                <h2 id="badges" class="title-section">Example of badge</h2>
-                <div>
-                    <p>This is a sentence with a <span class="badge">badge</span>.</p>
-                    <p>And there you have a sentence with another <span class="badge bg-success">badge</span>.</p>
+                <div class="container">
+                    <div class="row row-tiers">
+                        <div class="col col-tiers">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img alt="" src="https://www.w3schools.com/w3images/team2.jpg" />
+                                </div>
+                                <div class="card-title">Titre Card 1</div>
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Ab provident aliquam eos hic dolor aut 
+                                    doloremque inventore sint. Quis, dignissimos recusandae! 
+                                    Ea numquam aspernatur assumenda tenetur a autem, nihil 
+                                    quo?
+                                </div>
+                                <div class="card-footer txt-right">
+                                    <button class="btn btn-success">See More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-tiers">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img alt="" src="https://www.w3schools.com/w3images/team2.jpg" />
+                                </div>
+                                <div class="card-title">Titre Card 1</div>
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Ab provident aliquam eos hic dolor aut 
+                                    doloremque inventore sint. Quis, dignissimos recusandae! 
+                                    Ea numquam aspernatur assumenda tenetur a autem, nihil 
+                                    quo?
+                                </div>
+                                <div class="card-footer txt-right">
+                                    <button class="btn btn-success">See More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-tiers">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img alt="" src="https://www.w3schools.com/w3images/team2.jpg" />
+                                </div>
+                                <div class="card-title">Titre Card 1</div>
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Ab provident aliquam eos hic dolor aut 
+                                    doloremque inventore sint. Quis, dignissimos recusandae! 
+                                    Ea numquam aspernatur assumenda tenetur a autem, nihil 
+                                    quo?
+                                </div>
+                                <div class="card-footer txt-right">
+                                    <button class="btn btn-success">See More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
-            <section class="mtb-60 ">
-                <h2 id="alerts" class="title-section">Example of alert messages</h2>
-                <div class="alert alert-light">
-                    Little news !
-                </div>
-                <div class="alert alert-dark">
-                    Little news !
-                </div>
-                <div class="alert alert-error">
-                    Little news !
-                </div>
-                <div class="alert alert-warning">
-                    Little news !
-                </div>
-                <div class="alert alert-success">
-                    Little news !
-                </div>
-                <div class="alert alert-notice">
-                    Little news !
-                </div>
-                <div class="alert alert-debug">
-                    Little news !
-                </div>
-            </section>
-
-            <section class="mtb-60 ">
-                <h2 id="toasts" class="title-section">Example of toasts</h2>
-                <div class="toast-container">
-                    <div class="toast toast-light">
-                        <div class="toast-title">
-                            Toast title
+            <section class="mt-60 bg-white-300 ptb-30">
+                <div class="container">
+                    <div class="row row-tiers flex-ai-center">
+                        <div class="col col-two-tiers">
+                            <div class="txt-xl">Inscrivez-vous à notre newsletter</div>
                         </div>
-                        <div class="toast-body">
-                            Little toast ! 
-                        </div>
-                        <div class="toast-footer">
-                            Toast footer
-                        </div>
-                    </div>
-                    <div class="toast toast-dark">
-                        <div class="toast-title">
-                            Toast title
-                        </div>
-                        <div class="toast-body">
-                            Little toast ! 
-                        </div>
-                        <div class="toast-footer">
-                            Toast footer
-                        </div>
-                    </div>  
-                    <div class="toast toast-error">
-                        <div class="toast-title">
-                            Toast title
-                        </div>
-                        <div class="toast-body">
-                            Little toast ! 
-                        </div>
-                        <div class="toast-footer">
-                            Toast footer
-                        </div>
-                    </div>
-                    <div class="toast toast-warning">
-                        <div class="toast-title">
-                            Toast title
-                        </div>
-                        <div class="toast-body">
-                            Little toast ! 
-                        </div>
-                        <div class="toast-footer">
-                            Toast footer
-                        </div>
-                    </div>
-                    <div class="toast toast-success">
-                        <div class="toast-title">
-                            Toast title
-                        </div>
-                        <div class="toast-body">
-                            Little toast ! 
-                        </div>
-                        <div class="toast-footer">
-                            Toast footer
-                        </div>
-                    </div>
-                    <div class="toast toast-notice">
-                        <div class="toast-title">
-                            Toast title
-                        </div>
-                        <div class="toast-body">
-                            Little toast ! 
-                        </div>
-                        <div class="toast-footer">
-                            Toast footer
-                        </div>
-                    </div>
-                    <div class="toast toast-debug">
-                        <div class="toast-title">
-                            Toast title
-                        </div>
-                        <div class="toast-body">
-                            Little toast ! 
-                        </div>
-                        <div class="toast-footer">
-                            Toast footer
+                        <div class="col col-tiers">
+                            <form class="form-bordered form-inline">
+                                <div class="form-group">
+                                    <input type="email" value="" class="form-input" placeholder="Add your email address" />
+                                </div>
+                                <div class="form-group ml-5">
+                                    <button class="btn btn-success">
+                                            S'inscrire
+                                    </button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </section>
             
-            <section class="mtb-60 ">
-                <h2 id="colors" class="title-section">Example of color palettes</h2>
-                <div class="grid grid-cols-10 gap-0">
-                    <div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-blue-</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-100">100</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-200">200</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-300">300</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-400">400</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-500">500</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-600">600</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-700">700</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-800">800</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-900">900</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-blue-1000">1000</div>
-                    </div>
-                    <div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-red-</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-100">100</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-200">200</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-300">300</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-400">400</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-500">500</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-600">600</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-700">700</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-800">800</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-900">900</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-red-1000">1000</div>
-                    </div>
-                    <div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-green-</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-100">100</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-200">200</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-300">300</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-400">400</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-500">500</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-600">600</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-700">700</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-800">800</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-900">900</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-green-1000">1000</div>
-                    </div>
-                    <div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-orange-</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-100">100</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-200">200</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-300">300</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-400">400</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-500">500</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-600">600</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-700">700</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-800">800</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-900">900</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-orange-1000">1000</div>
-                    </div>
-                    <div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-pink-</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-100">100</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-200">200</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-300">300</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-400">400</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-500">500</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-600">600</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-700">700</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-800">800</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-900">900</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-pink-1000">1000</div>
-                    </div>
-                    <div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-gray-</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-100">100</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-200">200</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-300">300</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-400">400</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-500">500</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-600">600</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-700">700</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-800">800</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-900">900</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-gray-1000">1000</div>
-                    </div>
-                    <div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-yellow-</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-100">100</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-200">200</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-300">300</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-400">400</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-500">500</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-600">600</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-700">700</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-800">800</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-900">900</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-yellow-1000">1000</div>
-                    </div>
-                    <div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-purple-</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-100">100</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-200">200</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-300">300</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-400">400</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-500">500</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-600">600</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-700">700</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-800">800</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-900">900</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-purple-1000">1000</div>
-                    </div>
-                    <div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-white-</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-100">100</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-200">200</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-300">300</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-400">400</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-500">500</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-600">600</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-700">700</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-800">800</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-900">900</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-white-1000">1000</div>
-                    </div>
-                    <div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="">bg-brown-</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-100">100</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-200">200</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-300">300</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-400">400</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-500">500</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-600">600</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-700">700</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-800">800</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-900">900</div>
-                        <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center;" class="bg-brown-1000">1000</div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="mtb-60">
-                <h2 class="title-section">Example of colors by trend</h2>
-                <h3 class="title-section">Default</h3>
-                <div class="flex flex-row flex-jc-space-between">
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-orange">bg-orange</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-blue-light">bg-blue-light</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-brown">bg-brown</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-yellow">bg-yellow</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-blue-dark">bg-blue-dark</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-green-light">bg-green-light</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-orange-light">bg-orange-light</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-green-dark">bg-green-dark</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-purple">bg-purple</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-pink-dark">bg-pink-dark</div>
-                </div>
-                <h3 class="title-section">2021</h3>
-                <div class="flex flex-row flex-jc-space-between">
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-marigold">bg-marigold</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-cerulean">bg-cerulean</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-rust">bg-rust</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-illuminating">bg-illuminating</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-french-blue">bg-french-blue</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-green-ash">bg-green-ash</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-burnt-coral">bg-burnt-coral</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-mint">bg-mint</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-amethyst-orchid">bg-amethyst-orchid</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-raspberry-sorbet">bg-raspberry-sorbet</div>
-                </div>
-                <h3 class="title-section">2020</h3>
-                <div class="flex flex-row flex-jc-space-between">
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-flame-scarlet">bg-flame-scarlet</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-saffron">bg-saffron</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-biscay-green">bg-biscay-green</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-chive">bg-chive</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-faded-denim">bg-faded-denim</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-orange-peel">bg-orange-peel</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-mosaic-blue">bg-mosaic-blue</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-sunlight">bg-sunlight</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-coral-pink">bg-coral-pink</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-cinnamon-stick">bg-cinnamon-stick</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-grape-compote">bg-grape-compote</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-lark">bg-lark</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-navy-blazer">bg-navy-blazer</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-brilliant-white">bg-brilliant-white</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-ash">bg-ash</div>
-                </div>
-                <h3 class="title-section">2019</h3>
-                <div class="flex flex-row flex-jc-space-between">
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-fiesta">bg-fiesta</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-jester-red">bg-jester-red</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-turmeric">bg-turmeric</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-living-coral">bg-living-coral</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-pink-peacock">bg-pink-peacock</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-pepper-stem">bg-pepper-stem</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-aspen-gold">bg-aspen-gold</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-princess-blue">bg-princess-blue</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-toffee">bg-toffee</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-mango-mojito">bg-mango-mojito</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-terrarium-moss">bg-terrarium-moss</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-sweet-lilac">bg-sweet-lilac</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-soybean">bg-soybean</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-eclipse">bg-eclipse</div>
-                    <div style="width: 100px; height: 100px; justify-content: center; display: flex; align-items: center; text-align: center;" class="bg-sweet-corn">bg-sweet-corn</div>
-                </div>
-            </section>
         </main>
 
-        <footer>
-            
+        <footer class="bg-white-900 txt-white ptb-80">
+            <div class="container">
+                © 2021 Overconsulting
+            </div>
         </footer>
     </body>
 </html>

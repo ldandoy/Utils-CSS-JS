@@ -108,6 +108,7 @@
 .txt-brown-900 { color: var(--brown-900) !important; }
 .txt-brown-1000 { color: var(--brown-1000) !important; }
 
+.txt-white { color: var(--white-color) !important; }
 .txt-orange { color: var(--orange-color) !important; }
 .txt-blue-light { color: var(--blue-light-color) !important; }
 .txt-brown { color: var(--brown-color) !important; }
@@ -172,6 +173,19 @@
 .txt-justify {text-align: justify;}
 .txt-no-underline {text-decoration: none;}
 .txt-no-wrap {white-space:nowrap;}
+.txt-oblique { font-style: oblique; }
+.txt-uppercase { text-transform: uppercase; }
+.txt-lowercase { text-transform: lowercase; }
+.txt-capitalize { text-transform: capitalize; }
+.txt-underline { text-decoration: underline; }
+.txt-dashed { text-decoration: dashed; }
+.txt-dotted { text-decoration: dotted; }
+.txt-double { text-decoration: double; }
+.txt-line-through { text-decoration: line-through; }
+.txt-none { text-decoration: none; }
+.txt-overline { text-decoration: overline; }
+.txt-solid { text-decoration: solid; }
+.txt-wavy { text-decoration: wavy; }
 
 .txt-size-8 {font-size: 8px !important;}
 .txt-size-9 {font-size: 9px !important;}
@@ -196,48 +210,20 @@
 .txt-size-28 {font-size: 28px !important;}
 .txt-size-29 {font-size: 29px !important;}
 .txt-size-30 {font-size: 30px !important;}
-.txt-size-35 {font-size: 60px !important;}
+.txt-size-35 {font-size: 35px !important;}
 .txt-size-40 {font-size: 40px !important;}
-.txt-size-45 {font-size: 60px !important;}
+.txt-size-45 {font-size: 45px !important;}
 .txt-size-50 {font-size: 50px !important;}
-.txt-size-55 {font-size: 60px !important;}
+.txt-size-55 {font-size: 55px !important;}
 .txt-size-60 {font-size: 60px !important;}
-.txt-size-65 {font-size: 60px !important;}
-.txt-size-70 {font-size: 60px !important;}
-.txt-size-75 {font-size: 60px !important;}
-.txt-size-80 {font-size: 60px !important;}
-.txt-size-85 {font-size: 60px !important;}
-.txt-size-90 {font-size: 60px !important;}
-.txt-size-95 {font-size: 60px !important;}
-.txt-size-100 {font-size: 60px !important;}
-
-.txt-bold { font-weight: bold; }
-.txt-bold-100 { font-weight: 100; }
-.txt-bold-200 { font-weight: 200; }
-.txt-bold-300 { font-weight: 300; }
-.txt-bold-400 { font-weight: 400; }
-.txt-bold-500 { font-weight: 500; }
-.txt-bold-600 { font-weight: 600; }
-.txt-bold-700 { font-weight: 700; }
-.txt-bold-800 { font-weight: 800; }
-.txt-bold-900 { font-weight: 900; }
-
-.txt-italic { font-style: italic; }
-.txt-oblique { font-style: oblique; }
-
-.txt-uppercase { text-transform: uppercase; }
-.txt-lowercase { text-transform: lowercase; }
-.txt-capitalize { text-transform: capitalize; }
-
-.txt-underline { text-decoration: underline; }
-.txt-dashed { text-decoration: dashed; }
-.txt-dotted { text-decoration: dotted; }
-.txt-double { text-decoration: double; }
-.txt-line-through { text-decoration: line-through; }
-.txt-none { text-decoration: none; }
-.txt-overline { text-decoration: overline; }
-.txt-solid { text-decoration: solid; }
-.txt-wavy { text-decoration: wavy; }
+.txt-size-65 {font-size: 65px !important;}
+.txt-size-70 {font-size: 70px !important;}
+.txt-size-75 {font-size: 75px !important;}
+.txt-size-80 {font-size: 80px !important;}
+.txt-size-85 {font-size: 85px !important;}
+.txt-size-90 {font-size: 90px !important;}
+.txt-size-95 {font-size: 95px !important;}
+.txt-size-100 {font-size: 100px !important;}
 
 .txt-line-height-sm { line-height: .125rem; }
 .txt-line-height { line-height: 1rem; }
@@ -246,5 +232,5 @@
 
 .txt-small {font-size: .85rem;}
 .txt-normal {font-size: 1rem;}
-.txt-l {font-size: 1.5rem;}
+.txt-large {font-size: 1.5rem;}
 .txt-xl {font-size: 2rem;}
