@@ -36,7 +36,7 @@ const CardsPage= () => {
                     <div className="col col-two-tiers">
                         {/* Code */}
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="card">
+                        <HighlightCode code={`<div class="card">
     <div class="card-image">
         <img alt="" src="#" />
     </div>
@@ -51,22 +51,7 @@ const CardsPage= () => {
     <div class="card-footer txt-right">
         <button class="btn btn-success">See More</button>
     </div>
-</div>`} language="htmlbars" codeReact={`<div className="card">
-    <div className="card-image">
-        <img alt="" src="#" />
-    </div>
-    <div className="card-title">Titre Card 1</div>
-    <div className="card-body">
-        Lorem ipsum dolor sit amet consectetur 
-        adipisicing elit. Ab provident aliquam eos hic dolor aut 
-        doloremque inventore sint. Quis, dignissimos recusandae! 
-        Ea numquam aspernatur assumenda tenetur a autem, nihil 
-        quo?
-    </div>
-    <div className="card-footer txt-right">
-        <button class="btn btn-success">See More</button>
-    </div>
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
 
@@ -85,17 +70,12 @@ const CardsPage= () => {
                     </div>
                     <div className="col col-three-quarter">
                         {/* Code */}
-                        <HighlightCode codeHtml={`<div class="bg-blue-100 rounded-top-l p-30 shadow-lg">
+                        <HighlightCode code={`<div class="bg-blue-100 rounded-top-l p-30 shadow-lg">
     Test
 </div>
 <div class="bg-gray-800 txt-white-300 rounded-bottom-l p-30 shadow-lg">
     Test
-</div>`} language="htmlbars" codeReact={`<div className="bg-blue-100 rounded-top-l p-30 shadow-lg">
-    Test
-</div>
-<div className="bg-gray-800 txt-white-300 rounded-bottom-l p-30 shadow-lg">
-    Test
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
 
@@ -107,11 +87,9 @@ const CardsPage= () => {
                     </div>
                     <div className="col col-half">
                         {/* Code */}
-                        <HighlightCode codeHtml={`<div class="card w-30">
+                        <HighlightCode code={`<div class="card w-30">
     test
-</div>`} language="htmlbars" codeReact={`<div className="card w-30">
-    test
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
                 <div className="mb-60 row">
@@ -122,11 +100,9 @@ const CardsPage= () => {
                     </div>
                     <div className="col col-half">
                         {/* Code */}
-                        <HighlightCode codeHtml={`<div class="card w-30">
+                        <HighlightCode code={`<div class="card w-30">
     <div class="card-title">Title test</div>
-</div>`} language="htmlbars" codeReact={`<div className="card w-30">
-    <div className="card-title">Title test</div>
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
                 <div className="mb-60 row">
@@ -137,11 +113,9 @@ const CardsPage= () => {
                     </div>
                     <div className="col col-half">
                         {/* Code */}
-                        <HighlightCode codeHtml={`<div class="card w-30">
+                        <HighlightCode code={`<div class="card w-30">
     <div class="card-body">Content test</div>
-</div>`} language="htmlbars" codeReact={`<div className="card w-30">
-    <div className="card-body">Content test</div>
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
             </section>

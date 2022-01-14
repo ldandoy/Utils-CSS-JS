@@ -21,13 +21,10 @@ const FlexPage = () => {
                     </div>
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-ai-center flex-jc-space-around">
+                        <HighlightCode code={`<div class="flex flex-ai-center flex-jc-space-around">
     <div class="bg-blue-600 p-20">Test 1</div>
     <div class="bg-brown-600 p-20">Test 2</div>
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-ai-center flex-jc-space-around">
-    <div className="bg-blue-600 p-20">Test 1</div>
-    <div className="bg-brown-600 p-20">Test 2</div>
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
             </section>
@@ -41,21 +38,17 @@ const FlexPage = () => {
                     </div>
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-jc-start">
+                        <HighlightCode code={`<div class="flex flex-jc-start">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-jc-start">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
                 <div className="mb-20 grid grid-cols-2 gap-8">
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-jc-end">
+                        <HighlightCode code={`<div class="flex flex-jc-end">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-jc-end">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                     <div className="flex flex-jc-end">
                         <div className="bg-blue-600 p-20">Test 1</div>
@@ -69,21 +62,17 @@ const FlexPage = () => {
                     </div>
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-jc-center">
+                        <HighlightCode code={`<div class="flex flex-jc-center">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-jc-center">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
                 <div className="mb-20 grid grid-cols-2 gap-8">
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-jc-space-between">
+                        <HighlightCode code={`<div class="flex flex-jc-space-between">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-jc-space-between">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                     <div className="flex flex-jc-space-between">
                         <div className="bg-blue-600 p-20">Test 1</div>
@@ -97,21 +86,17 @@ const FlexPage = () => {
                     </div>
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-jc-space-around">
+                        <HighlightCode code={`<div class="flex flex-jc-space-around">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-jc-space-around">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
                 <div className="mb-20 grid grid-cols-2 gap-8">
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-jc-space-evenly">
+                        <HighlightCode code={`<div class="flex flex-jc-space-evenly">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-jc-space-evenly">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                     <div className="flex flex-jc-space-evenly">
                         <div className="bg-blue-600 p-20">Test 1</div>
@@ -129,21 +114,17 @@ const FlexPage = () => {
                     </div>
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-ai-stretch">
+                        <HighlightCode code={`<div class="flex flex-ai-stretch">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-ai-stretch">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
                 <div className="mb-20 grid grid-cols-2 gap-8">
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-ai-baseline">
+                        <HighlightCode code={`<div class="flex flex-ai-baseline">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-ai-baseline">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                     <div className="flex flex-ai-baseline">
                         <div className="bg-blue-600 p-20">Test 1</div>
@@ -157,21 +138,17 @@ const FlexPage = () => {
                     </div>
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-ai-center">
+                        <HighlightCode code={`<div class="flex flex-ai-center">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-ai-center">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
                 <div className="mb-20 grid grid-cols-2 gap-8">
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-ai-flex-start">
+                        <HighlightCode code={`<div class="flex flex-ai-flex-start">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-ai-flex-start">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                     <div className="flex flex-ai-flex-start">
                         <div className="bg-blue-600 p-20">Test 1</div>
@@ -185,11 +162,9 @@ const FlexPage = () => {
                     </div>
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-ai-flex-end">
+                        <HighlightCode code={`<div class="flex flex-ai-flex-end">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-ai-flex-end">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
             </section>
@@ -203,21 +178,17 @@ const FlexPage = () => {
                     </div>
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-ac-start">
+                        <HighlightCode code={`<div class="flex flex-ac-start">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-ac-start">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
                 <div className="mb-20 grid grid-cols-2 gap-8">
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-ac-end">
+                        <HighlightCode code={`<div class="flex flex-ac-end">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-ac-end">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                     <div className="flex flex-ac-end">
                         <div className="bg-blue-600 p-20">Test 1</div>
@@ -231,21 +202,17 @@ const FlexPage = () => {
                     </div>
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-ac-center">
+                        <HighlightCode code={`<div class="flex flex-ac-center">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-ac-center">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
                 <div className="mb-20 grid grid-cols-2 gap-8">
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-ac-space-between">
+                        <HighlightCode code={`<div class="flex flex-ac-space-between">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-ac-space-between">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                     <div className="flex flex-ac-space-between">
                         <div className="bg-blue-600 p-20">Test 1</div>
@@ -259,21 +226,17 @@ const FlexPage = () => {
                     </div>
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-ac-space-around">
+                        <HighlightCode code={`<div class="flex flex-ac-space-around">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-ac-space-around">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
                 <div className="mb-20 grid grid-cols-2 gap-8">
                     <div>
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="flex flex-ac-space-stretch">
+                        <HighlightCode code={`<div class="flex flex-ac-space-stretch">
     ...
-</div>`} language="htmlbars" codeReact={`<div className="flex flex-ac-space-stretch">
-    ...
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                     <div className="flex flex-ac-space-stretch">
                         <div className="bg-blue-600 p-20">Test 1</div>

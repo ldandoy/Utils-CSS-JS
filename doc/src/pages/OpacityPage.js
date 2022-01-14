@@ -15,17 +15,15 @@ const OpacityPage = () => {
             
                 <div className="mb-30 grid grid-cols-2 gap-8">
                     <div className="">
-                        <div class="m-30 opacity-25 bg-purple-500">
+                        <div className="m-30 opacity-25 bg-purple-500">
                             Test
                         </div>
                     </div>
                     <div className="">
                         {/* Code */}
-                        <HighlightCode codeHtml={`<div class="m-30 opacity-25 bg-purple-500">
+                        <HighlightCode code={`<div class="m-30 opacity-25 bg-purple-500">
     Test
-</div>`} language="htmlbars" codeReact={`<div className="m-30 opacity-25 bg-purple-500">
-    Test
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
 

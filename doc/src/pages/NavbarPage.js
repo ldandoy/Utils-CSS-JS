@@ -11,71 +11,71 @@ const NavbarPage = () => {
         </p>
 
         <section className="mtb-60 ">
-            <div class="row mb-20">
-                <div class="col">
+            <div className="row mb-20">
+                <div className="col">
                     <h2>Exemple complet</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <nav class="bg-blue-800 navbar-dark navbar">
-                        <div class="navbar-container-fluid">
-                            <div class="navbar-title txt-white-100">
+            <div className="row">
+                <div className="col">
+                    <nav className="bg-blue-800 navbar-dark navbar">
+                        <div className="navbar-container-fluid">
+                            <div className="navbar-title txt-white-100">
                                 <div>
-                                    <a class="navbar-link" href="">
+                                    <a className="navbar-link" href="/">
                                         <img src="icon_overconsulting.png" alt="logo" />
                                     </a>
-                                    <a class="navbar-link" href="">Titre du site</a>
+                                    <a className="navbar-link" href="/">Titre du site</a>
                                 </div>
-                                <i class="navbar-menu-icon">&#9776;</i>
+                                <i className="navbar-menu-icon">&#9776;</i>
                             </div>
-                            <div class="navbar-content-menu">
-                                <ul class="navbar-menu navbar-menu-left">
-                                    <li class="navbar-item">
-                                        <a class="navbar-link" href="">Lien 1</a>
+                            <div className="navbar-content-menu">
+                                <ul className="navbar-menu navbar-menu-left">
+                                    <li className="navbar-item">
+                                        <a className="navbar-link" href="/">Lien 1</a>
                                     </li>
-                                    <li class="navbar-item dropdown">
-                                        <a class="navbar-link" href="">Lien 2</a>
-                                        <ul class="navbar-ss-menu bg-blue-800">
-                                            <li class="navbar-item">
-                                                <li class="navbar-item">
-                                                    <a class="navbar-link" href="">Sous Lien 1</a>
+                                    <li className="navbar-item dropdown">
+                                        <a className="navbar-link" href="/">Lien 2</a>
+                                        <ul className="navbar-ss-menu bg-blue-800">
+                                            <li className="navbar-item">
+                                                <li className="navbar-item">
+                                                    <a className="navbar-link" href="/">Sous Lien 1</a>
                                                 </li>
-                                                <li class="navbar-item">
-                                                    <a class="navbar-link" href="">Sous Lien 2</a>
+                                                <li className="navbar-item">
+                                                    <a className="navbar-link" href="/">Sous Lien 2</a>
                                                 </li>
-                                                <li class="navbar-item">
-                                                    <a class="navbar-link" href="">Sous Lien 3</a>
+                                                <li className="navbar-item">
+                                                    <a className="navbar-link" href="/">Sous Lien 3</a>
                                                 </li>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="navbar-item">
-                                        <a class="navbar-link" href="">Lien 3</a>
+                                    <li className="navbar-item">
+                                        <a className="navbar-link" href="/">Lien 3</a>
                                     </li>
                                 </ul>
-                                <ul class="navbar-menu navbar-menu-right">
-                                    <li class="navbar-item">
-                                        <a class="navbar-link" href="">Lien 1</a>
+                                <ul className="navbar-menu navbar-menu-right">
+                                    <li className="navbar-item">
+                                        <a className="navbar-link" href="/">Lien 1</a>
                                     </li>
-                                    <li class="navbar-item dropdown">
-                                        <a class="navbar-link" href="">Lien 2</a>
-                                        <ul class="navbar-ss-menu bg-blue-800">
-                                            <li class="navbar-item">
-                                                <li class="navbar-item">
-                                                    <a class="navbar-link" href="">Sous Lien 1</a>
+                                    <li className="navbar-item dropdown">
+                                        <a className="navbar-link" href="/">Lien 2</a>
+                                        <ul className="navbar-ss-menu bg-blue-800">
+                                            <li className="navbar-item">
+                                                <li className="navbar-item">
+                                                    <a className="navbar-link" href="/">Sous Lien 1</a>
                                                 </li>
-                                                <li class="navbar-item">
-                                                    <a class="navbar-link" href="">Sous Lien 2</a>
+                                                <li className="navbar-item">
+                                                    <a className="navbar-link" href="/">Sous Lien 2</a>
                                                 </li>
-                                                <li class="navbar-item">
-                                                    <a class="navbar-link" href="">Sous Lien 3</a>
+                                                <li className="navbar-item">
+                                                    <a className="navbar-link" href="/">Sous Lien 3</a>
                                                 </li>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="navbar-item">
-                                        <a class="navbar-link" href="">Lien 3</a>
+                                    <li className="navbar-item">
+                                        <a className="navbar-link" href="/">Lien 3</a>
                                     </li>
                                 </ul>
                             </div>
@@ -83,266 +83,176 @@ const NavbarPage = () => {
                     </nav>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <HighlightCode codeHtml={`<nav class="bg-blue-800 navbar-dark navbar navbar-fixed-top">
+            <div className="row">
+                <div className="col">
+                    <HighlightCode code={`<nav class="bg-blue-800 navbar-dark navbar navbar-fixed-top">
     <div class="navbar-container-fluid">
         <div class="navbar-title txt-white-100">
             <div>
-                <a class="navbar-link" href="">
+                <a class="navbar-link" href="/">
                     <img src="icon_overconsulting.png" alt="logo" />
                 </a>
-                <a class="navbar-link" href="">Titre du site</a>
+                <a class="navbar-link" href="/">Titre du site</a>
             </div>
             <i class="navbar-menu-icon">&#9776;</i>
         </div>
         <div class="navbar-content-menu">
             <ul class="navbar-menu navbar-menu-left">
                 <li class="navbar-item">
-                    <a class="navbar-link" href="">Lien 1</a>
+                    <a class="navbar-link" href="/">Lien 1</a>
                 </li>
                 <li class="navbar-item dropdown">
-                    <a class="navbar-link" href="">Lien 2</a>
+                    <a class="navbar-link" href="/">Lien 2</a>
                     <ul class="navbar-ss-menu bg-blue-800">
                         <li class="navbar-item">
                             <li class="navbar-item">
-                                <a class="navbar-link" href="">Sous Lien 1</a>
+                                <a class="navbar-link" href="/">Sous Lien 1</a>
                             </li>
                             <li class="navbar-item">
-                                <a class="navbar-link" href="">Sous Lien 2</a>
+                                <a class="navbar-link" href="/">Sous Lien 2</a>
                             </li>
                             <li class="navbar-item">
-                                <a class="navbar-link" href="">Sous Lien 3</a>
+                                <a class="navbar-link" href="/">Sous Lien 3</a>
                             </li>
                         </li>
                     </ul>
                 </li>
                 <li class="navbar-item">
-                    <a class="navbar-link" href="">Lien 3</a>
+                    <a class="navbar-link" href="/">Lien 3</a>
                 </li>
             </ul>
             <ul class="navbar-menu navbar-menu-right">
                 <li class="navbar-item">
-                    <a class="navbar-link" href="">Lien 1</a>
+                    <a class="navbar-link" href="/">Lien 1</a>
                 </li>
                 <li class="navbar-item dropdown">
-                    <a class="navbar-link" href="">Lien 2</a>
+                    <a class="navbar-link" href="/">Lien 2</a>
                     <ul class="navbar-ss-menu bg-blue-800">
                         <li class="navbar-item">
                             <li class="navbar-item">
-                                <a class="navbar-link" href="">Sous Lien 1</a>
+                                <a class="navbar-link" href="/">Sous Lien 1</a>
                             </li>
                             <li class="navbar-item">
-                                <a class="navbar-link" href="">Sous Lien 2</a>
+                                <a class="navbar-link" href="/">Sous Lien 2</a>
                             </li>
                             <li class="navbar-item">
-                                <a class="navbar-link" href="">Sous Lien 3</a>
+                                <a class="navbar-link" href="/">Sous Lien 3</a>
                             </li>
                         </li>
                     </ul>
                 </li>
                 <li class="navbar-item">
-                    <a class="navbar-link" href="">Lien 3</a>
+                    <a class="navbar-link" href="/">Lien 3</a>
                 </li>
             </ul>
         </div>
     </div>
-</nav>`} language="htmlbars" codeReact={`<nav className="bg-blue-800 navbar-dark navbar navbar-fixed-top">
-<div className="navbar-container-fluid">
-    <div className="navbar-title txt-white-100">
-        <div>
-            <a className="navbar-link" href="">
-                <img src="icon_overconsulting.png" alt="logo" />
-            </a>
-            <a className="navbar-link" href="">Titre du site</a>
-        </div>
-        <i className="navbar-menu-icon">&#9776;</i>
-    </div>
-    <div className="navbar-content-menu">
-        <ul className="navbar-menu navbar-menu-left">
-            <li className="navbar-item">
-                <a className="navbar-link" href="">Lien 1</a>
-            </li>
-            <li className="navbar-item dropdown">
-                <a className="navbar-link" href="">Lien 2</a>
-                <ul className="navbar-ss-menu bg-blue-800">
-                    <li className="navbar-item">
-                        <li className="navbar-item">
-                            <a className="navbar-link" href="">Sous Lien 1</a>
-                        </li>
-                        <li className="navbar-item">
-                            <a className="navbar-link" href="">Sous Lien 2</a>
-                        </li>
-                        <li className="navbar-item">
-                            <a className="navbar-link" href="">Sous Lien 3</a>
-                        </li>
-                    </li>
-                </ul>
-            </li>
-            <li className="navbar-item">
-                <a className="navbar-link" href="">Lien 3</a>
-            </li>
-        </ul>
-        <ul className="navbar-menu navbar-menu-right">
-            <li className="navbar-item">
-                <a className="navbar-link" href="">Lien 1</a>
-            </li>
-            <li className="navbar-item dropdown">
-                <a className="navbar-link" href="">Lien 2</a>
-                <ul className="navbar-ss-menu bg-blue-800">
-                    <li className="navbar-item">
-                        <li className="navbar-item">
-                            <a className="navbar-link" href="">Sous Lien 1</a>
-                        </li>
-                        <li className="navbar-item">
-                            <a className="navbar-link" href="">Sous Lien 2</a>
-                        </li>
-                        <li className="navbar-item">
-                            <a className="navbar-link" href="">Sous Lien 3</a>
-                        </li>
-                    </li>
-                </ul>
-            </li>
-            <li className="navbar-item">
-                <a className="navbar-link" href="">Lien 3</a>
-            </li>
-        </ul>
-    </div>
-</div>
-</nav>`} />
+</nav>`} translateToReact language="htmlbars" />
                 </div>
             </div>
         </section>
 
         <section className="mtb-60 ">
-            <div class="row mb-20">
-                <div class="col">
+            <div className="row mb-20">
+                <div className="col">
                     <h2>Exemple font dark</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <nav class="navbar bg-purple-900 navbar-dark txt-white-200">
-                        <div class="navbar-title">
-                            <a id="home" href="#" class="navbar-link">Titre</a>
-                            <i class="navbar-menu-icon">☰</i>
+            <div className="row">
+                <div className="col">
+                    <nav className="navbar bg-purple-900 navbar-dark txt-white-200">
+                        <div className="navbar-title">
+                            <a id="home" href="/" className="navbar-link">Titre</a>
+                            <i className="navbar-menu-icon">☰</i>
                         </div>
-                        <div class="navbar-content-menu">
-                            <ul class="navbar-menu-left">
-                                <li class="navbar-item"><a href="#" class="navbar-link">Item 1</a></li>
-                                <li class="navbar-item"><a href="#" class="navbar-link">Item 2</a></li>
+                        <div className="navbar-content-menu">
+                            <ul className="navbar-menu-left">
+                                <li className="navbar-item"><a href="/" className="navbar-link">Item 1</a></li>
+                                <li className="navbar-item"><a href="/" className="navbar-link">Item 2</a></li>
                             </ul>
-                            <ul class="navbar-menu-right">
-                                <li class="navbar-item"><a href="#" class="navbar-link">Item 1</a></li>
-                                <li class="navbar-item"><a href="#" class="navbar-link">Item 2</a></li>
+                            <ul className="navbar-menu-right">
+                                <li className="navbar-item"><a href="/" className="navbar-link">Item 1</a></li>
+                                <li className="navbar-item"><a href="/" className="navbar-link">Item 2</a></li>
                             </ul>
                         </div>
                     </nav>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <HighlightCode codeHtml={`<nav class="navbar bg-blue-800 navbar-dark">
+            <div className="row">
+                <div className="col">
+                    <HighlightCode code={`<nav class="navbar bg-blue-800 navbar-dark">
     <div class="navbar-title">
-        <a id="home" href="#" class="navbar-link">Titre</a>
+        <a id="home" href="/" class="navbar-link">Titre</a>
         <i className="navbar-menu-icon">☰</i>
     </div>
     <div class="navbar-content-menu">
         <ul class="navbar-menu-left">
-            <li class="navbar-item"><a href="#" class="navbar-link">Item 1</a></li>
-            <li class="navbar-item"><a href="#" class="navbar-link">Item 2</a></li>
+            <li class="navbar-item"><a href="/" class="navbar-link">Item 1</a></li>
+            <li class="navbar-item"><a href="/" class="navbar-link">Item 2</a></li>
         </ul>
         <ul class="navbar-menu-right">
-            <li class="navbar-item"><a href="#" class="navbar-link">Item 1</a></li>
-            <li class="navbar-item"><a href="#" class="navbar-link">Item 2</a></li>
+            <li class="navbar-item"><a href="/" class="navbar-link">Item 1</a></li>
+            <li class="navbar-item"><a href="/" class="navbar-link">Item 2</a></li>
         </ul>
     </div>
-</nav>`} language="htmlbars" codeReact={`<nav className="navbar bg-blue-800 navbar-dark">
-    <div className="navbar-title">
-        <a id="home" href="#" className="navbar-link">Titre</a>
-    </div>
-    <div className="navbar-content-menu">
-        <ul className="navbar-menu-left">
-            <li className="navbar-item"><a href="#" className="navbar-link">Item 1</a></li>
-            <li className="navbar-item"><a href="#" className="navbar-link">Item 2</a></li>
-        </ul>
-        <ul className="navbar-menu-right">
-            <li className="navbar-item"><a href="#" className="navbar-link">Item 1</a></li>
-            <li className="navbar-item"><a href="#" className="navbar-link">Item 2</a></li>
-        </ul>
-    </div>
-</nav>`} />
+</nav>`} language="htmlbars" />
                 </div>
             </div>
         </section>
 
         <section className="mb-60 ">
-            <div class="row mb-20">
-                <div class="col">
+            <div className="row mb-20">
+                <div className="col">
                     <h2>Exemple font light</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <nav class="navbar bg-blue-100 navbar-light">
-                        <div class="navbar-title">
-                            <a id="home" href="#" class="navbar-link">Titre</a>
-                            <i class="navbar-menu-icon">☰</i>
+            <div className="row">
+                <div className="col">
+                    <nav className="navbar bg-blue-100 navbar-light">
+                        <div className="navbar-title">
+                            <a id="home" href="/" className="navbar-link">Titre</a>
+                            <i className="navbar-menu-icon">☰</i>
                         </div>
-                        <div class="navbar-content-menu">
-                            <ul class="navbar-menu-left">
-                                <li class="navbar-item"><a href="#" class="navbar-link">Item 1</a></li>
-                                <li class="navbar-item"><a href="#" class="navbar-link">Item 2</a></li>
+                        <div className="navbar-content-menu">
+                            <ul className="navbar-menu-left">
+                                <li className="navbar-item"><a href="/" className="navbar-link">Item 1</a></li>
+                                <li className="navbar-item"><a href="/" className="navbar-link">Item 2</a></li>
                             </ul>
-                            <ul class="navbar-menu-right">
-                                <li class="navbar-item"><a href="#" class="navbar-link">Item 1</a></li>
-                                <li class="navbar-item"><a href="#" class="navbar-link">Item 2</a></li>
+                            <ul className="navbar-menu-right">
+                                <li className="navbar-item"><a href="/" className="navbar-link">Item 1</a></li>
+                                <li className="navbar-item"><a href="/" className="navbar-link">Item 2</a></li>
                             </ul>
                         </div>
                     </nav>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <HighlightCode codeHtml={`<nav class="navbar bg-blue-800 navbar-dark txt-white-200">
+            <div className="row">
+                <div className="col">
+                    <HighlightCode code={`<nav class="navbar bg-blue-800 navbar-dark txt-white-200">
     <div class="navbar-title">
-        <a id="home" href="#" class="navbar-link">Titre</a>
+        <a id="home" href="/" class="navbar-link">Titre</a>
         <i className="navbar-menu-icon">☰</i>
     </div>
     <div class="navbar-content-menu">
         <ul class="navbar-menu-left">
-            <li class="navbar-item"><a href="#" class="navbar-link">Item 1</a></li>
-            <li class="navbar-item"><a href="#" class="navbar-link">Item 2</a></li>
+            <li class="navbar-item"><a href="/" class="navbar-link">Item 1</a></li>
+            <li class="navbar-item"><a href="/" class="navbar-link">Item 2</a></li>
         </ul>
         <ul class="navbar-menu-right">
-            <li class="navbar-item"><a href="#" class="navbar-link">Item 1</a></li>
-            <li class="navbar-item"><a href="#" class="navbar-link">Item 2</a></li>
+            <li class="navbar-item"><a href="/" class="navbar-link">Item 1</a></li>
+            <li class="navbar-item"><a href="/" class="navbar-link">Item 2</a></li>
         </ul>
     </div>
-</nav>`} language="htmlbars" codeReact={`<nav className="navbar bg-blue-800 navbar-dark txt-white-200">
-    <div className="navbar-title">
-        <a id="home" href="#" className="navbar-link">Titre</a>
-    </div>
-    <div className="navbar-content-menu">
-        <ul className="navbar-menu-left">
-            <li className="navbar-item"><a href="#" className="navbar-link">Item 1</a></li>
-            <li className="navbar-item"><a href="#" className="navbar-link">Item 2</a></li>
-        </ul>
-        <ul className="navbar-menu-right">
-            <li className="navbar-item"><a href="#" className="navbar-link">Item 1</a></li>
-            <li className="navbar-item"><a href="#" className="navbar-link">Item 2</a></li>
-        </ul>
-    </div>
-</nav>`} />
+</nav>`} translateToReact language="htmlbars" />
                 </div>
             </div>
         </section>
         <section className="mb-60 ">
             <h2>Autre class possible</h2>
-            <div class="row">
-                <div class="col">
+            <div className="row">
+                <div className="col">
                     <HighlightCode 
-                        codeHtml={`<!-- For a sticky on top navbar: .navbar-fixed-top -->
+                        code={`<!-- For a sticky on top navbar: .navbar-fixed-top -->
 <nav class="navbar bg-blue-800 navbar-dark navbar-fixed-top"></nav>
 
 <!-- Pour qu'il y est une bordure tout autours: .navbar-bordered -->
@@ -358,25 +268,7 @@ const NavbarPage = () => {
 <nav class="navbar bg-blue-800 navbar-dark navbar-bordered-b"></nav>
 
 <!-- For a right border: .navbar-bordered-r -->
-<nav class="navbar bg-blue-800 navbar-dark navbar-bordered-r"></nav>`} 
-                        language="htmlbars" 
-                        codeReact={`<!-- For a sticky on top navbar: .sticky-top -->
-<nav className="navbar bg-blue-800 navbar-dark navbar-fixed-top"></nav>
-
-<!-- Pour qu'il y est une bordure tout autours: .navbar-bordered -->
-<nav className="navbar bg-blue-800 navbar-dark navbar-bordered"></nav>
-
-<!-- For a on top border: .navbar-bordered-t -->
-<nav className="navbar bg-blue-800 navbar-dark navbar-bordered-t"></nav>
-
-<!-- For a left border: .navbar-bordered-l -->
-<nav className="navbar bg-blue-800 navbar-dark navbar-bordered-l"></nav>
-
-<!-- For a bottom border: .navbar-bordered-b -->
-<nav className="navbar bg-blue-800 navbar-dark navbar-bordered-b"></nav>
-
-<!-- For a right border: .navbar-bordered-r -->
-<nav className="navbar bg-blue-800 navbar-dark navbar-bordered-r"></nav>`} />
+<nav class="navbar bg-blue-800 navbar-dark navbar-bordered-r"></nav>`} translateToReact language="htmlbars"  />
                 </div>
             </div>
         </section>
