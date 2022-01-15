@@ -19,7 +19,8 @@ const HighlightCode = ({ code, translateToReact, language }) => {
     const toReact = (htmlCode) => {
         return htmlCode
             .replace(/class=/g, "className=")
-            .replace(/for=/g, "htmlFor=");
+            .replace(/for=/g, "htmlFor=")
+            .replace(/colspan=/g, "colSpan=");
     }
 
     return(
@@ -46,31 +47,6 @@ const HighlightCode = ({ code, translateToReact, language }) => {
                     </SyntaxHighlighter>
                 </div>}
             </>}
-
-            {/* { code && <div className="pl-30 p-15 mt-10">
-                <SyntaxHighlighter style={ hljsStyle } language={ language } className="pl-30 p-15 mb-10">
-                    { code }
-                </SyntaxHighlighter>
-            </div>} */}
-
-            {/* {!code && <>
-                <div className="pl-30 p-15 mt-10 bg-gray-200">
-                    <button 
-                        className="btn btn-dark"
-                        onClick={handlerOnClick}
-                    >Show in {buttonLabel}</button>
-                </div>
-                <div className="active">
-                    { show === "html" && <SyntaxHighlighter style={ hljsStyle } language={ language } className="pl-30 p-15 mb-10">
-                        { codeHtml }
-                    </SyntaxHighlighter>}
-                </div>
-                {show === "react" && codeReact && <div className="active">
-                    <SyntaxHighlighter style={ hljsStyle } language={ language } className="pl-30 p-15 mb-10">
-                        { codeReact }
-                    </SyntaxHighlighter>
-                </div>}
-            </>} */}
         </>
     );
 }

@@ -37,7 +37,7 @@ const TablesPage = () => {
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td colspan="2" className="table-active">Larry the Bird</td>
+                            <td colSpan="2" className="table-active">Larry the Bird</td>
                             <td>@twitter</td>
                         </tr>
                     </tbody>
@@ -100,7 +100,7 @@ const TablesPage = () => {
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td colspan="2" className="table-active">Larry the Bird</td>
+                            <td colSpan="2" className="table-active">Larry the Bird</td>
                             <td>@twitter</td>
                         </tr>
                     </tbody>
@@ -164,7 +164,7 @@ const TablesPage = () => {
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td colspan="2" className="txt-center">Larry the Bird</td>
+                            <td colSpan="2" className="txt-center">Larry the Bird</td>
                             <td>@twitter</td>
                         </tr>
                     </tbody>
