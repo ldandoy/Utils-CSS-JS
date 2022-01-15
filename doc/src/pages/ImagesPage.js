@@ -18,12 +18,14 @@ const ImagesPage = () => {
                         <img src="https://www.w3schools.com/w3images/team2.jpg" alt="Profile" className="img-fluid" />
                     </div>
                     <div className="col col-two-tiers">
-                        <HighlightCode codeHtml={`<img src="#" alt="Profile picture" class="img-fluid" />`} language="htmlbars" codeReact={`<img src="#" alt="Profile picture" className="img-fluid" />`} />
+                        <HighlightCode code={`<img src="#" alt="Profile picture" class="img-fluid" />`} 
+                        translateToReact language="htmlbars" />
                     </div>
                 </div>
                 <div className="mb-30 row">
                     <div className="col col-two-tiers">
-                        <HighlightCode codeHtml={`<img src="#" alt="Profile picture" class="img-thumbnails" />`} language="htmlbars" codeReact={`<img src="#" alt="Profile picture" className="img-thumbnails" />`} />
+                        <HighlightCode code={`<img src="#" alt="Profile picture" class="img-thumbnails" />`} 
+                        translateToReact language="htmlbars" />
                     </div>
                     <div className="col col-tiers">
                         <img src="https://www.w3schools.com/w3images/team2.jpg" alt="Profile" className="img-thumbnails" />
@@ -35,7 +37,8 @@ const ImagesPage = () => {
                         <img src="https://www.w3schools.com/w3images/team2.jpg" alt="Profile" className="img-rounded" />
                     </div>
                     <div className="col col-two-tiers">
-                        <HighlightCode codeHtml={`<img src="#" alt="Profile picture" class="img-rounded" />`} language="htmlbars" codeReact={`<img src="#" alt="Profile picture" className="img-rounded" />`} />
+                        <HighlightCode code={`<img src="#" alt="Profile picture" class="img-rounded" />`} 
+                        translateToReact language="htmlbars" />
                     </div>
                 </div>
             </section>

@@ -2,30 +2,34 @@ import React, { useState } from "react";
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import {gruvboxDark as hljsStyle} from 'react-syntax-highlighter/dist/esm/styles/hljs/';
 
-const HighlightCode = ({ code = null, codeHtml, language, codeReact=null }) => {
-    const [show, setSow] = useState('html');
-    const [buttonLabel, setButtonLabel] = useState('React');
+const HighlightCode = ({ code, translateToReact, language }) => {
+    const [show, setShow] = useState('html');
+    const [buttonLabel, setButtonLabel] = useState('react');
 
     const handlerOnClick = (event) => {
-        console.log("test")
         if (show === 'html') {
             setButtonLabel('html');
-            setSow('react');
+            setShow('react');
         } else {
             setButtonLabel('react');
-            setSow('html');
+            setShow('html');
         }
+    }
+
+    const toReact = (htmlCode) => {
+        return htmlCode
+            .replace(/class=/g, "className=")
+            .replace(/for=/g, "htmlFor=")
+            .replace(/colspan=/g, "colSpan=");
     }
 
     return(
         <>
-            { code && <div className="pl-30 p-15 mt-10">
+            { !translateToReact ? <div className="pl-30 p-15 mt-10">
                 <SyntaxHighlighter style={ hljsStyle } language={ language } className="pl-30 p-15 mb-10">
                     { code }
                 </SyntaxHighlighter>
-            </div>}
-
-            {!code && <>
+            </div> : <>
                 <div className="pl-30 p-15 mt-10 bg-gray-200">
                     <button 
                         className="btn btn-dark"
@@ -34,12 +38,12 @@ const HighlightCode = ({ code = null, codeHtml, language, codeReact=null }) => {
                 </div>
                 <div className="active">
                     { show === "html" && <SyntaxHighlighter style={ hljsStyle } language={ language } className="pl-30 p-15 mb-10">
-                        { codeHtml }
+                        { code }
                     </SyntaxHighlighter>}
                 </div>
-                {show === "react" && codeReact && <div className="active">
+                {show === "react" && <div className="active">
                     <SyntaxHighlighter style={ hljsStyle } language={ language } className="pl-30 p-15 mb-10">
-                        { codeReact }
+                        { toReact(code) }
                     </SyntaxHighlighter>
                 </div>}
             </>}

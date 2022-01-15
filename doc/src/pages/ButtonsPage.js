@@ -25,25 +25,19 @@ const ButtonsPage = () => {
                     <div className="col col-tiers">
                         <h3>Exemple</h3>
                         {colors.map(color => 
-                            <div className="mb-5"><button className={`btn btn-${color}`}>btn-{color}</button></div>
+                            <div className="mb-5" key={color}><button className={`btn btn-${color}`}>btn-{color}</button></div>
                         )}
                     </div>
                     <div className="col col-two-tiers">
                         {/* Code */}
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<button class="btn btn-light">btn-light</button>
+                        <HighlightCode code={`<button class="btn btn-light">btn-light</button>
 <button class="btn btn-dark">btn-dark</button>
 <button class="btn btn-error">btn-error</button>
 <button class="btn btn-warning">btn-warning</button>
 <button class="btn btn-success">btn-success</button>
 <button class="btn btn-notice">btn-notice</button>
-<button class="btn btn-debug">btn-debug</button>`} language="htmlbars" codeReact={`<button className="btn btn-light">btn-light</button>
-<button className="btn btn-dark">btn-dark</button>
-<button className="btn btn-error">btn-error</button>
-<button className="btn btn-warning">btn-warning</button>
-<button className="btn btn-success">btn-success</button>
-<button className="btn btn-notice">btn-notice</button>
-<button className="btn btn-debug">btn-debug</button>`} />
+<button class="btn btn-debug">btn-debug</button>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
             </section>
@@ -54,24 +48,18 @@ const ButtonsPage = () => {
                     <div className="col col-two-tiers">
                         {/* Code */}
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<button class="btn btn-light btn-rounded">btn-light</button>
+                        <HighlightCode code={`<button class="btn btn-light btn-rounded">btn-light</button>
 <button class="btn btn-dark btn-rounded">btn-dark</button>
 <button class="btn btn-error btn-rounded">btn-error</button>
 <button class="btn btn-warning btn-rounded">btn-warning</button>
 <button class="btn btn-success btn-rounded">btn-success</button>
 <button class="btn btn-notice btn-rounded">btn-notice</button>
-<button class="btn btn-debug btn-rounded">btn-debug</button>`} language="htmlbars" codeReact={`<button className="btn btn-light btn-rounded">btn-light</button>
-<button className="btn btn-dark btn-rounded">btn-dark</button>
-<button className="btn btn-error btn-rounded">btn-error</button>
-<button className="btn btn-warning btn-rounded">btn-warning</button>
-<button className="btn btn-success btn-rounded">btn-success</button>
-<button className="btn btn-notice btn-rounded">btn-notice</button>
-<button className="btn btn-debug btn-rounded">btn-debug</button>`} />
+<button class="btn btn-debug btn-rounded">btn-debug</button>`} translateToReact language="htmlbars" />
                     </div>
                     <div  className="col col-tiers">
                         <h3>Exemple</h3>
                         {colors.map(color => 
-                            <div className="mb-5"><button className={`btn btn-${color} btn-rounded`}>btn-{color}</button></div>
+                            <div className="mb-5" key={color}><button className={`btn btn-${color} btn-rounded`}>btn-{color}</button></div>
                         )}
                     </div>
                 </div>
@@ -83,25 +71,19 @@ const ButtonsPage = () => {
                     <div className="col col-tiers">
                     <h3>Exemple</h3>
                         {colors.map(color => 
-                            <div className="mb-5"><button className={`btn btn-${color} btn-outlined`}>btn-{color}</button></div>
+                            <div className="mb-5" key={color}><button className={`btn btn-${color} btn-outlined`}>btn-{color}</button></div>
                         )}
                     </div>
                     <div  className="col col-two-tiers">
                         {/* Code */}
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<button class="btn btn-outlined btn-light">btn-light</button>
+                        <HighlightCode code={`<button class="btn btn-outlined btn-light">btn-light</button>
 <button class="btn btn-outlined btn-dark">btn-dark</button>
 <button class="btn btn-outlined btn-error">btn-error</button>
 <button class="btn btn-outlined btn-warning">btn-warning</button>
 <button class="btn btn-outlined btn-success">btn-success</button>
 <button class="btn btn-outlined btn-notice">btn-notice</button>
-<button class="btn btn-outlined btn-debug">btn-debug</button>`} language="htmlbars" codeReact={`<button className="btn btn-outlined btn-light">btn-light</button>
-<button className="btn btn-outlined btn-dark">btn-dark</button>
-<button className="btn btn-outlined btn-error">btn-error</button>
-<button className="btn btn-outlined btn-warning">btn-warning</button>
-<button className="btn btn-outlined btn-success">btn-success</button>
-<button className="btn btn-outlined btn-notice">btn-notice</button>
-<button className="btn btn-outlined btn-debug">btn-debug</button>`} />
+<button class="btn btn-outlined btn-debug">btn-debug</button>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
             </section>
@@ -112,24 +94,18 @@ const ButtonsPage = () => {
                     <div className="col col-two-tiers">
                         {/* Code */}
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<button class="btn btn-light btn-rounded btn-outlined">btn-light</button>
+                        <HighlightCode code={`<button class="btn btn-light btn-rounded btn-outlined">btn-light</button>
 <button class="btn btn-dark btn-rounded btn-outlined">btn-dark</button>
 <button class="btn btn-error btn-rounded btn-outlined">btn-error</button>
 <button class="btn btn-warning btn-rounded btn-outlined">btn-warning</button>
 <button class="btn btn-success btn-rounded btn-outlined">btn-success</button>
 <button class="btn btn-notice btn-rounded btn-outlined">btn-notice</button>
-<button class="btn btn-debug btn-rounded btn-outlined">btn-debug</button>`} language="htmlbars" codeReact={`<button className="btn btn-light btn-rounded btn-outlined">btn-light</button>
-<button className="btn btn-dark btn-rounded btn-outlined">btn-dark</button>
-<button className="btn btn-error btn-rounded btn-outlined">btn-error</button>
-<button className="btn btn-warning btn-rounded btn-outlined">btn-warning</button>
-<button className="btn btn-success btn-rounded btn-outlined">btn-success</button>
-<button className="btn btn-notice btn-rounded btn-outlined">btn-notice</button>
-<button className="btn btn-debug btn-rounded btn-outlined">btn-debug</button>`} />
+<button class="btn btn-debug btn-rounded btn-outlined">btn-debug</button>`} translateToReact language="htmlbars" />
                     </div>
                     <div  className="col col-tiers">
                         <h3>Exemple</h3>
                         {colors.map(color => 
-                            <div className="mb-5"><button className={`btn btn-${color} btn-outlined btn-rounded`}>btn-{color}</button></div>
+                            <div className="mb-5" key={color}><button className={`btn btn-${color} btn-outlined btn-rounded`}>btn-{color}</button></div>
                         )}
                     </div>
                 </div>

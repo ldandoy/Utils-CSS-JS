@@ -138,128 +138,7 @@ const StructurePage = () => {
 
             <section>
             <div>
-                <HighlightCode codeReact={`<div className="container">
-    <div className="row">
-        <div className="col p-20 txt-center bg-orange-200">
-            Col
-        </div>
-        <div className="col p-20 txt-center bg-red-200">
-            Col
-        </div>
-    </div>
-    <div className="row">
-        <div className="col col-half p-20 txt-center bg-orange-200">
-            Col
-        </div>
-        <div className="col col-half p-20 txt-center bg-red-200">
-            Col
-        </div>
-    </div>
-    <div className="row">
-        <div className="col p-20 txt-center bg-orange-200">
-            Col
-        </div>
-        <div className="col p-20 txt-center bg-red-200">
-            Col
-        </div>
-        <div className="col p-20 txt-center bg-red-200">
-            Col
-        </div>
-    </div>
-    <div className="row">
-        <div className="col col-tiers p-20 txt-center bg-orange-200">
-            Col
-        </div>
-        <div className="col col-tiers p-20 txt-center bg-red-200">
-            Col
-        </div>
-        <div className="col col-tiers p-20 txt-center bg-red-200">
-            Col
-        </div>
-    </div>
-    <div className="row">
-        <div className="col col-tiers p-20 txt-center bg-orange-200">
-            Col
-        </div>
-        <div className="col col-tiers p-20 txt-center bg-red-200">
-            Col
-        </div>
-    </div>
-    <div className="row">
-        <div className="col col-tiers p-20 txt-center bg-orange-200">
-            Col
-        </div>
-        <div className="col col-two-tiers p-20 txt-center bg-red-200">
-            Col
-        </div>
-    </div>
-    <div className="row">
-        <div className="col col-two-tiers p-20 txt-center bg-orange-200">
-            Col
-        </div>
-        <div className="col col-tiers p-20 txt-center bg-red-200">
-            Col
-        </div>
-    </div>
-    <div className="row">
-        <div className="col p-20 txt-center bg-orange-200">
-            Col
-        </div>
-        <div className="col p-20 txt-center bg-red-200">
-            Col
-        </div>
-        <div className="col p-20 txt-center bg-red-200">
-            Col
-        </div>
-        <div className="col p-20 txt-center bg-red-200">
-            Col
-        </div>
-    </div>
-    <div className="row">
-        <div className="col col-quarter p-20 txt-center bg-orange-200">
-            Col
-        </div>
-        <div className="col col-quarter p-20 txt-center bg-red-200">
-            Col
-        </div>
-        <div className="col col-quarter p-20 txt-center bg-red-200">
-            Col
-        </div>
-        <div className="col col-quarter p-20 txt-center bg-red-200">
-            Col
-        </div>
-    </div>
-    <div className="row">
-        <div className="col col-quarter p-20 txt-center bg-orange-200">
-            Col
-        </div>
-        <div className="col col-quarter p-20 txt-center bg-red-200">
-            Col
-        </div>
-        <div className="col col-quarter p-20 txt-center bg-red-200">
-            Col
-        </div>
-    </div>
-    <div className="row">
-        <div className="col col-two-quarter p-20 txt-center bg-orange-200">
-            Col
-        </div>
-        <div className="col col-quarter p-20 txt-center bg-red-200">
-            Col
-        </div>
-        <div className="col col-quarter p-20 txt-center bg-red-200">
-            Col
-        </div>
-    </div>
-    <div className="row">
-        <div className="col col-quarter p-20 txt-center bg-red-200">
-            Col
-        </div>
-        <div className="col col-three-quarter p-20 txt-center bg-red-200">
-            Col
-        </div>
-    </div>
-</div>`} language="htmlbars" codeHtml={`<div class="container">
+                <HighlightCode code={`<div class="container">
     <div class="row">
         <div class="col p-20 txt-center bg-orange-200">
             Col
@@ -380,50 +259,38 @@ const StructurePage = () => {
             Col
         </div>
     </div>
-</div>`} />
+</div>`} translateToReact language="htmlbars"/>
                 </div>
             </section>
                 <section className="mb-30 ">
                     <h2 className="title-section">How to add a container with a centered content</h2>
                 
                     <div className="mb-30">
-                        <HighlightCode codeHtml={`<div class="container">
+                        <HighlightCode code={`<div class="container">
     <div class="row">
         <div class="col p-20">
             Col 1
         </div>
     </div>
-</div>`} language="htmlbars" codeReact={`<div className="container">
-    <div className="row">
-        <div className="col p-20">
-            Col 1
-        </div>
-    </div>
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </section>
                 <section className="mb-30 ">
                     <h2 className="title-section">How to add a fullwidth container</h2>
                     <div className="mb-30">
-                        <HighlightCode codeHtml={`<div class="container-fluid">
+                        <HighlightCode code={`<div class="container-fluid">
     <div class="row">
         <div class="col p-20">
             Col 1
         </div>
     </div>
-</div>`} language="htmlbars" codeReact={`<div className="container-fluid">
-    <div className="row">
-        <div className="col p-20">
-            Col 1
-        </div>
-    </div>
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </section>
                 <section className="mb-30 ">
                     <h2 className="title-section mb-30">How to add a container with a side bar</h2>
                     <div className="mb-30">
-                        <HighlightCode codeHtml={`<main>
+                        <HighlightCode code={`<main>
     <div class="container-aside">
         <section class="container">
             
@@ -432,16 +299,7 @@ const StructurePage = () => {
     <aside class="aside-fixed">
         Menu
     </aside>
-</main>`} language="htmlbars" codeReact={`<main>
-    <div className="container-aside">
-        <section className="container">
-            
-        </section>
-    </div>
-    <aside className="aside-fixed">
-        Menu
-    </aside>
-</main>`} />
+</main>`} translateToReact language="htmlbars" />
                     </div>
             </section>
         </div>

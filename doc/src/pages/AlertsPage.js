@@ -40,7 +40,7 @@ const AlertsPage = () => {
                 
                     <div>
                         <h2 className="title-section">Code</h2>
-                        <HighlightCode codeHtml={`<div class="alert alert-light">
+                        <HighlightCode code={`<div class="alert alert-light">
     Alert light !
 </div>
 
@@ -66,33 +66,7 @@ const AlertsPage = () => {
 
 <div class="alert alert-debug">
     Alert debug !
-</div>`} codeReact={`<div className="alert alert-light">
-    Alert light !
-</div>
-
-<div className="alert alert-dark">
-    Alert dark !
-</div>
-
-<div className="alert alert-error">
-    Alert error !
-</div>
-
-<div className="alert alert-warning">
-    Alert warning !
-</div>
-
-<div className="alert alert-success">
-    Alert success !
-</div>
-
-<div className="alert alert-notice">
-    Alert notice !
-</div>
-
-<div className="alert alert-debug">
-    Alert debug !
-</div>`} language='htmlbars' />
+</div>`} translateToReact  language='htmlbars' />
                     </div>
                 </div>
             </section>
@@ -102,11 +76,9 @@ const AlertsPage = () => {
                     Alert light !
                 </div>
                 <div className="mt-20">
-                <HighlightCode codeHtml={`<div class="alert alert-light">
+                <HighlightCode code={`<div class="alert alert-light">
     Alert light !
-</div>`} codeReact={`<div className="alert alert-light">
-    Alert light !
-</div>`} language='htmlbars' />
+</div>`} translateToReact language='htmlbars' />
                 </div>
             </section>
         </div>

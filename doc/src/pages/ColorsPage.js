@@ -50,7 +50,7 @@ const ColorsPage = () => {
                                 </div>
                                 {/* Code */}
                                 <div>
-                                    <HighlightCode codeHtml={`<div class="bg-${color}-100">100</div>
+                                    <HighlightCode code={`<div class="bg-${color}-100">100</div>
 <div class="bg-${color}-200">200</div>
 <div class="bg-${color}-300">300</div>
 <div class="bg-${color}-400">400</div>
@@ -59,7 +59,7 @@ const ColorsPage = () => {
 <div class="bg-${color}-700">700</div>
 <div class="bg-${color}-800">800</div>
 <div class="bg-${color}-900">900</div>
-<div class="bg-${color}-1000">1000</div>`} language="htmlbars" />
+<div class="bg-${color}-1000">1000</div>`} translateToReact language="htmlbars" />
                                 </div>
                             </div>
                         </>
@@ -85,7 +85,7 @@ const ColorsPage = () => {
                                 </div>
                                 {/* Code */}
                                 <div>
-                                    <HighlightCode codeHtml={`<div class="txt-${color}-100">100</div>
+                                    <HighlightCode code={`<div class="txt-${color}-100">100</div>
 <div class="txt-${color}-200">200</div>
 <div class="txt-${color}-300">300</div>
 <div class="txt-${color}-400">400</div>
@@ -94,7 +94,7 @@ const ColorsPage = () => {
 <div class="txt-${color}-700">700</div>
 <div class="txt-${color}-800">800</div>
 <div class="txt-${color}-900">900</div>
-<div class="txt-${color}-1000">1000</div>`} language="htmlbars" />
+<div class="txt-${color}-1000">1000</div>`} translateToReact language="htmlbars" />
                                 </div>
                             </div>
                         </>
@@ -132,7 +132,7 @@ const ColorsPage = () => {
                     <div>
                         {/* Code */}
                         <h3>Code background</h3>
-                        <HighlightCode codeHtml={`<div class="bg-orange">bg-orange</div>
+                        <HighlightCode code={`<div class="bg-orange">bg-orange</div>
 <div class="bg-blue-light">bg-blue-light</div>
 <div class="bg-brown">bg-brown</div>
 <div class="bg-yellow">bg-yellow</div>
@@ -141,12 +141,12 @@ const ColorsPage = () => {
 <div class="bg-orange-light">bg-orange-light</div>
 <div class="bg-green-dark">bg-green-dark</div>
 <div class="bg-purple">bg-purple</div>
-<div class="bg-pink-dark">bg-pink-dark</div>`} language="htmlbars" />
+<div class="bg-pink-dark">bg-pink-dark</div>`} translateToReact language="htmlbars" />
                     </div>
                     <div>
                         {/* Code */}
                         <h3>Code text</h3>
-                        <HighlightCode codeHtml={`<div class="txt-orange">txt-orange</div>
+                        <HighlightCode code={`<div class="txt-orange">txt-orange</div>
 <div class="txt-blue-light">txt-blue-light</div>
 <div class="txt-brown">txt-brown</div>
 <div class="txt-yellow">txt-yellow</div>
@@ -155,7 +155,7 @@ const ColorsPage = () => {
 <div class="txt-orange-light">txt-orange-light</div>
 <div class="txt-green-dark">txt-green-dark</div>
 <div class="txt-purple">txt-purple</div>
-<div class="txt-pink-dark">txt-pink-dark</div>`} language="htmlbars" />
+<div class="txt-pink-dark">txt-pink-dark</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
 
@@ -188,7 +188,7 @@ const ColorsPage = () => {
                     <div>
                         {/* Code */}
                         <h3>Code background</h3>
-                        <HighlightCode codeHtml={`<div class="bg-marigold">bg-marigold</div>
+                        <HighlightCode code={`<div class="bg-marigold">bg-marigold</div>
 <div class="bg-cerulean">bg-cerulean</div>
 <div class="bg-rust">bg-rust</div>
 <div class="bg-illuminating">bg-illuminating</div>
@@ -197,12 +197,12 @@ const ColorsPage = () => {
 <div class="bg-burnt-coral">bg-burnt-coral</div>
 <div class="bg-mint">bg-mint</div>
 <div class="bg-amethyst-orchid">bg-amethyst-orchid</div>
-<div class="bg-raspberry-sorbet">bg-raspberry-sorbet</div>`} language="htmlbars" />
+<div class="bg-raspberry-sorbet">bg-raspberry-sorbet</div>`} translateToReact language="htmlbars" />
                     </div>
                     <div>
                         {/* Code */}
                         <h3>Code text</h3>
-                        <HighlightCode codeHtml={`<div class="txt-marigold">txt-marigold</div>
+                        <HighlightCode code={`<div class="txt-marigold">txt-marigold</div>
 <div class="txt-cerulean">txt-cerulean</div>
 <div class="txt-rust">txt-rust</div>
 <div class="txt-illuminating">txt-illuminating</div>
@@ -211,7 +211,7 @@ const ColorsPage = () => {
 <div class="txt-burnt-coral">txt-burnt-coral</div>
 <div class="txt-mint">bg-mint</div>
 <div class="txt-amethyst-orchid">txt-amethyst-orchid</div>
-<div class="txt-raspberry-sorbet">txt-raspberry-sorbet</div>`} language="htmlbars" />
+<div class="txt-raspberry-sorbet">txt-raspberry-sorbet</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div> 
 
@@ -254,7 +254,7 @@ const ColorsPage = () => {
                     <div>
                         {/* Code */}
                         <h3>Code background</h3>
-                        <HighlightCode codeHtml={`<div class="bg-flame-scarlet">bg-flame-scarlet</div>
+                        <HighlightCode code={`<div class="bg-flame-scarlet">bg-flame-scarlet</div>
 <div class="bg-saffron">bg-saffron</div>
 <div class="bg-biscay-green">bg-biscay-green</div>
 <div class="bg-chive">bg-chive</div>
@@ -268,12 +268,12 @@ const ColorsPage = () => {
 <div class="bg-lark">bg-lark</div>
 <div class="bg-navy-blazer">bg-navy-blazer</div>
 <div class="bg-brilliant-white">bg-brilliant-white</div>
-<div class="bg-ash">bg-ash</div>`} language="htmlbars" />
+<div class="bg-ash">bg-ash</div>`} translateToReact language="htmlbars" />
                     </div>
                     <div>
                         {/* Code */}
                         <h3>Code text</h3>
-                        <HighlightCode codeHtml={`<div class="txt-flame-scarlet">bg-flame-scarlet</div>
+                        <HighlightCode code={`<div class="txt-flame-scarlet">bg-flame-scarlet</div>
 <div class="txt-saffron">txt-saffron</div>
 <div class="txt-biscay-green">txt-biscay-green</div>
 <div class="txt-chive">txt-chive</div>
@@ -287,7 +287,7 @@ const ColorsPage = () => {
 <div class="txt-lark">txt-lark</div>
 <div class="txt-navy-blazer">txt-navy-blazer</div>
 <div class="txt-brilliant-white">txt-brilliant-white</div>
-<div class="txt-ash">txt-ash</div>`} language="htmlbars" />
+<div class="txt-ash">txt-ash</div>`} translateToReact language="htmlbars" />
                     </div> 
                 </div>
 
@@ -330,7 +330,7 @@ const ColorsPage = () => {
                     <div>
                         {/* Code */}
                         <h3>Code background</h3>
-                        <HighlightCode codeHtml={`<div class="bg-fiesta">bg-fiesta</div>
+                        <HighlightCode code={`<div class="bg-fiesta">bg-fiesta</div>
 <div class="bg-jester-red">bg-jester-red</div>
 <div class="bg-turmeric">bg-turmeric</div>
 <div class="bg-living-coral">bg-living-coral</div>
@@ -344,12 +344,12 @@ const ColorsPage = () => {
 <div class="bg-sweet-lilac">bg-sweet-lilac</div>
 <div class="bg-soybean">bg-soybean</div>
 <div class="bg-eclipse">bg-eclipse</div>
-<div class="bg-sweet-corn">bg-sweet-corn</div>`} language="htmlbars" />
+<div class="bg-sweet-corn">bg-sweet-corn</div>`} translateToReact language="htmlbars" />
                     </div>
                     <div>
                         {/* Code */}
                         <h3>Code text</h3>
-                        <HighlightCode codeHtml={`<div class="txt-fiesta">txt-fiesta</div>
+                        <HighlightCode code={`<div class="txt-fiesta">txt-fiesta</div>
 <div class="txt-jester-red">txt-jester-red</div>
 <div class="txt-turmeric">txt-turmeric</div>
 <div class="txt-living-coral">txt-living-coral</div>
@@ -363,7 +363,7 @@ const ColorsPage = () => {
 <div class="txt-sweet-lilac">txt-sweet-lilac</div>
 <div class="txt-soybean">txt-soybean</div>
 <div class="txt-eclipse">txt-eclipse</div>
-<div class="txt-sweet-corn">txt-sweet-corn</div>`} language="htmlbars" />
+<div class="txt-sweet-corn">txt-sweet-corn</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
             </section>

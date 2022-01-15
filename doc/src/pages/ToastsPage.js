@@ -39,7 +39,7 @@ const ToastsPage = () => {
                     </div>
                     <div className="col col-half">
                         {colors.map((index, color) => <div key={index}>
-                            <HighlightCode codeHtml={`<div class="toast toast-${color}">
+                            <HighlightCode code={`<div class="toast toast-${color}">
     <div class="toast-title">
         Toast title
     </div>
@@ -49,17 +49,7 @@ const ToastsPage = () => {
     <div class="toast-footer">
         Toast footer
     </div>
-</div>`} language="htmlbars" codeReact={`<div className="toast toast-${color}">
-    <div className="toast-title">
-        Toast title
-    </div>
-    <div className="toast-body">
-        Little toast ! 
-    </div>
-    <div className="toast-footer">
-        Toast footer
-    </div>
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div> )}
                     </div>
                 </div>
@@ -107,7 +97,7 @@ const ToastsPage = () => {
 
                         {/* Code */}
                         <h3>Code</h3>
-                        <HighlightCode codeHtml={`<div class="toast-container">
+                        <HighlightCode code={`<div class="toast-container">
     <div class="toast toast-light">
         <div class="toast-title">
             Toast title
@@ -143,43 +133,7 @@ const ToastsPage = () => {
             Toast footer
         </div>
     </div>
-</div>`} language="htmlbars" codeReact={`<div className="toast-container">
-    <div className="toast toast-light">
-        <div className="toast-title">
-            Toast title
-        </div>
-        <div className="toast-body">
-            Little toast ! 
-        </div>
-        <div className="toast-footer">
-            Toast footer
-        </div>
-    </div>
-
-    <div className="toast toast-dark">
-        <div className="toast-title">
-            Toast title
-        </div>
-        <div className="toast-body">
-            Little toast ! 
-        </div>
-        <div className="toast-footer">
-            Toast footer
-        </div>
-    </div>  
-
-    <div className="toast toast-error">
-        <div className="toast-title">
-            Toast title
-        </div>
-        <div className="toast-body">
-            Little toast ! 
-        </div>
-        <div className="toast-footer">
-            Toast footer
-        </div>
-    </div>
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
             </section>
@@ -203,7 +157,7 @@ const ToastsPage = () => {
                     </div>
                     <div>
                         {/* Code */}
-                        <HighlightCode codeHtml={`<div class="toast-container">
+                        <HighlightCode code={`<div class="toast-container">
     <div class="toast toast-light">
         <div class="toast-title">
             Toast title
@@ -215,19 +169,7 @@ const ToastsPage = () => {
             Toast footer
         </div>
     </div>
-</div>`} language="htmlbars" codeReact={`<div className="toast-container">
-    <div className="toast toast-light">
-        <div className="toast-title">
-            Toast title
-        </div>
-        <div className="toast-body">
-            Little toast ! 
-        </div>
-        <div className="toast-footer">
-            Toast footer
-        </div>
-    </div>
-</div>`} />
+</div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
             </section>

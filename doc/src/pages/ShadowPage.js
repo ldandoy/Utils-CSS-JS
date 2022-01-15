@@ -17,20 +17,16 @@ const ShadowPage = () => {
                     </div>
                 </div>
                 <div className="col col-half">
-                    <HighlightCode codeHtml={`<div class="shadow-none">
+                    <HighlightCode code={`<div class="shadow-none">
     .shadow-none
-</div>`} codeReact={`<div className="shadow-none">
-    .shadow-none
-</div>`} language='htmlbars' />
+</div>`} translateToReact language='htmlbars' />
                 </div>
             </div>
             <div className="row">
                 <div className="col col-half">
-                    <HighlightCode codeHtml={`<div class="shadow-sm">
+                    <HighlightCode code={`<div class="shadow-sm">
     .shadow-sm
-</div>`} codeReact={`<div className="shadow-sm">
-    .shadow-sm
-</div>`} language='htmlbars' />
+</div>`} translateToReact language='htmlbars' />
                 </div>
                 <div className="col col-half">
                     <div className="shadow-sm">
@@ -45,20 +41,16 @@ const ShadowPage = () => {
                     </div>
                 </div>
                 <div className="col col-half">
-                    <HighlightCode codeHtml={`<div class="shadow">
+                    <HighlightCode code={`<div class="shadow">
     .shadow
-</div>`} codeReact={`<div className="shadow">
-    .shadow
-</div>`} language='htmlbars' />
+</div>`} translateToReact language='htmlbars' />
                 </div>
             </div>
             <div className="row">
             <div className="col col-half">
-                    <HighlightCode codeHtml={`<div class="shadow-lg">
+                    <HighlightCode code={`<div class="shadow-lg">
     .shadow-lg
-</div>`} codeReact={`<div className="shadow-lg">
-    .shadow-lg
-</div>`} language='htmlbars' />
+</div>`} translateToReact language='htmlbars' />
                 </div>
                 <div className="col col-half">
                     <div className="shadow-lg">
