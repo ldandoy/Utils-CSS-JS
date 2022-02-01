@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ThemeMode from '../components/ThemeMode'
 
 const Navbar = () => {
     return <nav className="navbar bg-blue-800 navbar-dark navbar-fixed-top">
@@ -22,6 +23,7 @@ const Navbar = () => {
                 </li>
             </ul>
             <ul className="navbar-menu navbar-menu-right">
+                <ThemeMode />
                 <li className="navbar-item">
                     <a className="navbar-link" rel="noreferrer" href="https://github.com/ldandoy/Utils-CSS-JS" target="_blank">Repos GitHub</a>
                 </li>

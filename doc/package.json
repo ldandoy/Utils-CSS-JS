@@ -12,6 +12,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.0",
     "react-syntax-highlighter": "^15.4.3",
+    "recoil": "^0.6.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -37,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@iconify/react": "^3.1.3"
   }
 }

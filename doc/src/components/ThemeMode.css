@@ -1,0 +1,44 @@
+input{
+    display: none;
+}
+
+label {
+    display: flex;
+    width: 75px;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6px;
+    background: #222;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+label .sun {
+    transition: 0.8s;
+    font-size: 18px;
+}
+label .moon {
+    transition: 0.8s;
+    font-size: 18px;
+}
+
+input:checked + label .sun {
+    transform: translateX(43px);
+}
+input:checked + label .moon {
+    transform: translateX(-43px);
+}
+
+/* Setup les couleurs pour le dark mode */
+
+body.dark { 
+    background-color: #222;
+    color: beige;
+}
+
+.navbar.dark {
+    background-color: red;
+}
+  
