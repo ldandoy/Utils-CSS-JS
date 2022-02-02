@@ -13,10 +13,8 @@ const ThemeMode = () => {
 
   useEffect(() => {
     const bodyElement = document.querySelector("body");
-    const navbarElement = document.querySelector(".navbar");
 
     themeMode ? bodyElement.classList.add("dark") : bodyElement.classList.remove("dark");
-    themeMode ? navbarElement.classList.add("dark") : navbarElement.classList.remove("dark");
   }, [themeMode]);
 
   return (
@@ -28,7 +26,7 @@ const ThemeMode = () => {
             checked={themeMode || false}
             onChange={() => setThemeMode(!themeMode)}
           />
-        <label for="switch">
+        <label htmlFor="switch">
             <Icon className="sun" icon="eva:sun-fill" color="gold" />
             <Icon className="moon" icon="eva:moon-fill" color="fff" />
         </label>
