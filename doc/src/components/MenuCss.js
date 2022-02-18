@@ -9,6 +9,9 @@ const MenuCss = () => {
         </div>
         <ul className="navbar-menu">
             <li className="navbar-item">
+                <Link className="navbar-link" to="/all">Resume</Link>
+            </li>
+            <li className="navbar-item">
                 <Link className="navbar-link" to="/alerts">Alerts</Link>
             </li>
             <li className="navbar-item">

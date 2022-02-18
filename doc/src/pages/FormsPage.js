@@ -14,7 +14,7 @@ const FormsPage = () => {
             <section className="mtb-60">
                 <h2 id="forms" className="title-section">Example of form with border</h2>
 
-                <div className='row'>
+                <div className='row row-tiers'>
                     <div className='col col-tiers'>
                         <form className="form-bordered">
                             <div className="form-group">
@@ -75,7 +75,7 @@ const FormsPage = () => {
             </section>
             <section className="mtb-60">
                 <h2 className="title-section">Example of form without border</h2>
-                <div className="row">
+                <div className="row row-tiers">
                     <div className="col col-two-tiers">
                         {/* Code */}
                         <h3>Code</h3>

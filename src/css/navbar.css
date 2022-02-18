@@ -124,11 +124,17 @@
     font-weight: bolder;
 }
 
+.navbar.navbar-h .navbar-menu {
+    width: 100%;
+    display: block;
+}
+
 .navbar.navbar-h .navbar-menu .navbar-item .navbar-link {
     width: 100%;
     display: block;
     padding: 1rem;
     cursor: pointer;
+    padding-left: 2rem;
 }
 
 .navbar .navbar-menu-right .navbar-ss-menu, .navbar .navbar-menu-left .navbar-ss-menu {

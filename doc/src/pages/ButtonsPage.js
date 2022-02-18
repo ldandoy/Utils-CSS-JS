@@ -21,7 +21,7 @@ const ButtonsPage = () => {
             </p>
             <section className="mtb-60">
                 <h2 className="title-section">Example of simple buttons</h2>
-                <div className="mb-20 row">
+                <div className="mb-20 row row-tiers">
                     <div className="col col-tiers">
                         <h3>Exemple</h3>
                         {colors.map(color => 
@@ -44,7 +44,7 @@ const ButtonsPage = () => {
 
             <section className="mtb-60">
                 <h2 id="buttons" className="title-section">Example of rounded buttons</h2>
-                <div className="mb-20 row">
+                <div className="mb-20 row row-tiers">
                     <div className="col col-two-tiers">
                         {/* Code */}
                         <h3>Code</h3>
@@ -67,7 +67,7 @@ const ButtonsPage = () => {
 
             <section className="mtb-60">
                 <h2 id="buttons" className="title-section">Example of outlined buttons</h2>
-                <div className="mb-20 row">
+                <div className="mb-20 row row-tiers">
                     <div className="col col-tiers">
                     <h3>Exemple</h3>
                         {colors.map(color => 
@@ -90,7 +90,7 @@ const ButtonsPage = () => {
 
             <section className="mtb-60">
                 <h2 id="buttons" className="title-section">Example of rounded and outlined buttons</h2>
-                <div className="mb-20 row">
+                <div className="mb-20 row row-tiers">
                     <div className="col col-two-tiers">
                         {/* Code */}
                         <h3>Code</h3>

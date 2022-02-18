@@ -10,7 +10,7 @@ const ShadowPage = () => {
             Try out the <span className="badge bg-success">Shadow Component</span>.
         </p>
         <section className="mtb-60 ">
-            <div className="row">
+            <div className="row row-half">
                 <div className="col col-half">
                     <div className="shadow-none">
                         .shadow-none
@@ -22,7 +22,7 @@ const ShadowPage = () => {
 </div>`} translateToReact language='htmlbars' />
                 </div>
             </div>
-            <div className="row">
+            <div className="row row-half">
                 <div className="col col-half">
                     <HighlightCode code={`<div class="shadow-sm">
     .shadow-sm
@@ -34,7 +34,7 @@ const ShadowPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="row">
+            <div className="row row-half">
                 <div className="col col-half">
                     <div className="shadow">
                         .shadow
@@ -46,7 +46,7 @@ const ShadowPage = () => {
 </div>`} translateToReact language='htmlbars' />
                 </div>
             </div>
-            <div className="row">
+            <div className="row row-half">
             <div className="col col-half">
                     <HighlightCode code={`<div class="shadow-lg">
     .shadow-lg

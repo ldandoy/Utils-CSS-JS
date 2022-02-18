@@ -21,7 +21,7 @@ const ToastsPage = () => {
             <section className="mtb-60 ">
                 <h2 id="toasts" className="title-section">Example of toasts</h2>
                 
-                <div className="row">
+                <div className="row row-half">
                     <div className="col col-half">
                         {colors.map(color => <>
                             <div className={`toast toast-${color}`}>

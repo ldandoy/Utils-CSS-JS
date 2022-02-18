@@ -13,7 +13,7 @@ const ImagesPage = () => {
             </p>
             <section className="mtb-60">
                 <h2 id='images' className="title-section">Example of images</h2>
-                <div className="mb-30 row">
+                <div className="mb-30 row row-tiers">
                     <div className="col col-tiers">
                         <img src="https://www.w3schools.com/w3images/team2.jpg" alt="Profile" className="img-fluid" />
                     </div>
@@ -22,7 +22,7 @@ const ImagesPage = () => {
                         translateToReact language="htmlbars" />
                     </div>
                 </div>
-                <div className="mb-30 row">
+                <div className="mb-30 row row-tiers">
                     <div className="col col-two-tiers">
                         <HighlightCode code={`<img src="#" alt="Profile picture" class="img-thumbnails" />`} 
                         translateToReact language="htmlbars" />
@@ -32,7 +32,7 @@ const ImagesPage = () => {
                     </div>
                 </div>
 
-                <div className="mb-30 row">
+                <div className="mb-30 row row-tiers">
                     <div className="col col-tiers">
                         <img src="https://www.w3schools.com/w3images/team2.jpg" alt="Profile" className="img-rounded" />
                     </div>

@@ -9,7 +9,7 @@ const LayoutCss = ({ children }) => {
             <Navbar />
         </header>
 
-        <aside className="aside aside-fixed bg-blue-300 pt-20">
+        <aside className="aside aside-fixed pt-20">
             <MenuCss />
         </aside>
 

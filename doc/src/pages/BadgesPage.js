@@ -19,7 +19,7 @@ const BadgesPage = () => {
                 Highlight words using the <span className="badge bg-success">Badge Component</span>.
             </p>
             <section className="mtb-60">
-                <div className="mb-20 row">
+                <div className="mb-20 row row-tiers">
                     <div className="col col-tiers">
                         <h2 id="badges" className="title-section">Example of badge</h2>
                         <div className="mb-30">
@@ -37,7 +37,7 @@ const BadgesPage = () => {
             </section>
             <section className="mtb-60">
                 <h2 className="title-section">More examples</h2>
-                <div className="mb-30 row">
+                <div className="mb-30 row row-tiers">
                 <div className="col col-two-tiers">
                         {/* Code */}
                         <HighlightCode code={`<p>Look at this <span class="badge bg-light">light</span> badge.</p>

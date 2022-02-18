@@ -10,18 +10,13 @@ const Navbar = () => {
                 <Link className="navbar-link" to="/">
                     <img src="icon_overconsulting.png" alt="logo" />
                 </Link>
-                <Link className="navbar-link" to="/">Utils CSS</Link>
+                <Link className="navbar-link" to="/">Utils CSS v0.8</Link>
             </div>
             <i className="navbar-menu-icon">&#9776;</i>
         </div>
         <div className="navbar-content-menu">
             <ul className="navbar-menu navbar-menu-left">
-                <li className="navbar-item">
-                    <Link className="navbar-link" to="/">Doc CSS</Link>
-                </li>
-                <li className="navbar-item">
-                    <Link className="navbar-link" to="/">Doc JS</Link>
-                </li>
+                
             </ul>
             <ul className="navbar-menu navbar-menu-right">
                 <ThemeMode />

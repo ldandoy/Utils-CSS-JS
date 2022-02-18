@@ -15,7 +15,7 @@ const CardsPage= () => {
             </p>
             <section className="mt-30 mb-60">
                 <h2 className="title-section">Exemple of card component</h2>
-                <div className="mb-20 row">
+                <div className="mb-20 row row-tiers">
                     <div className="col col-tiers">
                         <div className="card">
                             <div className="card-image">
@@ -59,7 +59,7 @@ const CardsPage= () => {
             </section>
             <section className="mtb-60">
                 <h2 className="title-section">Constructed cards exemple</h2>
-                <div className="mb-60 row">
+                <div className="mb-60 row row-tiers">
                     <div className="col col-quarter">
                         <div className="bg-blue-100 rounded-top-l p-30 shadow-lg">
                             Test
@@ -79,7 +79,7 @@ const CardsPage= () => {
                     </div>
                 </div>
 
-                <div className="mb-60 row">
+                <div className="mb-60 row row-half">
                     <div className="col col-half">
                         <div className="card w-30">
                             test
@@ -92,7 +92,7 @@ const CardsPage= () => {
 </div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
-                <div className="mb-60 row">
+                <div className="mb-60 row row-half">
                     <div className="col col-half">
                         <div className="card w-30">
                             <div className="card-title">Title test</div>
@@ -105,7 +105,7 @@ const CardsPage= () => {
 </div>`} translateToReact language="htmlbars" />
                     </div>
                 </div>
-                <div className="mb-60 row">
+                <div className="mb-60 row row-half">
                     <div className="col col-half">
                         <div className="card w-30">
                             <div className="card-body">Content test</div>

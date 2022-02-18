@@ -49,6 +49,10 @@
         width: 80% !important;
     }
 
+    .main-aside {
+        flex-direction: column;
+    }
+
     /*.row.row-quarter {
         flex-direction: column;
     }

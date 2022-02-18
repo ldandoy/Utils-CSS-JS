@@ -2,7 +2,7 @@ import {atom} from 'recoil'
 
 const ThemeState = atom({
     key: "ThemeMode",
-    default: parseBool(localStorage.getItem('isDark'))
+    default: (localStorage.getItem('isDark') === 'true')
 })
 
 export default ThemeState

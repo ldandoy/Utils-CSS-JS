@@ -10,10 +10,13 @@
 }
 
 /* if aside bar */
+.main-aside {
+    display: flex;
+}
+
 .container-aside {
-    margin: 0 15%;
+    margin: 0 0 0 15%;
     width: 85%;
-    float: left;
 }
 
 aside .navbar-title, .aside .navbar-title {
@@ -26,11 +29,12 @@ aside .navbar-title, .aside .navbar-title {
 
 aside, .aside {
     width: 15%;
-    height: 100vh;
-    min-height: 100vh;
-    float: left;
+    height: 90vh;
+    min-height: 90vh;
     overflow: auto;
 }
+
+
 
 .aside-fixed {
     position: fixed;
