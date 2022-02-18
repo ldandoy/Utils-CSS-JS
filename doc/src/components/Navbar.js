@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
 import ThemeMode from '../components/ThemeMode'
 
 const Navbar = () => {

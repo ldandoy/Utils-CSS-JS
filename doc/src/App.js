@@ -27,6 +27,7 @@ import StructurePage from "./pages/StructurePage";
 import NavbarPage from "./pages/NavbarPage";
 import OpacityPage from "./pages/OpacityPage";
 import PointerPage from "./pages/PointerPage";
+import AllPage from "./pages/AllPage";
 
 function App() {
 
@@ -46,6 +47,11 @@ function App() {
             <Route path="/texts">
               <LayoutCss>
                 <TextsPage />
+              </LayoutCss>
+            </Route>
+            <Route path="/all">
+              <LayoutCss>
+                <AllPage />
               </LayoutCss>
             </Route>
             <Route path="/forms">

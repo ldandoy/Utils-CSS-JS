@@ -1,15 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { atom, useRecoilState } from "recoil";
+import { useRecoilState } from "recoil";
 import { Icon } from '@iconify/react';
-import './ThemeMode.css'
 
-export const theme = atom({
-  key: "ThemeMode",
-  default: false
-});
+import ThemeState from '../atoms/theme'
+import '../styles/ThemeMode.css'
 
 const ThemeMode = () => {
-  const [themeMode, setThemeMode] = useRecoilState(theme);
+  const [themeMode, setThemeMode] = useRecoilState(ThemeState);
   const [iconColorSun, setIconColorSun] = useState("gold")
   const [iconColorMoon, setIconColorMoon] = useState("808080")
 
@@ -30,7 +27,10 @@ const ThemeMode = () => {
             type="checkbox"
             id="switch"
             checked={themeMode || false}
-            onChange={() => setThemeMode(!themeMode)}
+            onChange={() => {
+              setThemeMode(!themeMode);
+              localStorage.setItem('isDark', !themeMode)
+            }}
           />
         <label htmlFor="switch">
             <Icon className="sun" icon="eva:sun-fill" color= {iconColorSun}/>

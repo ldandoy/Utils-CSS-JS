@@ -82,6 +82,9 @@ $ uglifyjs ./src/js/*.js > ./dist/utils.min.js`} language='bash' />
                     <a href="example.html" target="_blank" rel="noreferrer" className="mr-10 btn btn-success">
                         Examples
                     </a>
+                    <Link to="/all" className="mr-10 btn btn-notice">
+                        Resume
+                    </Link>
                 </div>
             </section>
         </div>
