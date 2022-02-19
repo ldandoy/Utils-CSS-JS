@@ -29,8 +29,8 @@ aside .navbar-title, .aside .navbar-title {
 
 aside, .aside {
     width: 15%;
-    height: 90vh;
-    min-height: 90vh;
+    height: 90%;
+    min-height: 90%;
     overflow: auto;
 }
 
