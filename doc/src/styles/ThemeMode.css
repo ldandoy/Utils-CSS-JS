@@ -31,6 +31,10 @@ input:checked + label .moon {
     transform: translateX(-43px);
 }
 
+body {
+    margin-top: 65px;
+}
+
 /* Setup les couleurs pour le dark mode */
 
 body.dark { 
