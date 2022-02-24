@@ -145,3 +145,29 @@
     display: block;
     position: absolute;
 }
+
+.x{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    transform: translateX(-30px);
+    transition: transform .5s ease-in-out;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0; 
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 10px solid blue;
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: blue;
+}
+
+.x:hover{
+    transform: translateX(30px);
+}
+

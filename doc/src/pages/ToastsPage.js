@@ -38,7 +38,7 @@ const ToastsPage = () => {
                         </> )}
                     </div>
                     <div className="col col-half">
-                        {colors.map((index, color) => <div key={index}>
+                        {colors.map((color, index) => <div key={index}>
                             <HighlightCode code={`<div class="toast toast-${color}">
     <div class="toast-title">
         Toast title

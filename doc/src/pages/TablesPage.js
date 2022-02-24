@@ -8,7 +8,7 @@ const TablesPage = () => {
                 <h1 className="title-page">Tables</h1>
             </section>
             <p>
-                You can easyly custom your <span className="badge bg-success">Tables</span> 
+                You can easily custom your <span className="badge bg-success">Tables</span> 
                 with the <span className="badge bg-success">Table Component</span>.
             </p>
             <section className="mtb-60">

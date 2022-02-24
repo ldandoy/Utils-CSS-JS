@@ -34,6 +34,16 @@ body {
 .w-95 {width:95%;}
 .w-100 {width:100%;}
 
+.h-5 {height: 5vh; min-height: 5vh;}
+.h-10 {height: 10vh; min-height: 10vh;}
+.h-20 {height: 20vh; min-height: 20vh;}
+.h-30 {height: 30vh; min-height: 30vh;}
+.h-40 {height: 40vh; min-height: 40vh;}
+.h-50 {height: 50vh; min-height: 50vh;}
+.h-60 {height: 60vh; min-height: 60vh;}
+.h-70 {height: 70vh; min-height: 70vh;}
+.h-80 {height: 80vh; min-height: 80vh;}
+.h-90 {height: 90vh; min-height: 90vh;}
 .h-100 {height: 100vh; min-height: 100vh;}
 
 /* Line */

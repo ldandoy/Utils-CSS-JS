@@ -28,6 +28,10 @@ import NavbarPage from "./pages/NavbarPage";
 import OpacityPage from "./pages/OpacityPage";
 import PointerPage from "./pages/PointerPage";
 import AllPage from "./pages/AllPage";
+import BordersPage from "./pages/BordersPage";
+import MenuPage from "./pages/MenuPage";
+import HeroPage from "./pages/HeroPage";
+import UtilsPage from "./pages/UtilsPage";
 
 function App() {
 
@@ -119,7 +123,7 @@ function App() {
                 <GridPage />
               </LayoutCss>
             </Route>
-            <Route path="/flex">
+            <Route path="/flexbox">
               <LayoutCss>
                 <FlexPage />
               </LayoutCss>
@@ -137,6 +141,26 @@ function App() {
             <Route path="/pointer">
               <LayoutCss>
                 <PointerPage />
+              </LayoutCss>
+            </Route>
+            <Route path="/borders" >
+              <LayoutCss>
+                <BordersPage />
+              </LayoutCss>
+            </Route>
+            <Route path="/menu" >
+              <LayoutCss>
+                <MenuPage />
+              </LayoutCss>
+            </Route>
+            <Route path="/hero" >
+              <LayoutCss>
+                <HeroPage />
+              </LayoutCss>
+            </Route>
+            <Route path="/utils" >
+              <LayoutCss>
+                <UtilsPage />
               </LayoutCss>
             </Route>
           </Switch>

@@ -1,0 +1,2 @@
+input{display:none}label{align-items:center;background:#222;border-radius:50px;cursor:pointer;display:flex;height:35px;justify-content:space-between;padding:0 6px;position:relative;width:75px}label .moon,label .sun{font-size:18px;transition:.8s}input:checked+label .sun{-webkit-transform:translateX(43px);transform:translateX(43px)}input:checked+label .moon{-webkit-transform:translateX(-43px);transform:translateX(-43px)}body{margin-top:65px}body.dark{background-color:#222;color:beige}
+/*# sourceMappingURL=main.b8921008.css.map*/
