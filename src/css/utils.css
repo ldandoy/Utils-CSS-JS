@@ -68,3 +68,21 @@ body {
     font-size: 1.5rem;
     margin: 20px auto;
 }
+
+/* OC Colors */
+
+.oc-lightgreen {
+    background-color: var(--overconsulting-green-light-color);
+}
+
+.oc-darkgreen {
+    background-color: var(--overconsulting-green-dark-color);
+}
+
+.oc-darkgreen-txt {
+    color: var(--overconsulting-green-dark-color);
+}
+
+.oc-white-txt {
+    color: var(--white-color);
+}

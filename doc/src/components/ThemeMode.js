@@ -15,8 +15,8 @@ const ThemeMode = () => {
     const bodyElement = document.querySelector("body");
 
     themeMode ? bodyElement.classList.add("dark") : bodyElement.classList.remove("dark");
-    themeMode ? setIconColorSun("808080") : setIconColorSun("gold");
-    themeMode ? setIconColorMoon("gold") : setIconColorMoon("808080");
+    themeMode ? setIconColorSun("808080") : setIconColorSun(`var(--overconsulting-green-color)`);
+    themeMode ? setIconColorMoon(`var(--overconsulting-green-color)`) : setIconColorMoon("808080");
 
   }, [themeMode]);
 

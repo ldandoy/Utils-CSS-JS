@@ -3,102 +3,102 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const MenuCss = () => {
-    return <nav className="navbar navbar-h">
-        <div className="navbar-title txt-uppercase">
+    return <nav className="navbar navbar-h oc-darkgreen pb-70">
+        <div className="navbar-title txt-uppercase oc-white-txt pt-40">
         Doc CSS
         </div>
         <ul className="navbar-menu">
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/alerts">Alerts</Link>
+                <Link className="navbar-link x" to="/alerts">Alerts</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/badges">Badges</Link>
+                <Link className="navbar-link x" to="/badges">Badges</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/borders">Borders</Link>
+                <Link className="navbar-link x" to="/borders">Borders</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/buttons">Buttons</Link>
+                <Link className="navbar-link x" to="/buttons">Buttons</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/cards">Cards</Link>
+                <Link className="navbar-link x" to="/cards">Cards</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/colors">Colors</Link>
+                <Link className="navbar-link x" to="/colors">Colors</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/flexbox">Flexbox</Link>
+                <Link className="navbar-link x" to="/flexbox">Flexbox</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/forms">Forms</Link>
+                <Link className="navbar-link x" to="/forms">Forms</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/grid">Grid</Link>
+                <Link className="navbar-link x" to="/grid">Grid</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/hero">Hero</Link>
+                <Link className="navbar-link x" to="/hero">Hero</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/images">Images</Link>
+                <Link className="navbar-link x" to="/images">Images</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/menu">Menu</Link>
+                <Link className="navbar-link x" to="/menu">Menu</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/navbar">Navbar</Link>
+                <Link className="navbar-link x" to="/navbar">Navbar</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/opacity">Opacity</Link>
+                <Link className="navbar-link x" to="/opacity">Opacity</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/pointer">Pointer</Link>
+                <Link className="navbar-link x" to="/pointer">Pointer</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/shadow">Shadow</Link>
+                <Link className="navbar-link x" to="/shadow">Shadow</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/spacing">Spacing</Link>
+                <Link className="navbar-link x" to="/spacing">Spacing</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/structure">Structure</Link>
+                <Link className="navbar-link x" to="/structure">Structure</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/tables">Tables</Link>
+                <Link className="navbar-link x" to="/tables">Tables</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/texts">Texts</Link>
+                <Link className="navbar-link x" to="/texts">Texts</Link>
             </li>
-            <li className="navbar-item x x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/toasts">Toasts</Link>
+                <Link className="navbar-link x" to="/toasts">Toasts</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/utils">Utils</Link>
+                <Link className="navbar-link x" to="/utils">Utils</Link>
             </li>
-            <li className="navbar-item x">
+            <li className="navbar-item">
                 <div className='arrow-right'></div>
-                <Link className="navbar-link" to="/all">Resume</Link>
+                <Link className="navbar-link x" to="/all">Resume</Link>
             </li>
         </ul>
     </nav>
