@@ -24,6 +24,7 @@ const ThemeMode = () => {
     <div>
       <div className="switch-container">
       <input
+            className="bg-dark"
             type="checkbox"
             id="switch"
             checked={themeMode || false}
@@ -32,7 +33,7 @@ const ThemeMode = () => {
               localStorage.setItem('isDark', !themeMode)
             }}
           />
-        <label htmlFor="switch">
+        <label htmlFor="switch" className="bg-dark">
             <Icon className="sun" icon="eva:sun-fill" color= {iconColorSun}/>
             <Icon className="moon" icon="eva:moon-fill" color={iconColorMoon}/>
         </label>

@@ -11,7 +11,9 @@ Add those line in your html page:
 
 ```html
 <link href="https://overconsulting.tech/utils.min.css" rel="stylesheet" />
-<script type="javascript" href="https://overconsulting.tech/utils.min.js"></script>
+<script
+  type="javascript"
+  href="https://overconsulting.tech/utils.min.js"></script>
 ```
 
 ## To see how it works
@@ -30,6 +32,7 @@ Installation of the tools to generate the minified file. I used uglifycss and ug
 $ npm install uglifycss -g
 $ npm install uglify-js -g
 ```
+
 To generate the min.css files from the multiple css files.
 
 ```bash
@@ -38,6 +41,7 @@ $ cd Utils-CSS
 $ uglifycss ./src/css/*.css > ./dist/utils.min.css
 $ uglifyjs ./src/js/*.js > ./dist/utils.min.js
 ```
+
 After runngin this commande, you will found the min.css and min.js in the dist folder.
 
 ## The Road MAP
@@ -45,20 +49,22 @@ After runngin this commande, you will found the min.css and min.js in the dist f
 - [x] Add the disabled for the button
 - [x] Add the different pointer
 - [x] Render active link for the navbar
-- [X] Add hover for the navbar
-- [X] Responsive global
-- [X] Add outlined to the button
-- [X] Add size to the button
-- [X] Add a grid with quarter, half and tiers
-- [X] Add Hero section
-- [X] Add class rounded sur les élements
-- [X] Add some menu
-- [X] Add disabled for all the form field
-- [X] Responsive de la navbar
-- [X] Faire un rounded global
+- [x] Add hover for the navbar
+- [x] Responsive global
+- [x] Add outlined to the button
+- [x] Add size to the button
+- [x] Add a grid with quarter, half and tiers
+- [x] Add Hero section
+- [x] Add class rounded sur les élements
+- [x] Add some menu
+- [x] Add disabled for all the form field
+- [x] Responsive de la navbar
+- [x] Faire un rounded global
 - [ ] Add Js part
-- [X] Modify the doc to be React compatible
+- [x] Modify the doc to be React compatible
 - [ ] Finish the documentation
 - [ ] Add container to the navbar
 - [ ] Complete menu part
 - [ ] Add color in input
+- [ ] Integration of Dark mode
+- [ ] Integration of SASS

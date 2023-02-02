@@ -87,6 +87,19 @@ $ uglifyjs ./src/js/*.js > ./dist/utils.min.js`} language='bash' />
                     </Link>
                 </div>
             </section>
+
+            <section className="mt-30 mb-60">
+                <h2 className="title-section">ROAD MAP</h2>
+                <div>
+                    <p className="pb-30">
+                        <ul>
+                            <li>Intégration SASS/SCSS</li>
+                            <li>Intégration dark mode</li>
+                            <li>Réécriture de la doc</li>
+                        </ul>
+                    </p>
+                </div>
+            </section>
         </div>
     );
 }

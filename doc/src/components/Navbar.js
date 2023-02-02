@@ -10,7 +10,7 @@ const Navbar = () => {
                 <Link className="navbar-link" to="/">
                     <img src="icon_overconsulting.png" alt="logo" />
                 </Link>
-                <Link className="navbar-link" to="/">Utils CSS v0.8</Link>
+                <Link className="navbar-link" to="/">Utils CSS v1</Link>
             </div>
             <i className="navbar-menu-icon">&#9776;</i>
         </div>
