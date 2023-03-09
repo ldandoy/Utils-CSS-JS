@@ -1,6 +1,4 @@
-/dist
 /.vscode
 /doc/node_modules
 /doc/yarn.lock
 /doc/package-lock.json
-/src/js-new

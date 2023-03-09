@@ -5,6 +5,7 @@
     outline: none;
     border-radius: 2px;
     font-size: 1.1rem;
+    display: block;
 }
 
 .btn-small {

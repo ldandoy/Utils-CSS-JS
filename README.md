@@ -44,6 +44,21 @@ $ uglifyjs ./src/js/*.js > ./dist/utils.min.js
 
 After runngin this commande, you will found the min.css and min.js in the dist folder.
 
+## SASS Part
+
+First install sass on you system.
+If you need more information go to: [SASS Website](https://sass-lang.com/install)
+
+```bash
+$ npm install -g sass
+```
+
+And know to generate css files
+
+```bash
+$ sass src/stylesheets/index.scss dist/index.css
+```
+
 ## The Road MAP
 
 - [x] Add the disabled for the button
