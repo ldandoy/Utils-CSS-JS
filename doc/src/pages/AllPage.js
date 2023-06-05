@@ -12,7 +12,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Alerts</h2>       
-            <div className='flex flex-jc-end'><Link to={`/alerts`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/alerts`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
             <br/>
@@ -30,7 +30,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Badges</h2>       
-            <div className='flex flex-jc-end'><Link to={`/badges`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/badges`} className="btn btn-notice w-100" >More</Link></div>
           </div>          
           <p>
           <br/>
@@ -47,7 +47,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Borders</h2>       
-            <div className='flex flex-jc-end'><Link to={`/borders`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/borders`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
             <br/>
@@ -86,7 +86,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Buttons</h2>       
-            <div className='flex flex-jc-end'><Link to={`/buttons`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/buttons`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -107,7 +107,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Colors</h2>       
-            <div className='flex flex-jc-end'><Link to={`/colors`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/colors`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -141,7 +141,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Cards</h2>       
-            <div className='flex flex-jc-end'><Link to={`/cards`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/cards`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -158,7 +158,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Flexbox</h2>       
-            <div className='flex flex-jc-end'><Link to={`/flexbox`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/flexbox`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -189,7 +189,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Forms</h2>       
-            <div className='flex flex-jc-end'><Link to={`/forms`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/forms`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -208,7 +208,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Grid</h2>       
-            <div className='flex flex-jc-end'><Link to={`/grid`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/grid`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -225,7 +225,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Hero</h2>       
-            <div className='flex flex-jc-end'><Link to={`/hero`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/hero`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -238,7 +238,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Images</h2>       
-            <div className='flex flex-jc-end'><Link to={`/images`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/images`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -252,7 +252,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Menu</h2>       
-            <div className='flex flex-jc-end'><Link to={`/menu`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/menu`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -267,7 +267,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Opacity</h2>       
-            <div className='flex flex-jc-end'><Link to={`/opacity`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/opacity`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -280,7 +280,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Pointer</h2>       
-            <div className='flex flex-jc-end'><Link to={`/pointer`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/pointer`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -306,7 +306,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Shadow</h2>       
-            <div className='flex flex-jc-end'><Link to={`/shadow`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/shadow`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -321,7 +321,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Spacing</h2>       
-            <div className='flex flex-jc-end'><Link to={`/spacing`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/spacing`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -337,7 +337,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Structure</h2>       
-            <div className='flex flex-jc-end'><Link to={`/structure`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/structure`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -355,7 +355,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Tables</h2>       
-            <div className='flex flex-jc-end'><Link to={`/tables`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/tables`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -372,7 +372,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Texts</h2>       
-            <div className='flex flex-jc-end'><Link to={`/texts`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/texts`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -414,7 +414,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Toasts</h2>       
-            <div className='flex flex-jc-end'><Link to={`/toasts`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/toasts`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -437,7 +437,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Blocks</h2>       
-            <div className='flex flex-jc-end'><Link to={`/utils`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/utils`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -455,7 +455,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Width</h2>       
-            <div className='flex flex-jc-end'><Link to={`/utils`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/utils`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -471,7 +471,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Height</h2>       
-            <div className='flex flex-jc-end'><Link to={`/utils`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/utils`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -486,7 +486,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Positions</h2>       
-            <div className='flex flex-jc-end'><Link to={`/utils`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/utils`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
@@ -502,7 +502,7 @@ const AllPage = () => {
         <div className="card-body">
           <div className="flex flex-jc-space-between flex-ai-center">    
             <h2 className='title-section txt-blue-400'>Visibility</h2>       
-            <div className='flex flex-jc-end'><Link to={`/utils`} className="btn btn-notice w-100 h-5" >More</Link></div>
+            <div className='flex flex-jc-end'><Link to={`/utils`} className="btn btn-notice w-100" >More</Link></div>
           </div>
           <p>
           <br/>
