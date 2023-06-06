@@ -3,15 +3,16 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import MenuCss from '../components/MenuCss'
 
-const LayoutCss = ({ children }) => {
+const LayoutCss = ({ children, withAside = true }) => {
     return <>
         <header>
             <Navbar />
         </header>
-
-        <aside className="aside aside-fixed h-100">
-            <MenuCss />
-        </aside>
+        { withAside &&
+            <aside className="aside aside-fixed h-100">
+                <MenuCss />
+            </aside>
+        }
 
         <main className="container-aside pt-20">
             { children }

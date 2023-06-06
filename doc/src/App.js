@@ -8,6 +8,7 @@ import {
 
 import LayoutCss from './layouts/LayoutCss'
 
+import HomePage from "./pages/HomePage";
 import GetStartedPage from "./pages/GetStartedPage";
 import CardsPage from "./pages/CardsPage";
 import TextsPage from "./pages/TextsPage";
@@ -39,6 +40,11 @@ function App() {
     <Router>
           <Switch>
             <Route path="/" exact>
+              <LayoutCss withAside={false}>
+                <HomePage />
+              </LayoutCss>
+            </Route>
+            <Route path="/get_started" exact>
               <LayoutCss>
                 <GetStartedPage />
               </LayoutCss>
