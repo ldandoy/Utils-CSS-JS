@@ -5,7 +5,9 @@
     outline: none;
     border-radius: 2px;
     font-size: 1.1rem;
-    display: block;
+    display: inline-block;
+    text-align: center;
+    
 }
 
 .btn-small {

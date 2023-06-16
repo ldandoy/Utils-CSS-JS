@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utils CSS - Exemple Menu</title>
+    <link href="/dist/utils.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .col {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .card {
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-body {
+            text-align: center;
+        }
+
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card-description {
+            margin-bottom: 20px;
+            color: #777;
+        }
+
+        .card-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4caf50; 
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .card-link:hover {
+            background-color: #45a049; 
+        }
+
+        .pricing-card {
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 300px;
+            transition: transform 0.3s ease;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .pricing-card-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .pricing-card-price {
+            font-size: 32px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .pricing-card-price span {
+            font-size: 18px;
+            font-weight: normal;
+            margin-left: 5px;
+            color: #777;
+        }
+
+        .pricing-card-features {
+            margin-bottom: 20px;
+        }
+
+        .pricing-card-features li {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .pricing-card-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .pricing-card-button:hover {
+            background-color: #45a049;
+        }
+
+        .most-used-badge {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #f44336;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .container {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .col {
+            width: calc(50% - 20px);
+            margin: 0 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .col:hover {
+            transform: scale(1.05);
+        }
+
+        .card-link {
+            background-color: #4caf50;
+        }
+
+        .card-link:hover {
+            background-color: #45a049;
+        }
+
+        .pricing-card {
+            border: 1px solid #ddd;
+            transition: transform 0.3s ease;
+        }
+
+        .pricing-card:hover {
+            transform: scale(1.05);
+            border-color: #999;
+        }
+
+        .pricing-card-price span {
+            color: #777;
+            font-size: 16px;
+            font-weight: normal;
+        }
+
+        .pricing-card-features li {
+            color: #555;
+        }
+
+        .pricing-card-button {
+            background-color: #4caf50;
+        }
+
+        .pricing-card-button:hover {
+            background-color: #45a049;
+        }
+
+        .most-used-badge {
+            background-color: #f44336;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-40">
+        <div class="row">
+            <div class="col">
+                <div class="card pricing-card">
+                    <div class="card-body">
+                        <h3 class="pricing-card-title">Gratuit</h3>
+                        <p class="pricing-card-price">0 €<span>/month</span></p>
+                        <ul class="pricing-card-features">
+                            <li>Feature 1</li>
+                            <li>Feature 2</li>
+                        <a href="#" class="card-link">Essai gratuit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card pricing-card">
+                    <div class="card-body">
+                        <h3 class="pricing-card-title">Basic</h3>
+                        <p class="pricing-card-price">10 €<span>/month</span></p>
+                        <ul class="pricing-card-features">
+                            <li>Feature 1</li>
+                            <li>Feature 2</li>
+                        </ul>
+                        <a href="#" class="pricing-card-button">Choose</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card pricing-card">
+                    <div class="card-body">
+                        <h3 class="pricing-card-title">Standard</h3>
+                        <span class="most-used-badge">Le plus utilisé</span>
+                        <p class="pricing-card-price">20 €<span>/mois</span></p>
+                        <ul class="pricing-card-features">
+                            <li>Feature 1</li>
+                            <li>Feature 2</li>
+                        </ul>
+                        <a href="#" class="pricing-card-button">Choose</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card pricing-card">
+                    <div class="card-body">
+                        <h3 class="pricing-card-title">Premium</h3>
+                        <p class="pricing-card-price">30 €<span>/mois</span></p>
+                        <ul class="pricing-card-features">
+                            <li>Feature 1</li>
+                            <li>Feature 2</li>
+                            <li>Feature 3</li>
+                            <li>Feature 4</li>
+                        </ul>
+                        <a href="#" class="pricing-card-button">Choose</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card pricing-card">
+                    <div class="card-body">
+                        <h3 class="pricing-card-title">Entreprise</h3>
+                        <p class="pricing-card-price">40 €<span>/mois</span></p>
+                        <ul class="pricing-card-features">
+                            <li>Pour les organisations qui recherchent des fonctionnalités professionnelles</li>
+                        </ul>
+                        <a href="#" class="pricing-card-button">Choose</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

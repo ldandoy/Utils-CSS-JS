@@ -1,0 +1,224 @@
+     /* Styles pour la page */
+     body {
+        background-color: #849F88;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 500px;
+        margin: 100px auto;
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 40px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        font-size: 30px;
+        color: #333333;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-label {
+        display: block;
+        font-size: 14px;
+        color: #666666;
+        margin-bottom: 5px;
+    }
+
+    .form-input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #dddddd;
+        border-radius: 4px;
+        background-color: #f1f1f1;
+        transition: border-color 0.3s ease-in-out;
+    }
+
+    .form-input:focus {
+        outline: none;
+        border-color: #3498db;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        color: #ffffff;
+        background-color: #3498db;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .btn:hover {
+        background-color: #2980b9;
+    }
+
+    /* Styles pour la navbar */
+    .navbar {
+        background-color: #2D4537;
+        color: #ffffff;
+        padding: 20px;
+    }
+
+    .navbar-logo {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .navbar-logo img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .navbar-title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .navbar-menu {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-menu li {
+        margin-right: 15px;
+    }
+
+    .navbar-menu a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .navbar-submenu {
+        display: none;
+        position: absolute;
+        background-color: #333333;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+    .navbar-menu li:hover .navbar-submenu {
+        display: block;
+    }
+
+    .navbar-submenu li {
+        margin-right: 0;
+    }
+
+    /* Ajout de styles pour les options de la navbar */
+    .navbar-options {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-options .form-select {
+        margin-right: 10px;
+    }
+
+    .navbar-options .form-input {
+        margin-right: 10px;
+    }
+
+    .navbar-magic-box .form-input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #ffffff;
+        margin-bottom: 10px;
+    }
+
+    .navbar-magic-box .btn {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #3498db;
+    }
+
+    /* Styles spécifiques pour la navbar fixée en haut */
+    .navbar-fixed-top {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+    }
+
+    .navbar-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Styles pour la section de contact */
+    .contact-section {
+        background-color: #f1f1f1;
+        padding: 40px;
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+
+    .contact-section h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .contact-section p {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .contact-form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .contact-form .form-group {
+        margin-bottom: 20px;
+    }
+
+    .contact-form label {
+        display: block;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .contact-form .form-input,
+    .contact-form .form-textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #dddddd;
+        border-radius: 4px;
+    }
+
+    .contact-form .form-textarea {
+        resize: vertical;
+    }
+
+    /* Styles pour le pied de page */
+    footer {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 40px;
+        text-align: center;
+        font-size: 14px;
+    }   

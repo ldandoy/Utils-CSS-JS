@@ -2,7 +2,8 @@
 .navbar {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 100;
+    justify-content: center;
 }
 
 .navbar.navbar-fixed-top {
@@ -40,7 +41,7 @@
 .navbar .navbar-container {
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -149,6 +150,8 @@
 .navbar-link{
     text-decoration: none;
     color: var(--overconsulting-green-light-color);
+    color: white;
+  text-decoration: none;
 }
 
 .navbar-link.x:hover{

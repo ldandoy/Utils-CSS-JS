@@ -1,114 +1,304 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="/icon_overconsulting.png" />
-        <title>utlis CSS | Login Page Example</title>
-        <link href="/dist/utils.min.css" rel="stylesheet" />
-    </head>
-    <body class="mt-80">
-        <header>
-            <nav class="bg-blue-500 navbar-dark navbar navbar-fixed-top">
-                <div class="navbar-container-fluid">
-                    <div class="navbar-title txt-white-100">
-                        <div>
-                            <a class="navbar-link" href="">
-                                <img src="/icon_overconsulting.png" alt="logo" />
-                            </a>
-                            <a class="navbar-link" href="">Titre du site</a>
-                        </div>
-                        <i class="navbar-menu-icon">&#9776;</i>
-                    </div>
-                    <div class="navbar-content-menu">
-                        <ul class="navbar-menu navbar-menu-left">
-                            <li class="navbar-item">
-                                <a class="navbar-link" href="">Lien 1</a>
-                            </li>
-                            <li class="navbar-item dropdown">
-                                <a class="navbar-link" href="">Lien 2</a>
-                                <ul class="navbar-ss-menu bg-blue-500">
-                                    <li class="navbar-item">
-                                        <li class="navbar-item">
-                                            <a class="navbar-link" href="">Sous Lien 1</a>
-                                        </li>
-                                        <li class="navbar-item">
-                                            <a class="navbar-link" href="">Sous Lien 2</a>
-                                        </li>
-                                        <li class="navbar-item">
-                                            <a class="navbar-link" href="">Sous Lien 3</a>
-                                        </li>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="navbar-item">
-                                <a class="navbar-link" href="">Lien 3</a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-menu navbar-menu-right">
-                            <li class="navbar-item">
-                                <a class="navbar-link" href="">Lien 1</a>
-                            </li>
-                            <li class="navbar-item dropdown">
-                                <a class="navbar-link" href="">Lien 2</a>
-                                <ul class="navbar-ss-menu bg-blue-500">
-                                    <li class="navbar-item">
-                                        <li class="navbar-item">
-                                            <a class="navbar-link" href="">Sous Lien 1</a>
-                                        </li>
-                                        <li class="navbar-item">
-                                            <a class="navbar-link" href="">Sous Lien 2</a>
-                                        </li>
-                                        <li class="navbar-item">
-                                            <a class="navbar-link" href="">Sous Lien 3</a>
-                                        </li>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="navbar-item">
-                                <a class="navbar-link" href="">Lien 3</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/icon_overconsulting.png" />
+    <title>utlis CSS | Login Page Example</title>
+    <style>
+        /* Styles pour la page */
+        body {
+            background-color: #849F88;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-        <main class="container mtb-100">
-            <form class="form-bordered w-50">
-                <h1 class="txt-size-45">Connectez vous au système</h1>
-                <div class="form-group">
-                    <label for="" class="form-label">Label</label>
-                    <input type="text" value="" class="form-input" />
+        .container {
+            max-width: 500px;
+            margin: 100px auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 30px;
+            color: #333333;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 14px;
+            color: #666666;
+            margin-bottom: 5px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #dddddd;
+            border-radius: 4px;
+            background-color: #f1f1f1;
+            transition: border-color 0.3s ease-in-out;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            color: #ffffff;
+            background-color: #3498db;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        /* Styles pour la navbar */
+        .navbar {
+            background-color: #2D4537;
+            color: #ffffff;
+            padding: 20px;
+        }
+
+        .navbar-logo {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+
+        .navbar-logo img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .navbar-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .navbar-menu {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar-menu li {
+            margin-right: 15px;
+        }
+
+        .navbar-menu a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .navbar-submenu {
+            display: none;
+            position: absolute;
+            background-color: #333333;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        .navbar-menu li:hover .navbar-submenu {
+            display: block;
+        }
+
+        .navbar-submenu li {
+            margin-right: 0;
+        }
+
+        /* Ajout de styles pour les options de la navbar */
+        .navbar-options {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-options .form-select {
+            margin-right: 10px;
+        }
+
+        .navbar-options .form-input {
+            margin-right: 10px;
+        }
+
+        .navbar-magic-box .form-input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .navbar-magic-box .btn {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #3498db;
+        }
+
+        /* Styles spécifiques pour la navbar fixée en haut */
+        .navbar-fixed-top {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+        }
+
+        .navbar-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Styles pour la section de contact */
+        .contact-section {
+            background-color: #f1f1f1;
+            padding: 40px;
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+
+        .contact-section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .contact-section p {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .contact-form .form-group {
+            margin-bottom: 20px;
+        }
+
+        .contact-form label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .contact-form .form-input,
+        .contact-form .form-textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #dddddd;
+            border-radius: 4px;
+        }
+
+        .contact-form .form-textarea {
+            resize: vertical;
+        }
+
+        /* Styles pour le pied de page */
+        footer {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-fixed-top">
+            <div class="navbar-container">
+                <div class="navbar-logo">
+                    <img src="/icon_overconsulting.png" alt="logo" />
+                    <span class="navbar-title">OverConsulting</span>
                 </div>
-                <div class="form-group">
-                    <label for="" class="form-label">Label</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
+                <ul class="navbar-menu">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li>
+                        <a href="#">Services</a>
+                        <ul class="navbar-submenu">
+                            <li><a href="#">Service 1</a></li>
+                            <li><a href="#">Service 2</a></li>
+                            <li><a href="#">Service 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="navbar-options">
+                    <input type="text" class="form-input" placeholder="Rechercher" />
+                    <select class="form-select">
+                        <option value="">Français</option>
+                        <option value="">English</option>
                     </select>
+                    <button class="btn">Connexion</button>
                 </div>
-                <div class="form-group">
-                    <label for="" class="form-label">Label</label>
-                    <textarea class="form-textarea txt-purple-900">Test</textarea>
-                </div>
-                <div class="form-group">
-                    <button class="btn bg-purple-600 
-                        txt-white-100 
-                        hover:bg-purple-900 
-                        btn-rounded">
-                        Link
-                    </button>
-                </div>
-            </form>
-        </main>
-
-        <footer class="bg-white-900 txt-white ptb-80">
-            <div class="container">
-                © 2021 Overconsulting
             </div>
-        </footer>
-    </body>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Page de connexion</h1>
+        <form>
+            <div class="form-group">
+                <label class="form-label" for="username">Nom d'utilisateur</label>
+                <input class="form-input" type="text" id="username" name="username" placeholder="Votre nom d'utilisateur" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="password">Mot de passe</label>
+                <input class="form-input" type="password" id="password" name="password" placeholder="Votre mot de passe" required>
+            </div>
+            <button class="btn" type="submit">Se connecter</button>
+        </form>
+    </div>
+    <section class="contact-section">
+        <h2>Nous contacter</h2>
+        <p>Si vous avez des questions ou besoin d'assistance, veuillez remplir le formulaire ci-dessous :</p>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Votre nom" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="Votre email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" class="form-textarea" placeholder="Votre message" rows="5" required></textarea>
+            </div>
+            <button class="btn btn-notice" type="submit">Envoyer</button>
+        </form>
+    </section>
+    <footer>
+        &copy; 2023 OverConsulting. Tous droits réservés.
+    </footer>
+</body>
 </html>
