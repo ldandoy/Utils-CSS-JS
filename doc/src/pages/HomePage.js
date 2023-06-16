@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function App() {
+function HomePage() {
   const handleDownload = () => {
     // Logique de téléchargement
   };
@@ -14,9 +14,8 @@ function App() {
         <button className="home-button btn btn-outlined btn-success card w-30">Download</button>
       </div>
       </div>
-      
     </div>
   );
 }
 
-export default App;
+export default HomePage;
