@@ -163,7 +163,8 @@
 .txt-eclipse { color: var(--eclipse-color) !important; }
 .txt-sweet-corn { color: var(--sweet-corn-color) !important; }
 
-.txt-overconsulting { color: var(--overconsulting-blue-color) !important; }
+.txt-overconsulting { color: var(--overconsulting-green-color) !important; }
+.txt-dark-overconsulting { color: var(--overconsulting-green-dark-color) !important; }
 
 .txt-bold {font-weight: bold !important;}
 .txt-italic {font-style: italic !important;}

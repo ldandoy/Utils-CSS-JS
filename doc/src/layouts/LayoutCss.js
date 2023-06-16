@@ -14,7 +14,7 @@ const LayoutCss = ({ children, withAside = true }) => {
             </aside>
         }
 
-        <main className="container-aside pt-20">
+        <main className={`${ withAside ? 'container-aside' : ''} pt-20`}>
             { children }
         </main>
         
